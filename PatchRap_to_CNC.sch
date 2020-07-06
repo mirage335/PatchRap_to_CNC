@@ -1,1 +1,2265 @@
-v 20110115 2
+v 20130925 2
+C 33700 28300 1 0 0 connector13-2.sym
+{
+T 34000 33950 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 34000 34150 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 33700 28300 5 10 0 0 0 0 1
+value=-
+T 33700 28300 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 33700 28300 5 10 0 0 0 0 1
+cost=0.95
+T 33700 28300 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 33700 28300 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 33700 28300 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 33700 28300 5 10 0 0 0 0 1
+dst=Mouser
+T 33700 28300 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 33700 28300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 33700 28300 5 10 0 0 0 0 1
+link_page=1
+T 33700 28300 5 10 0 0 0 0 1
+supplier=c
+T 33700 28300 5 10 0 0 0 0 1
+kitting=other
+T 33700 28300 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 34400 34000 5 10 1 1 0 6 1
+refdes=GEN2
+}
+C 32800 29400 1 0 0 resistor-1.sym
+{
+T 33100 29800 5 10 0 0 0 0 1
+device=RESISTOR
+T 32800 29400 5 10 0 0 270 0 1
+footprint=0805
+T 32800 29400 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 32800 29400 5 10 0 0 0 0 1
+cost=0.148
+T 32800 29400 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 32800 29400 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 32800 29400 5 10 0 0 0 0 1
+dst=Mouser
+T 32800 29400 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 32800 29400 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 32800 29400 5 10 0 0 0 0 1
+link_page=9
+T 32800 29400 5 10 0 0 0 0 1
+supplier=c
+T 32800 29400 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 33200 29400 5 10 1 1 0 0 1
+value=2.2k
+T 33400 29300 5 10 1 1 0 0 1
+refdes=R1
+}
+C 32800 28600 1 0 0 resistor-1.sym
+{
+T 33100 29000 5 10 0 0 0 0 1
+device=RESISTOR
+T 32800 28600 5 10 0 0 270 0 1
+footprint=0805
+T 32800 28600 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 32800 28600 5 10 0 0 0 0 1
+cost=0.148
+T 32800 28600 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 32800 28600 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 32800 28600 5 10 0 0 0 0 1
+dst=Mouser
+T 32800 28600 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 32800 28600 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 32800 28600 5 10 0 0 0 0 1
+link_page=9
+T 32800 28600 5 10 0 0 0 0 1
+supplier=c
+T 32800 28600 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 33200 28600 5 10 1 1 0 0 1
+value=2.2k
+T 33400 28500 5 10 1 1 0 0 1
+refdes=R?
+}
+C 33400 31400 1 270 1 gnd-1.sym
+C 33400 30400 1 270 0 gnd-1.sym
+C 33700 29700 1 90 0 vee-1.sym
+C 33400 29200 1 270 0 gnd-1.sym
+C 33700 32900 1 90 0 vee-1.sym
+C 33900 33500 1 0 1 generic-power.sym
+{
+T 33700 33750 5 10 1 1 0 3 1
+net=Vsys:1
+}
+T 13500 500 9 10 1 0 0 0 9
+GEN
+3 \/ 1 - Vsys/Vcc
+3 \\ 2 - pGND/sGnd
+2 - 3 - Vext/Vmid/Avcc/SigAlt		(NC)										(LO)
+1 \/ 4 - Sig-/SigTx-				(sGND)				(Dir)		(I2C, UART)	
+1 \\ 5 - Sig+/SigTx+				(COM,ANA,Probe)		(Step)	(I2C, UART)		(IF)
+2 - 6 - sGND					(NO)
+4 \/ 7 - PWMalternate/SigRx+		(Control, Servo, Heater)	(I2C,UART)				(RF)
+4 \\ 8 - PWMdirect/SigRx-		(Fan)				(I2C,UART)
+T 1000 1600 9 10 1 0 0 0 4
+Vext/GND, SigP - Probe, Servo, 5V Blower Hotend Fan
+Vsys/Vee, Ap/Am & Bp/Bm - Stepper Motor, Vsys Motor Fan, Vsys Hotend Fan
+Vsys/Vee, SigP & PWMa & PWMd - Hotend (Thermistor, Heater, Cooling)
+
+L 500 2500 25000 2500 3 0 0 0 -1 -1
+C 3000 31000 1 0 0 GenericRap.sym
+{
+T 6000 37100 5 10 0 0 0 0 1
+footprint=GenericRap
+T 3800 34900 5 10 1 1 0 0 1
+refdes=M?
+T 6000 37500 5 10 0 0 0 0 1
+device=GenericRap
+}
+C 32300 24100 1 0 0 input-2.sym
+{
+T 32900 24800 5 10 0 0 0 0 1
+device=none
+T 32300 24300 5 10 1 0 0 0 1
+net=Bp:1
+T 32800 24200 5 10 1 1 0 7 1
+value=INPUT
+}
+C 32300 22900 1 0 0 input-2.sym
+{
+T 32900 23600 5 10 0 0 0 0 1
+device=none
+T 32300 23100 5 10 1 0 0 0 1
+net=Bm:1
+T 32800 23000 5 10 1 1 0 7 1
+value=INPUT
+}
+C 32300 23700 1 0 0 input-2.sym
+{
+T 32900 24400 5 10 0 0 0 0 1
+device=none
+T 32300 23900 5 10 1 0 0 0 1
+net=Ap:1
+T 32800 23800 5 10 1 1 0 7 1
+value=INPUT
+}
+C 32300 23300 1 0 0 input-2.sym
+{
+T 32900 24000 5 10 0 0 0 0 1
+device=none
+T 32300 23500 5 10 1 0 0 0 1
+net=Am:1
+T 32800 23400 5 10 1 1 0 7 1
+value=INPUT
+}
+C 33400 21900 1 270 0 gnd-1.sym
+C 33700 24400 1 90 0 vee-1.sym
+C 33500 25000 1 0 0 generic-power.sym
+{
+T 33700 25250 5 10 1 1 0 3 1
+net=Vsys:1
+}
+C 33700 19800 1 0 0 connector13-2.sym
+{
+T 34000 25450 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 34000 25650 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 33700 19800 5 10 0 0 0 0 1
+value=-
+T 33700 19800 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 33700 19800 5 10 0 0 0 0 1
+cost=0.95
+T 33700 19800 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 33700 19800 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 33700 19800 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 33700 19800 5 10 0 0 0 0 1
+dst=Mouser
+T 33700 19800 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 33700 19800 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 33700 19800 5 10 0 0 0 0 1
+link_page=1
+T 33700 19800 5 10 0 0 0 0 1
+supplier=c
+T 33700 19800 5 10 0 0 0 0 1
+kitting=other
+T 33700 19800 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 34400 25500 5 10 1 1 0 6 1
+refdes=STEP
+}
+C 31400 21300 1 0 0 input-2.sym
+{
+T 32000 22000 5 10 0 0 0 0 1
+device=none
+T 31400 21500 5 10 1 0 0 0 1
+net=Ap:1
+T 31900 21400 5 10 1 1 0 7 1
+value=INPUT
+}
+N 33700 21000 33700 20600 4
+C 33700 20600 1 90 0 vee-1.sym
+C 32800 21300 1 0 0 resistor-1.sym
+{
+T 33100 21700 5 10 0 0 0 0 1
+device=RESISTOR
+T 32800 21300 5 10 0 0 270 0 1
+footprint=0805
+T 32800 21300 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 32800 21300 5 10 0 0 0 0 1
+cost=0.148
+T 32800 21300 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 32800 21300 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 32800 21300 5 10 0 0 0 0 1
+dst=Mouser
+T 32800 21300 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 32800 21300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 32800 21300 5 10 0 0 0 0 1
+link_page=9
+T 32800 21300 5 10 0 0 0 0 1
+supplier=c
+T 32800 21300 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 33200 21300 5 10 1 1 0 0 1
+value=2.2k
+T 33400 21200 5 10 1 1 0 0 1
+refdes=R1
+}
+T 22900 400 9 10 1 0 0 0 9
+STEP
+3 / 1 - Vsys
+3 \\ 2 - pGND
+2 - 3 - B+
+1 / 4 - A+
+1 \\ 5 - A-
+2 - 6 - B-
+4 / 7 - B+
+4 \\ 8 - B-
+C 32800 28500 1 90 0 Vext.sym
+{
+T 32500 28500 5 10 0 1 90 0 1
+device=Vext
+}
+C 32800 29700 1 90 1 generic-power.sym
+{
+T 32550 29500 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 33700 10300 1 0 0 connector13-2.sym
+{
+T 34000 15950 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 34000 16150 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 33700 10300 5 10 0 0 0 0 1
+value=-
+T 33700 10300 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 33700 10300 5 10 0 0 0 0 1
+cost=0.95
+T 33700 10300 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 33700 10300 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 33700 10300 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 33700 10300 5 10 0 0 0 0 1
+dst=Mouser
+T 33700 10300 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 33700 10300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 33700 10300 5 10 0 0 0 0 1
+link_page=1
+T 33700 10300 5 10 0 0 0 0 1
+supplier=c
+T 33700 10300 5 10 0 0 0 0 1
+kitting=other
+T 33700 10300 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 34400 16000 5 10 1 1 0 6 1
+refdes=GEN1
+}
+C 32800 11400 1 0 0 resistor-1.sym
+{
+T 33100 11800 5 10 0 0 0 0 1
+device=RESISTOR
+T 32800 11400 5 10 0 0 270 0 1
+footprint=0805
+T 32800 11400 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 32800 11400 5 10 0 0 0 0 1
+cost=0.148
+T 32800 11400 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 32800 11400 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 32800 11400 5 10 0 0 0 0 1
+dst=Mouser
+T 32800 11400 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 32800 11400 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 32800 11400 5 10 0 0 0 0 1
+link_page=9
+T 32800 11400 5 10 0 0 0 0 1
+supplier=c
+T 32800 11400 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 33200 11400 5 10 1 1 0 0 1
+value=2.2k
+T 33400 11300 5 10 1 1 0 0 1
+refdes=R1
+}
+C 32800 10600 1 0 0 resistor-1.sym
+{
+T 33100 11000 5 10 0 0 0 0 1
+device=RESISTOR
+T 32800 10600 5 10 0 0 270 0 1
+footprint=0805
+T 32800 10600 5 10 0 0 270 0 1
+description=$0.148 MOUSER 71-CRCW08052K20JNEAH
+T 32800 10600 5 10 0 0 0 0 1
+cost=0.148
+T 32800 10600 5 10 0 0 0 0 1
+mfr=Vishay / Dale
+T 32800 10600 5 10 0 0 0 0 1
+mfrpn=CRCW08052K20JNEAHP
+T 32800 10600 5 10 0 0 0 0 1
+dst=Mouser
+T 32800 10600 5 10 0 0 0 0 1
+dstpn=71-CRCW08052K20JNEAH
+T 32800 10600 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/427/crcwhpe3-46056.pdf
+T 32800 10600 5 10 0 0 0 0 1
+link_page=9
+T 32800 10600 5 10 0 0 0 0 1
+supplier=c
+T 32800 10600 5 10 0 0 0 0 1
+kitting=tape-no-leader
+T 33200 10600 5 10 1 1 0 0 1
+value=2.2k
+T 33400 10500 5 10 1 1 0 0 1
+refdes=R?
+}
+C 33400 13400 1 270 1 gnd-1.sym
+C 33400 12400 1 270 0 gnd-1.sym
+C 33700 11700 1 90 0 vee-1.sym
+C 33400 11200 1 270 0 gnd-1.sym
+C 33700 14900 1 90 0 vee-1.sym
+C 33900 15500 1 0 1 generic-power.sym
+{
+T 33700 15750 5 10 1 1 0 3 1
+net=Vsys:1
+}
+C 32800 10500 1 90 0 Vext.sym
+{
+T 32500 10500 5 10 0 1 90 0 1
+device=Vext
+}
+C 32800 11700 1 90 1 generic-power.sym
+{
+T 32550 11500 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 25500 34600 1 0 0 glow-lamp-1.sym
+{
+T 25700 35200 5 10 0 0 0 0 1
+device=SparkGap
+T 25700 35400 5 10 0 0 0 0 1
+symversion=0.1
+T 25500 34600 5 10 0 0 0 0 1
+description=-
+T 25500 34600 5 10 0 0 0 0 1
+footprint=SparkGapPCB
+T 25500 34600 5 10 0 0 0 0 1
+nobom=true
+T 25500 34600 5 10 0 0 0 0 1
+noplace=true
+T 25700 34800 5 10 1 1 0 0 1
+refdes=T1
+T 25900 34600 5 10 1 1 0 0 1
+value=2kV
+}
+C 32300 31800 1 0 0 input-2.sym
+{
+T 32900 32500 5 10 0 0 0 0 1
+device=none
+T 32300 32000 5 10 1 0 0 0 1
+net=Probe:1
+T 32800 31900 5 10 1 1 0 7 1
+value=INPUT
+}
+C 32300 31000 1 0 0 input-2.sym
+{
+T 32900 31700 5 10 0 0 0 0 1
+device=none
+T 32300 31200 5 10 1 0 0 0 1
+net=Servo:1
+T 32800 31100 5 10 1 1 0 7 1
+value=INPUT
+}
+C 32300 13800 1 0 0 input-2.sym
+{
+T 32900 14500 5 10 0 0 0 0 1
+device=none
+T 32300 14000 5 10 1 0 0 0 1
+net=Thermistor:1
+T 32800 13900 5 10 1 1 0 7 1
+value=INPUT
+}
+C 32300 13000 1 0 0 input-2.sym
+{
+T 32900 13700 5 10 0 0 0 0 1
+device=none
+T 32300 13200 5 10 1 0 0 0 1
+net=Heater:1
+T 32800 13100 5 10 1 1 0 7 1
+value=INPUT
+}
+C 32300 12600 1 0 0 input-2.sym
+{
+T 32900 13300 5 10 0 0 0 0 1
+device=none
+T 32300 12800 5 10 1 0 0 0 1
+net=Cooling:1
+T 32800 12700 5 10 1 1 0 7 1
+value=INPUT
+}
+C 33400 14200 1 270 1 gnd-1.sym
+C 33700 30500 1 90 0 vee-1.sym
+T 8000 1200 9 10 1 0 0 0 6
+All Vext connections are dedicated and should
+not be shared.
+
+Servo and Chasis Fan should use Vee despite
+operating at logic/signal Vext voltage, due to
+risk of bouncing thermistor ground.
+T 1000 100 9 10 1 0 0 0 7
+Thermistor may require careful ground plane arragement.
+
+Heater ideally should be powered at <100% duty cycle to
+allow spark gap to extinguish.
+
+Many indicator and configuration features may be
+omitted to reduce cost.
+C 33400 32200 1 270 1 gnd-1.sym
+C 3000 21500 1 0 0 GenericRap_Cutdown.sym
+{
+T 6000 27600 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 3800 25400 5 10 1 1 0 0 1
+refdes=M?
+T 6000 28000 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+}
+C 3000 12000 1 0 0 GenericRap_Cutdown.sym
+{
+T 6000 18100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 3800 15900 5 10 1 1 0 0 1
+refdes=M?
+T 6000 18500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+}
+C 18400 19500 1 270 0 input-2.sym
+{
+T 19100 18900 5 10 0 0 270 0 1
+device=none
+T 18600 19500 5 10 1 0 270 0 1
+net=Probe:1
+T 18500 19000 5 10 1 1 270 7 1
+value=INPUT
+}
+C 18000 19500 1 270 0 input-2.sym
+{
+T 18700 18900 5 10 0 0 270 0 1
+device=none
+T 18200 19500 5 10 1 0 270 0 1
+net=Servo:1
+T 18100 19000 5 10 1 1 270 7 1
+value=INPUT
+}
+L 1500 13000 3200 13000 3 0 0 0 -1 -1
+C 20000 29000 1 270 0 input-2.sym
+{
+T 20700 28400 5 10 0 0 270 0 1
+device=none
+T 20200 29000 5 10 1 0 270 0 1
+net=Bp:1
+T 20100 28500 5 10 1 1 270 7 1
+value=INPUT
+}
+C 19600 29000 1 270 0 input-2.sym
+{
+T 20300 28400 5 10 0 0 270 0 1
+device=none
+T 19800 29000 5 10 1 0 270 0 1
+net=Ap:1
+T 19700 28500 5 10 1 1 270 7 1
+value=INPUT
+}
+C 19200 29000 1 270 0 input-2.sym
+{
+T 19900 28400 5 10 0 0 270 0 1
+device=none
+T 19400 29000 5 10 1 0 270 0 1
+net=Am:1
+T 19300 28500 5 10 1 1 270 7 1
+value=INPUT
+}
+C 18800 29000 1 270 0 input-2.sym
+{
+T 19500 28400 5 10 0 0 270 0 1
+device=none
+T 19000 29000 5 10 1 0 270 0 1
+net=Bm:1
+T 18900 28500 5 10 1 1 270 7 1
+value=INPUT
+}
+N 19800 26600 19800 27600 4
+N 19800 27600 20100 27600 4
+N 19600 26600 19600 27600 4
+N 19600 27600 19700 27600 4
+N 19400 26600 19400 27600 4
+N 19400 27600 19300 27600 4
+N 19200 26600 19200 27600 4
+N 19200 27600 18900 27600 4
+L 20300 24500 22000 24500 3 0 0 0 -1 -1
+L 1500 32000 3200 32000 3 0 0 0 -1 -1
+C 17700 30600 1 180 0 vee-1.sym
+C 19500 18100 1 0 0 Vext.sym
+{
+T 19500 18400 5 10 0 1 0 0 1
+device=Vext
+}
+C 19200 11900 1 180 0 vee-1.sym
+C 19200 11900 1 180 1 generic-power.sym
+{
+T 19400 11650 5 10 1 1 180 3 1
+net=Vsys:1
+}
+C 18800 18500 1 180 1 gnd-1.sym
+C 19500 30600 1 180 1 generic-power.sym
+{
+T 19700 30350 5 10 1 1 180 3 1
+net=Vsys:1
+}
+C 18300 37100 1 0 0 Vext.sym
+{
+T 18300 37400 5 10 0 1 0 0 1
+device=Vext
+}
+C 19100 30600 1 180 0 vee-1.sym
+C 20500 29500 1 90 0 input-2.sym
+{
+T 19800 30100 5 10 0 0 90 0 1
+device=none
+T 20300 29500 5 10 1 0 90 0 1
+net=Thermistor:1
+T 20400 30000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 19400 29500 1 90 0 input-2.sym
+{
+T 18700 30100 5 10 0 0 90 0 1
+device=none
+T 19200 29500 5 10 1 0 90 0 1
+net=Heater:1
+T 19300 30000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 18100 29500 1 90 0 input-2.sym
+{
+T 17400 30100 5 10 0 0 90 0 1
+device=none
+T 17900 29500 5 10 1 0 90 0 1
+net=Cooling:1
+T 18000 30000 5 10 1 1 90 7 1
+value=INPUT
+}
+C 20200 30500 1 0 1 gnd-1.sym
+N 19800 31400 19800 30900 4
+N 19800 30900 20400 30900 4
+N 19600 31400 19600 30800 4
+N 19600 30800 20100 30800 4
+C 18200 30600 1 180 1 generic-power.sym
+{
+T 18400 30350 5 10 1 1 180 3 1
+net=Vsys:1
+}
+N 19400 30700 19400 31400 4
+N 19700 30600 19700 30700 4
+N 19700 30700 19400 30700 4
+N 19300 30900 19300 31100 4
+N 19300 31100 19200 31100 4
+N 19200 31100 19200 31400 4
+N 18900 30600 18900 30700 4
+N 18900 30700 19000 30700 4
+N 19000 30700 19000 31400 4
+N 18600 31400 18600 31100 4
+N 18600 31100 18000 31100 4
+N 18000 31100 18000 30900 4
+N 18800 31400 18800 30900 4
+N 18800 30900 18400 30900 4
+N 18400 30900 18400 30600 4
+N 18400 31400 18400 31200 4
+N 18400 31200 17500 31200 4
+N 17500 31200 17500 30600 4
+C 2900 38100 1 90 0 generic-power.sym
+{
+T 2650 38300 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 2900 36900 1 90 0 vee-1.sym
+N 2900 37100 4800 37100 4
+N 4800 37100 4800 38200 4
+N 2900 38300 3400 38300 4
+N 3400 38300 3400 37300 4
+C 17900 37400 1 180 1 gnd-1.sym
+N 19000 36100 19000 36800 4
+N 19000 36800 18500 36800 4
+N 18500 36800 18500 37100 4
+N 18800 36100 18800 36700 4
+N 18800 36700 18000 36700 4
+N 18000 36700 18000 37100 4
+C 19600 21400 1 180 0 generic-power.sym
+{
+T 19400 21150 5 10 1 1 180 3 1
+net=Vsys:1
+}
+C 19100 21400 1 180 0 vee-1.sym
+N 18600 17100 18600 18100 4
+N 18600 18100 18500 18100 4
+N 18400 17100 18400 18100 4
+N 18400 18100 18100 18100 4
+L 18200 30100 18600 30500 3 0 0 0 -1 -1
+L 17300 30100 17700 30500 3 0 0 0 -1 -1
+L 18600 30100 19000 30500 3 0 0 0 -1 -1
+L 19500 30100 19900 30500 3 0 0 0 -1 -1
+L 18300 37100 18700 37500 3 0 0 0 -1 -1
+L 17800 37100 18200 37500 3 0 0 0 -1 -1
+L 2400 38100 2800 38500 3 0 0 0 -1 -1
+L 2400 36900 2800 37300 3 0 0 0 -1 -1
+L 19900 30400 20300 30800 3 0 0 0 -1 -1
+L 19200 20900 19600 21300 3 0 0 0 -1 -1
+L 18700 20900 19100 21300 3 0 0 0 -1 -1
+N 19400 21400 19400 21900 4
+N 19000 21900 19000 21400 4
+N 19000 21400 18900 21400 4
+N 19000 17100 19000 18100 4
+N 19000 18100 19700 18100 4
+N 19400 12400 19400 11900 4
+N 19000 12400 19000 11900 4
+L 19200 11400 19600 11800 3 0 0 0 -1 -1
+L 18800 11400 19200 11800 3 0 0 0 -1 -1
+N 18800 17100 18800 18200 4
+L 18700 18200 19100 18600 3 0 0 0 -1 -1
+N 18800 18200 18900 18200 4
+L 19500 18200 19900 18600 3 0 0 0 -1 -1
+C 3900 9800 1 0 0 illustration_breadboard.sym
+{
+T 4000 10500 5 10 0 0 0 0 1
+footprint=breadboard
+T 4300 10300 5 10 1 1 0 0 1
+refdes=I1
+}
+N 25500 15500 34800 15500 4
+N 26000 15100 34800 15100 4
+N 29000 14700 41300 14700 4
+N 33700 14300 34800 14300 4
+N 33700 13900 41000 13900 4
+N 33700 13500 34800 13500 4
+N 33700 13100 40800 13100 4
+N 33700 12700 40600 12700 4
+N 33700 12300 34800 12300 4
+N 33700 11900 34800 11900 4
+N 33700 11500 34800 11500 4
+N 33700 11100 34800 11100 4
+N 33700 10700 34800 10700 4
+C 34800 19800 1 0 0 connector13-2.sym
+{
+T 35100 25450 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 35100 25650 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 34800 19800 5 10 0 0 0 0 1
+value=-
+T 34800 19800 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 34800 19800 5 10 0 0 0 0 1
+cost=0.95
+T 34800 19800 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 34800 19800 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 34800 19800 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 34800 19800 5 10 0 0 0 0 1
+dst=Mouser
+T 34800 19800 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 34800 19800 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 34800 19800 5 10 0 0 0 0 1
+link_page=1
+T 34800 19800 5 10 0 0 0 0 1
+supplier=c
+T 34800 19800 5 10 0 0 0 0 1
+kitting=other
+T 34800 19800 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 35500 25500 5 10 1 1 0 6 1
+refdes=DUP2
+}
+N 25500 25000 34800 25000 4
+N 26000 24600 34800 24600 4
+N 33700 24200 42000 24200 4
+N 33700 23800 41900 23800 4
+N 33700 23400 41800 23400 4
+N 33700 23000 41700 23000 4
+N 34800 22600 33700 22600 4
+N 34800 22200 33700 22200 4
+N 34800 21800 33700 21800 4
+N 34800 21400 33700 21400 4
+N 34800 21000 33700 21000 4
+N 34800 20600 33700 20600 4
+N 34800 20200 33700 20200 4
+C 34800 10300 1 0 0 connector13-2.sym
+{
+T 35100 15950 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 35100 16150 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 34800 10300 5 10 0 0 0 0 1
+value=-
+T 34800 10300 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 34800 10300 5 10 0 0 0 0 1
+cost=0.95
+T 34800 10300 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 34800 10300 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 34800 10300 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 34800 10300 5 10 0 0 0 0 1
+dst=Mouser
+T 34800 10300 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 34800 10300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 34800 10300 5 10 0 0 0 0 1
+link_page=1
+T 34800 10300 5 10 0 0 0 0 1
+supplier=c
+T 34800 10300 5 10 0 0 0 0 1
+kitting=other
+T 34800 10300 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 35500 16000 5 10 1 1 0 6 1
+refdes=DUP1
+}
+N 33700 24200 33700 24400 4
+N 33700 24400 33200 24400 4
+N 33200 22400 33200 24400 4
+N 33200 22400 33700 22400 4
+N 33700 22400 33700 22600 4
+N 33700 23000 33700 23200 4
+N 33700 23200 33100 23200 4
+N 33100 23200 33100 22000 4
+N 33100 22000 33700 22000 4
+N 33700 22000 33700 22200 4
+N 33700 21400 33700 21600 4
+N 33700 21600 32900 21600 4
+N 32900 21600 32900 20000 4
+N 32900 20000 33700 20000 4
+N 33700 20000 33700 20200 4
+C 34800 28300 1 0 0 connector13-2.sym
+{
+T 35100 33950 5 10 0 0 0 0 1
+device=CONNECTOR_13
+T 35100 34150 5 10 0 0 0 0 1
+footprint=eth_571-1734795-1
+T 34800 28300 5 10 0 0 0 0 1
+value=-
+T 34800 28300 5 10 0 0 0 0 1
+description=$0.95 MOUSER 571-1734795-1
+T 34800 28300 5 10 0 0 0 0 1
+cost=0.95
+T 34800 28300 5 10 0 0 0 0 1
+mfr=TE Connectivity
+T 34800 28300 5 10 0 0 0 0 1
+mfrpn=1734795-1
+T 34800 28300 5 10 0 0 0 0 1
+mfrpn_alt=1-1734795-1
+T 34800 28300 5 10 0 0 0 0 1
+dst=Mouser
+T 34800 28300 5 10 0 0 0 0 1
+dstpn=571-1734795-1
+T 34800 28300 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf
+T 34800 28300 5 10 0 0 0 0 1
+link_page=1
+T 34800 28300 5 10 0 0 0 0 1
+supplier=c
+T 34800 28300 5 10 0 0 0 0 1
+kitting=other
+T 34800 28300 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 35500 34000 5 10 1 1 0 6 1
+refdes=DUP3
+}
+N 25500 33500 43000 33500 4
+N 29000 32700 42700 32700 4
+N 33700 32300 42600 32300 4
+N 33700 31900 42400 31900 4
+N 34800 31500 33700 31500 4
+N 33700 31100 42200 31100 4
+N 26000 30700 34800 30700 4
+N 34800 30300 33700 30300 4
+N 34800 29900 33700 29900 4
+N 34800 29500 33700 29500 4
+N 34800 29100 33700 29100 4
+N 34800 28700 33700 28700 4
+C 31100 11600 1 180 0 jumper-1.sym
+{
+T 30800 11100 5 8 0 0 180 0 1
+device=JUMPER
+T 31100 11600 5 10 0 0 90 0 1
+footprint=0201
+T 31100 11600 5 10 0 0 90 0 1
+description=-
+T 31100 11600 5 10 0 0 90 0 1
+value=-
+T 31100 11600 5 10 0 0 270 0 1
+nobom=true
+T 31100 11600 5 10 0 0 270 0 1
+noplace=true
+T 31100 11200 5 10 1 1 180 0 1
+refdes=J?
+}
+C 31100 10300 1 0 1 gnd-1.sym
+C 30800 11600 1 0 0 vee-1.sym
+C 59600 25400 1 90 0 Vext.sym
+{
+T 59300 25400 5 10 0 1 90 0 1
+device=Vext
+}
+C 59500 24100 1 0 0 gnd-1.sym
+C 57800 24200 1 90 0 vee-1.sym
+C 59600 24000 1 0 0 connector4-2.sym
+{
+T 59900 26050 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 59900 26250 5 10 0 0 0 0 1
+footprint=HEADER4_1
+T 59600 24000 5 10 0 0 0 0 1
+value=-
+T 59600 24000 5 10 0 0 0 0 1
+description=$0.27 MOUSER 517-9612046804AR
+T 59600 24000 5 10 0 0 0 0 1
+cost=0.27
+T 59600 24000 5 10 0 0 0 0 1
+mfr=3M Electronic Solutions Division
+T 59600 24000 5 10 0 0 0 0 1
+mfrpn=961204-6804-AR
+T 59600 24000 5 10 0 0 0 0 1
+dst=Mouser
+T 59600 24000 5 10 0 0 0 0 1
+dstpn=517-9612046804AR 
+T 59600 24000 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/1/ts2181-30266.pdf
+T 59600 24000 5 10 0 0 0 0 1
+link_page=2
+T 59600 24000 5 10 0 0 0 0 1
+supplier=c
+T 59600 24000 5 10 0 0 0 0 1
+kitting=other
+T 59600 24000 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 60300 26100 5 10 1 1 0 6 1
+refdes=PWR2
+}
+N 59600 24400 59600 24800 4
+N 59600 25600 59600 25200 4
+C 57800 24000 1 0 0 connector4-2.sym
+{
+T 58100 26050 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 58100 26250 5 10 0 0 0 0 1
+footprint=HEADER4_1
+T 57800 24000 5 10 0 0 0 0 1
+value=-
+T 57800 24000 5 10 0 0 0 0 1
+description=$0.27 MOUSER 517-9612046804AR
+T 57800 24000 5 10 0 0 0 0 1
+cost=0.27
+T 57800 24000 5 10 0 0 0 0 1
+mfr=3M Electronic Solutions Division
+T 57800 24000 5 10 0 0 0 0 1
+mfrpn=961204-6804-AR
+T 57800 24000 5 10 0 0 0 0 1
+dst=Mouser
+T 57800 24000 5 10 0 0 0 0 1
+dstpn=517-9612046804AR 
+T 57800 24000 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/1/ts2181-30266.pdf
+T 57800 24000 5 10 0 0 0 0 1
+link_page=2
+T 57800 24000 5 10 0 0 0 0 1
+supplier=c
+T 57800 24000 5 10 0 0 0 0 1
+kitting=other
+T 57800 24000 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 58500 26100 5 10 1 1 0 6 1
+refdes=PWR1
+}
+N 57800 25600 57800 25200 4
+C 57800 25400 1 90 0 generic-power.sym
+{
+T 57550 25600 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 60100 27000 1 0 1 connector8-2.sym
+{
+T 59800 30650 5 10 0 0 0 6 1
+device=CONNECTOR_8
+T 59800 30850 5 10 0 0 0 6 1
+footprint=JUMPER8
+T 60100 27000 5 10 0 0 0 6 1
+value=-
+T 60100 27000 5 10 0 0 0 6 1
+description=$0.42 MOUSER 538-22-28-5084
+T 60100 27000 5 10 0 0 0 6 1
+cost=0.42
+T 60100 27000 5 10 0 0 0 6 1
+mfr=Molex
+T 60100 27000 5 10 0 0 0 6 1
+mfrpn=22-28-5084
+T 60100 27000 5 10 0 0 0 6 1
+dst=Mouser
+T 60100 27000 5 10 0 0 0 6 1
+dstpn=538-22-28-5084
+T 60100 27000 5 10 0 0 0 6 1
+link=www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
+T 60100 27000 5 10 0 0 0 6 1
+link_page=www.molex.com/pdm_docs/sd/022285084_sd.pdf
+T 60100 27000 5 10 0 0 0 6 1
+supplier=c
+T 60100 27000 5 10 0 0 0 6 1
+kitting=other
+T 60100 27000 5 10 0 0 0 6 1
+kitting_d=not known to be available in machine usable format
+T 59400 30700 5 10 1 1 0 0 1
+refdes=BRD2
+}
+C 58200 27000 1 0 0 connector8-2.sym
+{
+T 58500 30650 5 10 0 0 0 0 1
+device=CONNECTOR_8
+T 58500 30850 5 10 0 0 0 0 1
+footprint=JUMPER8
+T 58200 27000 5 10 0 0 0 0 1
+value=-
+T 58200 27000 5 10 0 0 0 0 1
+description=$0.42 MOUSER 538-22-28-5084
+T 58200 27000 5 10 0 0 0 0 1
+cost=0.42
+T 58200 27000 5 10 0 0 0 0 1
+mfr=Molex
+T 58200 27000 5 10 0 0 0 0 1
+mfrpn=22-28-5084
+T 58200 27000 5 10 0 0 0 0 1
+dst=Mouser
+T 58200 27000 5 10 0 0 0 0 1
+dstpn=538-22-28-5084
+T 58200 27000 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf
+T 58200 27000 5 10 0 0 0 0 1
+link_page=www.molex.com/pdm_docs/sd/022285084_sd.pdf
+T 58200 27000 5 10 0 0 0 0 1
+supplier=c
+T 58200 27000 5 10 0 0 0 0 1
+kitting=other
+T 58200 27000 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 58900 30700 5 10 1 1 0 6 1
+refdes=BRD1
+}
+C 58800 9600 1 0 0 barrier_terminal_block_325mil_9p.sym
+{
+T 59100 13000 5 10 0 0 0 0 1
+device=barrier_terminal_block_325mil_9p
+T 59100 13200 5 10 0 0 0 0 1
+footprint=barrier_terminal_block_325mil_9p
+T 59100 13600 5 10 0 0 0 0 1
+value=325mil
+T 59100 13800 5 10 0 0 0 0 1
+description=$4.19 MOUSER 538-38700-6109
+T 59100 14000 5 10 0 0 0 0 1
+cost=4.19
+T 59100 14200 5 10 0 0 0 0 1
+mfr=molex
+T 59100 14400 5 10 0 0 0 0 1
+mfrpn=38700-6109
+T 59100 14600 5 10 0 0 0 0 1
+dst=Mouser
+T 59100 14800 5 10 0 0 0 0 1
+dstpn=538-38700-6109
+T 59100 15000 5 10 0 0 0 0 1
+link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
+T 59100 15200 5 10 0 0 0 0 1
+link_page=1
+T 59100 15400 5 10 0 0 0 0 1
+supplier=c
+T 59100 15600 5 10 0 0 0 0 1
+kitting=other
+T 59100 15800 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 59100 16000 5 10 0 0 0 0 1
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
+T 59100 12700 5 10 1 1 0 0 1
+refdes=BAR1
+}
+C 56800 9600 1 0 0 terminal_block_5mm_9p.sym
+{
+T 57100 13000 5 10 0 0 0 0 1
+device=terminal_block_5mm_9p
+T 57100 13200 5 10 0 0 0 0 1
+footprint=terminal_block_5mm_9p
+T 57100 13600 5 10 0 0 0 0 1
+value=5mm
+T 57100 13800 5 10 0 0 0 0 1
+description=$1.28 MOUSER 490-TB001-500-09BE
+T 57100 14000 5 10 0 0 0 0 1
+cost=1.28
+T 57100 14200 5 10 0 0 0 0 1
+mfr=CUI Devices
+T 57100 14400 5 10 0 0 0 0 1
+mfrpn=TB001-500-09BE 
+T 57100 14600 5 10 0 0 0 0 1
+dst=Mouser
+T 57100 14800 5 10 0 0 0 0 1
+dstpn=490-TB001-500-09BE
+T 57100 15000 5 10 0 0 0 0 1
+link=www.mouser.com/datasheet/2/670/tb001-500-1550615.pdf
+T 57100 15200 5 10 0 0 0 0 1
+link_page=2
+T 57100 15400 5 10 0 0 0 0 1
+supplier=c
+T 57100 15600 5 10 0 0 0 0 1
+kitting=other
+T 57100 15800 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 57100 16000 5 10 0 0 0 0 1
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7rqd7?P=1yvgcdjZ1yvgchuZ1z0wxoj&Ns=Pricing%7c0
+T 57100 12700 5 10 1 1 0 0 1
+refdes=TERM?
+}
+C 77000 9000 1 0 0 connector4-1.sym
+{
+T 78800 9900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 9000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 9000 5 10 0 0 0 0 1
+value=-
+T 77000 10400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 10100 78700 9200 4
+C 2100 10900 1 0 1 connector2-2.sym
+{
+T 1800 12150 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 1800 12350 5 10 0 0 0 6 1
+footprint=XT60
+T 2100 10900 5 10 0 0 0 6 1
+description=$0.80 HobbyKing XT60
+T 2100 10900 5 10 0 0 0 6 1
+value=60A
+T 2100 10900 5 10 0 0 0 0 1
+cost=$0.80
+T 2100 10900 5 10 0 0 0 0 1
+mfr=HobbyKing
+T 2100 10900 5 10 0 0 0 0 1
+mfrpn=XT60
+T 2100 10900 5 10 0 0 0 0 1
+dst=HobbyKing
+T 2100 10900 5 10 0 0 0 0 1
+dstpn=XT60
+T 2100 10900 5 10 0 0 0 0 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 2100 10900 5 10 0 0 0 0 1
+link_page=N/A
+T 2100 10900 5 10 0 0 0 0 1
+supplier=c
+T 2100 10900 5 10 0 0 0 0 1
+kitting=other
+T 2100 10900 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 1400 11900 5 10 1 1 0 0 1
+refdes=Vheat1
+}
+C 2500 11700 1 0 1 generic-power.sym
+{
+T 2300 11950 5 10 1 1 0 3 1
+net=Vsys:1
+}
+N 2300 11700 2100 11700 4
+C 3500 11400 1 180 0 input-2.sym
+{
+T 2900 10700 5 10 0 0 180 0 1
+device=none
+T 3500 11200 5 10 1 0 180 0 1
+net=Heater:1
+T 3000 11300 5 10 1 1 180 7 1
+value=INPUT
+}
+C 2100 9600 1 0 1 connector2-2.sym
+{
+T 1800 10850 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 1800 11050 5 10 0 0 0 6 1
+footprint=XT60
+T 2100 9600 5 10 0 0 0 6 1
+description=$0.80 HobbyKing XT60
+T 2100 9600 5 10 0 0 0 6 1
+value=60A
+T 2100 9600 5 10 0 0 0 0 1
+cost=$0.80
+T 2100 9600 5 10 0 0 0 0 1
+mfr=HobbyKing
+T 2100 9600 5 10 0 0 0 0 1
+mfrpn=XT60
+T 2100 9600 5 10 0 0 0 0 1
+dst=HobbyKing
+T 2100 9600 5 10 0 0 0 0 1
+dstpn=XT60
+T 2100 9600 5 10 0 0 0 0 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 2100 9600 5 10 0 0 0 0 1
+link_page=N/A
+T 2100 9600 5 10 0 0 0 0 1
+supplier=c
+T 2100 9600 5 10 0 0 0 0 1
+kitting=other
+T 2100 9600 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 1400 10600 5 10 1 1 0 0 1
+refdes=Vheat2
+}
+C 3500 10500 1 180 0 input-2.sym
+{
+T 2900 9800 5 10 0 0 180 0 1
+device=none
+T 3500 10300 5 10 1 0 180 0 1
+net=Heater:1
+T 3000 10400 5 10 1 1 180 7 1
+value=INPUT
+}
+C 2100 10200 1 270 0 vee-1.sym
+N 57800 24800 57800 24400 4
+C 60700 24400 1 0 0 illustration_breadboard.sym
+{
+T 60800 25100 5 10 0 0 0 0 1
+footprint=breadboard
+T 61100 24900 5 10 1 1 0 0 1
+refdes=I2
+}
+T 29100 32300 9 10 1 0 0 0 2
+Use a direct connection to this Vext for
+Probe, Servo, and Tool Chasis (Hotend) Fan.
+L 33300 32200 29000 32200 3 0 0 0 -1 -1
+N 34800 33100 26000 33100 4
+N 25500 15500 25500 34100 4
+N 26000 15100 26000 33700 4
+C 27600 14600 1 0 0 input-2.sym
+{
+T 28200 15300 5 10 0 0 0 0 1
+device=none
+T 27600 14800 5 10 1 0 0 0 1
+net=Vext-Thermistor:1
+T 28100 14700 5 10 1 1 0 7 1
+value=INPUT
+}
+C 27600 32600 1 0 0 input-2.sym
+{
+T 28200 33300 5 10 0 0 0 0 1
+device=none
+T 27600 32800 5 10 1 0 0 0 1
+net=Vext-Probe-Servo-Fan:1
+T 28100 32700 5 10 1 1 0 7 1
+value=INPUT
+}
+N 24500 34800 24500 9800 4
+C 24400 35100 1 180 1 gnd-1.sym
+C 24600 9500 1 0 1 gnd-1.sym
+C 36000 31500 1 0 0 glow-lamp-1.sym
+{
+T 36200 32100 5 10 0 0 0 0 1
+device=SparkGap
+T 36200 32300 5 10 0 0 0 0 1
+symversion=0.1
+T 36000 31500 5 10 0 0 0 0 1
+description=-
+T 36000 31500 5 10 0 0 0 0 1
+footprint=SparkGapPCB
+T 36000 31500 5 10 0 0 0 0 1
+nobom=true
+T 36000 31500 5 10 0 0 0 0 1
+noplace=true
+T 36200 31700 5 10 1 1 0 0 1
+refdes=T1
+T 36400 31500 5 10 1 1 0 0 1
+value=2kV
+}
+C 37200 31800 1 90 1 gnd-1.sym
+N 36000 31700 36000 31900 4
+C 36000 30700 1 0 0 glow-lamp-1.sym
+{
+T 36200 31300 5 10 0 0 0 0 1
+device=SparkGap
+T 36200 31500 5 10 0 0 0 0 1
+symversion=0.1
+T 36000 30700 5 10 0 0 0 0 1
+description=-
+T 36000 30700 5 10 0 0 0 0 1
+footprint=SparkGapPCB
+T 36000 30700 5 10 0 0 0 0 1
+nobom=true
+T 36000 30700 5 10 0 0 0 0 1
+noplace=true
+T 36200 30900 5 10 1 1 0 0 1
+refdes=T1
+T 36400 30700 5 10 1 1 0 0 1
+value=2kV
+}
+C 37200 31000 1 90 1 gnd-1.sym
+N 36000 30900 36000 31100 4
+C 35800 24000 1 270 0 glow-lamp-1.sym
+{
+T 36400 23800 5 10 0 0 270 0 1
+device=SparkGap
+T 36600 23800 5 10 0 0 270 0 1
+symversion=0.1
+T 35800 24000 5 10 0 0 270 0 1
+description=-
+T 35800 24000 5 10 0 0 270 0 1
+footprint=SparkGapPCB
+T 35800 24000 5 10 0 0 270 0 1
+nobom=true
+T 35800 24000 5 10 0 0 270 0 1
+noplace=true
+T 36000 23800 5 10 1 1 270 0 1
+refdes=T1
+T 35800 23600 5 10 1 1 270 0 1
+value=2kV
+}
+N 36000 24000 35700 24000 4
+N 35700 24000 35700 23800 4
+N 36000 23100 35700 23100 4
+N 35700 23100 35700 23400 4
+C 36300 24000 1 270 0 glow-lamp-1.sym
+{
+T 36900 23800 5 10 0 0 270 0 1
+device=SparkGap
+T 37100 23800 5 10 0 0 270 0 1
+symversion=0.1
+T 36300 24000 5 10 0 0 270 0 1
+description=-
+T 36300 24000 5 10 0 0 270 0 1
+footprint=SparkGapPCB
+T 36300 24000 5 10 0 0 270 0 1
+nobom=true
+T 36300 24000 5 10 0 0 270 0 1
+noplace=true
+T 36500 23800 5 10 1 1 270 0 1
+refdes=T1
+T 36300 23600 5 10 1 1 270 0 1
+value=2kV
+}
+N 36500 24000 36500 24200 4
+N 36500 23100 36500 23000 4
+C 25500 33900 1 0 0 glow-lamp-1.sym
+{
+T 25700 34500 5 10 0 0 0 0 1
+device=SparkGap
+T 25700 34700 5 10 0 0 0 0 1
+symversion=0.1
+T 25500 33900 5 10 0 0 0 0 1
+description=-
+T 25500 33900 5 10 0 0 0 0 1
+footprint=SparkGapPCB
+T 25500 33900 5 10 0 0 0 0 1
+nobom=true
+T 25500 33900 5 10 0 0 0 0 1
+noplace=true
+T 25700 34100 5 10 1 1 0 0 1
+refdes=T1
+T 25900 33900 5 10 1 1 0 0 1
+value=2kV
+}
+N 26000 33700 26400 33700 4
+N 26400 33700 26400 34800 4
+C 26400 34300 1 270 0 vee-1.sym
+C 25500 34300 1 90 1 generic-power.sym
+{
+T 25250 34100 5 10 1 1 90 3 1
+net=Vsys:1
+}
+N 24500 34800 25500 34800 4
+C 26400 35000 1 270 0 vee-1.sym
+C 25400 35100 1 180 1 gnd-1.sym
+C 36000 13500 1 0 0 glow-lamp-1.sym
+{
+T 36200 14100 5 10 0 0 0 0 1
+device=SparkGap
+T 36200 14300 5 10 0 0 0 0 1
+symversion=0.1
+T 36000 13500 5 10 0 0 0 0 1
+description=-
+T 36000 13500 5 10 0 0 0 0 1
+footprint=SparkGapPCB
+T 36000 13500 5 10 0 0 0 0 1
+nobom=true
+T 36000 13500 5 10 0 0 0 0 1
+noplace=true
+T 36200 13700 5 10 1 1 0 0 1
+refdes=T1
+T 36400 13500 5 10 1 1 0 0 1
+value=2kV
+}
+C 37200 13800 1 90 1 gnd-1.sym
+N 36000 13700 36000 13900 4
+C 36000 12700 1 0 0 glow-lamp-1.sym
+{
+T 36200 13300 5 10 0 0 0 0 1
+device=SparkGap
+T 36200 13500 5 10 0 0 0 0 1
+symversion=0.1
+T 36000 12700 5 10 0 0 0 0 1
+description=-
+T 36000 12700 5 10 0 0 0 0 1
+footprint=SparkGapPCB
+T 36000 12700 5 10 0 0 0 0 1
+nobom=true
+T 36000 12700 5 10 0 0 0 0 1
+noplace=true
+T 36200 12900 5 10 1 1 0 0 1
+refdes=T1
+T 36400 12700 5 10 1 1 0 0 1
+value=2kV
+}
+C 37200 13000 1 90 1 gnd-1.sym
+N 36000 12900 36000 13100 4
+C 36000 12300 1 0 0 glow-lamp-1.sym
+{
+T 36200 12900 5 10 0 0 0 0 1
+device=SparkGap
+T 36200 13100 5 10 0 0 0 0 1
+symversion=0.1
+T 36000 12300 5 10 0 0 0 0 1
+description=-
+T 36000 12300 5 10 0 0 0 0 1
+footprint=SparkGapPCB
+T 36000 12300 5 10 0 0 0 0 1
+nobom=true
+T 36000 12300 5 10 0 0 0 0 1
+noplace=true
+T 36200 12500 5 10 1 1 0 0 1
+refdes=T1
+T 36400 12300 5 10 1 1 0 0 1
+value=2kV
+}
+C 37200 12600 1 90 1 gnd-1.sym
+N 36000 12500 36000 12700 4
+N 43000 7500 43000 37500 4
+N 33700 33100 42900 33100 4
+N 42900 7400 42900 37400 4
+N 42700 7100 42700 37100 4
+N 42600 7000 42600 37000 4
+N 42400 6500 42400 36500 4
+N 42200 6300 42200 36300 4
+N 42000 6000 42000 36000 4
+N 41900 5800 41900 35800 4
+N 41800 5700 41800 35700 4
+N 41700 5500 41700 35500 4
+N 41000 4900 41000 34900 4
+N 40800 4700 40800 34700 4
+N 40600 4500 40600 34500 4
+N 41300 5100 41300 35100 4
+L 63000 9000 500 9000 3 0 0 0 -1 -1
+L 45500 38500 45500 4000 3 0 0 0 -1 -1
+C 77000 11000 1 0 0 connector4-1.sym
+{
+T 78800 11900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 11000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 11000 5 10 0 0 0 0 1
+value=-
+T 77000 12400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 12100 78700 11200 4
+C 77000 13000 1 0 0 connector4-1.sym
+{
+T 78800 13900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 13000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 13000 5 10 0 0 0 0 1
+value=-
+T 77000 14400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 14100 78700 13200 4
+C 77000 15000 1 0 0 connector4-1.sym
+{
+T 78800 15900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 15000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 15000 5 10 0 0 0 0 1
+value=-
+T 77000 16400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 16100 78700 15200 4
+C 77000 17000 1 0 0 connector4-1.sym
+{
+T 78800 17900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 17000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 17000 5 10 0 0 0 0 1
+value=-
+T 77000 18400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 18100 78700 17200 4
+C 77000 19000 1 0 0 connector4-1.sym
+{
+T 78800 19900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 19000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 19000 5 10 0 0 0 0 1
+value=-
+T 77000 20400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 20100 78700 19200 4
+C 77000 21000 1 0 0 connector4-1.sym
+{
+T 78800 21900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 21000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 21000 5 10 0 0 0 0 1
+value=-
+T 77000 22400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 22100 78700 21200 4
+C 77000 23000 1 0 0 connector4-1.sym
+{
+T 78800 23900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 23000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 23000 5 10 0 0 0 0 1
+value=-
+T 77000 24400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 24100 78700 23200 4
+C 77000 25000 1 0 0 connector4-1.sym
+{
+T 78800 25900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 25000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 25000 5 10 0 0 0 0 1
+value=-
+T 77000 26400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 26100 78700 25200 4
+C 77000 27000 1 0 0 connector4-1.sym
+{
+T 78800 27900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 27000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 27000 5 10 0 0 0 0 1
+value=-
+T 77000 28400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 28100 78700 27200 4
+C 77000 29000 1 0 0 connector4-1.sym
+{
+T 78800 29900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 29000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 29000 5 10 0 0 0 0 1
+value=-
+T 77000 30400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 30100 78700 29200 4
+C 77000 31000 1 0 0 connector4-1.sym
+{
+T 78800 31900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 31000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 31000 5 10 0 0 0 0 1
+value=-
+T 77000 32400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 32100 78700 31200 4
+C 77000 33000 1 0 0 connector4-1.sym
+{
+T 78800 33900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 33000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 33000 5 10 0 0 0 0 1
+value=-
+T 77000 34400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 34100 78700 33200 4
+C 77000 35000 1 0 0 connector4-1.sym
+{
+T 78800 35900 5 10 0 0 0 0 1
+device=CONNECTOR_4
+T 77000 35000 5 10 0 0 0 0 1
+footprint=wireToBoard.fp
+T 77000 35000 5 10 0 0 0 0 1
+value=-
+T 77000 36400 5 10 1 1 0 0 1
+refdes=WTB?
+}
+N 78700 36100 78700 35200 4
+C 58800 13600 1 0 0 barrier_terminal_block_325mil_9p.sym
+{
+T 59100 17000 5 10 0 0 0 0 1
+device=barrier_terminal_block_325mil_9p
+T 59100 17200 5 10 0 0 0 0 1
+footprint=barrier_terminal_block_325mil_9p
+T 59100 17600 5 10 0 0 0 0 1
+value=325mil
+T 59100 17800 5 10 0 0 0 0 1
+description=$4.19 MOUSER 538-38700-6109
+T 59100 18000 5 10 0 0 0 0 1
+cost=4.19
+T 59100 18200 5 10 0 0 0 0 1
+mfr=molex
+T 59100 18400 5 10 0 0 0 0 1
+mfrpn=38700-6109
+T 59100 18600 5 10 0 0 0 0 1
+dst=Mouser
+T 59100 18800 5 10 0 0 0 0 1
+dstpn=538-38700-6109
+T 59100 19000 5 10 0 0 0 0 1
+link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
+T 59100 19200 5 10 0 0 0 0 1
+link_page=1
+T 59100 19400 5 10 0 0 0 0 1
+supplier=c
+T 59100 19600 5 10 0 0 0 0 1
+kitting=other
+T 59100 19800 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 59100 20000 5 10 0 0 0 0 1
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
+T 59100 16700 5 10 1 1 0 0 1
+refdes=BAR1
+}
+C 56800 13600 1 0 0 terminal_block_5mm_9p.sym
+{
+T 57100 17000 5 10 0 0 0 0 1
+device=terminal_block_5mm_9p
+T 57100 17200 5 10 0 0 0 0 1
+footprint=terminal_block_5mm_9p
+T 57100 17600 5 10 0 0 0 0 1
+value=5mm
+T 57100 17800 5 10 0 0 0 0 1
+description=$1.28 MOUSER 490-TB001-500-09BE
+T 57100 18000 5 10 0 0 0 0 1
+cost=1.28
+T 57100 18200 5 10 0 0 0 0 1
+mfr=CUI Devices
+T 57100 18400 5 10 0 0 0 0 1
+mfrpn=TB001-500-09BE 
+T 57100 18600 5 10 0 0 0 0 1
+dst=Mouser
+T 57100 18800 5 10 0 0 0 0 1
+dstpn=490-TB001-500-09BE
+T 57100 19000 5 10 0 0 0 0 1
+link=www.mouser.com/datasheet/2/670/tb001-500-1550615.pdf
+T 57100 19200 5 10 0 0 0 0 1
+link_page=2
+T 57100 19400 5 10 0 0 0 0 1
+supplier=c
+T 57100 19600 5 10 0 0 0 0 1
+kitting=other
+T 57100 19800 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 57100 20000 5 10 0 0 0 0 1
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7rqd7?P=1yvgcdjZ1yvgchuZ1z0wxoj&Ns=Pricing%7c0
+T 57100 16700 5 10 1 1 0 0 1
+refdes=TERM?
+}
+T 79950 19800 9 10 1 0 0 0 4
+Vext/GND, SigP - Probe, Servo, 5V Blower Hotend Fan
+Vsys/Vee, Ap/Am & Bp/Bm - Stepper Motor, Vsys Motor Fan, Vsys Hotend Fan
+Vsys/Vee, SigP & PWMa & PWMd - Hotend (Thermistor, Heater, Cooling)
+
+T 81450 12750 9 10 1 0 0 0 30
+(Probe)
+   Vext
+   Probe
+x GND
+x Vext
+   Thermistor
+   GND
+
+(Chasis Fan, Servo)
+x Vsys
+x Vext
+x Vee
+   Vsys
+   Vext
+   Servo
+x Vee
+x Vsys
+   Heater
+x Vee
+x Vsys
+   Cooling
+   Vee
+
+(Stepper)
+x Vsys
+x Vee
+Bp
+Ap
+Am
+Bm
+N 43000 37500 49300 37500 4
+N 42900 37400 49400 37400 4
+N 42700 37100 52500 37100 4
+N 42600 37000 53300 37000 4
+N 42400 36500 54100 36500 4
+N 42200 36300 54900 36300 4
+N 42000 36000 55300 36000 4
+N 41900 35800 56100 35800 4
+N 41800 35700 56900 35700 4
+N 41700 35500 57700 35500 4
+N 41000 34900 58700 34900 4
+N 40800 34700 58900 34700 4
+N 40600 34500 60100 34500 4
+N 41300 35100 58500 35100 4
+C 61400 39400 1 90 0 connector60-2.sym
+{
+T 48850 39800 5 10 0 0 90 0 1
+device=CONNECTOR_60
+T 48650 39800 5 10 0 0 90 0 1
+footprint=MEZ_538-505417-6010
+T 61400 39400 5 10 0 0 90 0 1
+description=$1.70 MOUSER 538-505417-6010
+T 61400 39400 5 10 0 0 90 0 1
+value=Mezzanine_60pin_0.35mm_2row_male
+T 61400 39400 5 10 0 0 0 0 1
+cost=1.70
+T 61400 39400 5 10 0 0 0 0 1
+mfr=Molex
+T 61400 39400 5 10 0 0 0 0 1
+mfrpn=505417-6010
+T 61400 39400 5 10 0 0 0 0 1
+dst=Mouser
+T 61400 39400 5 10 0 0 0 0 1
+dstpn=538-505417-6010
+T 61400 39400 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/276/5054176010_PCB_HEADERS-958641.pdf
+T 61400 39400 5 10 0 0 0 0 1
+link_page=www.molex.com/pdm_docs/sd/5054176010_sd.pdf
+T 61400 39400 5 10 0 0 0 0 1
+supplier=c
+T 61400 39400 5 10 0 0 0 0 1
+kitting=other
+T 61400 39400 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 48800 40200 5 10 1 1 90 6 1
+refdes=MEZ1
+}
+C 61500 39500 1 90 0 connector60-2.sym
+{
+T 48950 39900 5 10 0 0 90 0 1
+device=CONNECTOR_60
+T 48750 39900 5 10 0 0 90 0 1
+footprint=MEZ_538-505413-6010
+T 61500 39500 5 10 0 0 90 0 1
+description=$1.74 MOUSER 538-505413-6010
+T 61500 39500 5 10 0 0 90 0 1
+value=Mezzanine_60pin_0.35mm_2row_female
+T 61500 39500 5 10 0 0 0 0 1
+cost=1.74
+T 61500 39500 5 10 0 0 0 0 1
+mfr=Molex
+T 61500 39500 5 10 0 0 0 0 1
+mfrpn=505413-6010
+T 61500 39500 5 10 0 0 0 0 1
+dst=Mouser
+T 61500 39500 5 10 0 0 0 0 1
+dstpn=538-505413-6010
+T 61500 39500 5 10 0 0 0 0 1
+link=www.mouser.com/ds/2/276/5054136010_PCB_RECEPTACLES-958639.pdf
+T 61500 39500 5 10 0 0 0 0 1
+link_page=www.molex.com/pdm_docs/sd/5054136010_sd.pdf
+T 61500 39500 5 10 0 0 0 0 1
+supplier=c
+T 61500 39500 5 10 0 0 0 0 1
+kitting=other
+T 61500 39500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 48900 40300 5 10 1 1 90 6 1
+refdes=MEZ2
+}
+C 54700 46700 1 90 1 connector13-2.sym
+{
+T 49050 46400 5 10 0 0 270 2 1
+device=CONNECTOR_13
+T 48850 46400 5 10 0 0 270 2 1
+footprint=ring
+T 54700 46700 5 10 0 0 0 0 1
+value=2mm
+T 54700 46700 5 10 0 0 0 0 1
+description=unknown
+T 49000 46000 5 10 1 1 270 8 1
+refdes=RING1
+}
+C 51100 42300 1 90 0 idc_offset.sym
+{
+T 48600 42700 5 10 0 0 90 0 1
+device=idc_offset
+T 48300 42700 5 10 0 0 90 0 1
+footprint=idc_offset_15mil
+T 47800 42700 5 10 0 0 90 0 1
+value=15mil
+T 47600 42700 5 10 0 0 90 0 1
+description=$0.28 MOUSER 649-1012938191204BLF
+T 47400 42700 5 10 0 0 90 0 1
+cost=0.28
+T 47200 42700 5 10 0 0 90 0 1
+mfr=Amphenol FCI
+T 47000 42700 5 10 0 0 90 0 1
+mfrpn=10129381-912004BLF
+T 46800 42700 5 10 0 0 90 0 1
+dst=Mouser
+T 46600 42700 5 10 0 0 90 0 1
+dstpn=649-1012938191204BLF
+T 46400 42700 5 10 0 0 90 0 1
+link=www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
+T 46200 42700 5 10 0 0 90 0 1
+link_page=1
+T 46000 42700 5 10 0 0 90 0 1
+supplier=c
+T 45800 42700 5 10 0 0 90 0 1
+kitting=other
+T 45600 42700 5 10 0 0 90 0 1
+kitting_d=not known to be available in machine usable format
+T 51100 42300 5 10 0 0 90 0 1
+footprint_alt_1=HEADER12_2
+T 48300 45400 5 10 0 0 90 0 1
+footprint_alt=idc_offset_15mil_reverse
+T 45400 42700 5 10 0 0 90 0 1
+search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
+T 49000 42700 5 10 1 1 90 0 1
+refdes=OFFSET1
+}
+N 49300 37500 49300 39500 4
+N 49300 39500 49400 39500 4
+N 49400 39500 49400 39600 4
+N 49700 39500 49800 39500 4
+N 49800 39500 49800 39600 4
+N 50100 39500 50200 39500 4
+N 50200 39500 50200 39600 4
+N 50500 39500 50600 39500 4
+N 50600 39500 50600 39600 4
+N 50900 39500 51000 39500 4
+N 51000 39500 51000 39600 4
+N 51400 39500 51400 39600 4
+N 51700 39500 51800 39500 4
+N 51800 39500 51800 39600 4
+N 52100 39500 52200 39500 4
+N 52200 39500 52200 39600 4
+N 52600 39500 52600 39600 4
+N 53000 39500 53000 39600 4
+N 53300 39500 53400 39500 4
+N 53400 39500 53400 39600 4
+N 53700 39500 53800 39500 4
+N 53800 39500 53800 39600 4
+N 54000 39500 54200 39500 4
+N 54200 39500 54200 39600 4
+N 54500 39500 54600 39500 4
+N 54600 39500 54600 39600 4
+N 54900 39500 55000 39500 4
+N 55000 39500 55000 39600 4
+N 55300 39500 55400 39500 4
+N 55400 39500 55400 39600 4
+N 55700 39500 55800 39500 4
+N 55800 39500 55800 39600 4
+N 56100 39500 56200 39500 4
+N 56200 39500 56200 39600 4
+N 56500 39500 56600 39500 4
+N 56600 39500 56600 39600 4
+N 56900 39500 57000 39500 4
+N 57000 39500 57000 39600 4
+N 57300 39500 57400 39500 4
+N 57400 39500 57400 39600 4
+N 57700 39500 57800 39500 4
+N 57800 39500 57800 39600 4
+N 58100 39500 58200 39500 4
+N 58200 39500 58200 39600 4
+N 58500 39500 58600 39500 4
+N 58600 39500 58600 39600 4
+N 58900 39500 59000 39500 4
+N 59000 39500 59000 39600 4
+N 59300 39500 59400 39500 4
+N 59400 39500 59400 39600 4
+N 59700 39500 59800 39500 4
+N 59800 39500 59800 39600 4
+N 60100 39500 60200 39500 4
+N 60200 39500 60200 39600 4
+N 60500 39500 60600 39500 4
+N 60600 39500 60600 39600 4
+N 60900 39500 61000 39500 4
+N 61000 39500 61000 39600 4
+N 53400 41100 53300 41100 4
+N 53800 41100 53700 41100 4
+N 53700 41000 53700 41300 4
+N 54200 41100 54100 41100 4
+N 54600 41100 54500 41100 4
+N 54500 41000 54500 41100 4
+N 55000 41100 54900 41100 4
+N 54900 41100 54900 41000 4
+N 55400 41100 55300 41100 4
+N 55300 41000 55300 42700 4
+N 55800 41100 55700 41100 4
+N 55700 41000 55700 41300 4
+N 56200 41100 56100 41100 4
+N 56600 41100 56500 41100 4
+N 57000 41100 56900 41100 4
+N 56900 35700 56900 43000 4
+N 57400 41100 57300 41100 4
+N 57300 41000 57300 41300 4
+N 57800 41100 57700 41100 4
+N 57700 41000 57700 43200 4
+N 58200 41100 58100 41100 4
+N 58100 41000 58100 41300 4
+N 58600 41100 58500 41100 4
+N 58500 41000 58500 41300 4
+N 59000 41100 58900 41100 4
+N 58900 34700 58900 43900 4
+N 59400 41100 59300 41100 4
+N 59300 41000 59300 41300 4
+N 59800 41100 59700 41100 4
+N 59700 41000 59700 41300 4
+N 60200 41100 60100 41100 4
+N 60100 41000 60100 41300 4
+N 60600 41100 60500 41100 4
+N 60500 41000 60500 44100 4
+N 61000 41100 60900 41100 4
+N 60900 41000 60900 41300 4
+C 48500 40300 1 90 0 hole-1.sym
+{
+T 48500 40300 5 10 0 1 90 0 1
+device=HOLE
+T 48500 40300 5 10 0 0 90 0 1
+footprint=mount_m2
+T 48500 40300 5 10 0 0 90 0 1
+value=2mm
+T 47900 40500 5 10 1 1 90 4 1
+refdes=H?
+}
+C 48500 39800 1 90 0 hole-1.sym
+{
+T 48500 39800 5 10 0 1 90 0 1
+device=HOLE
+T 48500 39800 5 10 0 0 90 0 1
+footprint=mount_m2
+T 48500 39800 5 10 0 0 90 0 1
+value=2mm
+T 47900 40000 5 10 1 1 90 4 1
+refdes=H?
+}
+C 62200 39800 1 90 0 hole-1.sym
+{
+T 62200 39800 5 10 0 1 90 0 1
+device=HOLE
+T 62200 39800 5 10 0 0 90 0 1
+footprint=mount_m2
+T 62200 39800 5 10 0 0 90 0 1
+value=2mm
+T 61600 40000 5 10 1 1 90 4 1
+refdes=H?
+}
+C 62200 40300 1 90 0 hole-1.sym
+{
+T 62200 40300 5 10 0 1 90 0 1
+device=HOLE
+T 62200 40300 5 10 0 0 90 0 1
+footprint=mount_m2
+T 62200 40300 5 10 0 0 90 0 1
+value=2mm
+T 61600 40500 5 10 1 1 90 4 1
+refdes=H?
+}
+N 49400 41100 49300 41100 4
+N 49300 39300 49300 42300 4
+N 49800 41100 49700 41100 4
+N 49700 41000 49700 41300 4
+N 50200 41100 50100 41100 4
+N 50100 41000 50100 41300 4
+N 50600 41100 50500 41100 4
+N 50500 41000 50500 41300 4
+N 51000 41100 50900 41100 4
+N 51800 41100 51700 41100 4
+N 51700 41000 51700 41300 4
+N 52200 41100 52100 41100 4
+N 52100 41000 52100 41300 4
+N 52600 41100 52500 41100 4
+N 53000 41100 52900 41100 4
+N 49300 39300 50500 39300 4
+N 49300 41300 50500 41300 4
+N 49700 39500 49700 39300 4
+N 50100 39500 50100 39300 4
+N 50500 39500 50500 39300 4
+N 49400 37400 49400 39200 4
+N 49400 39200 50900 39200 4
+N 50900 39200 50900 41400 4
+N 50900 41300 52100 41300 4
+N 50900 39300 52100 39300 4
+N 51700 39500 51700 39300 4
+N 52100 39500 52100 39300 4
+N 51400 41100 51300 41100 4
+N 51300 41000 51300 41300 4
+N 51400 39500 51300 39500 4
+N 51300 39500 51300 39300 4
+N 53000 39500 52900 39500 4
+N 52600 39500 52500 39500 4
+N 52900 41000 52900 41300 4
+N 52500 41100 52500 41000 4
+N 54100 41100 54100 41000 4
+N 53300 41000 53300 41100 4
+N 52500 37100 52500 41600 4
+N 52500 39300 52900 39300 4
+N 52900 39300 52900 39500 4
+N 52500 41300 52900 41300 4
+N 53300 37000 53300 41700 4
+N 53300 41300 53700 41300 4
+N 53300 39300 53700 39300 4
+N 53700 39300 53700 39500 4
+N 54100 36500 54100 39500 4
+C 54000 41400 1 180 1 gnd-1.sym
+C 54600 39200 1 0 1 gnd-1.sym
+N 54900 36300 54900 39500 4
+C 54400 41400 1 180 1 gnd-1.sym
+C 54800 41400 1 180 1 gnd-1.sym
+N 56100 35800 56100 42900 4
+N 55300 36000 55300 41100 4
+N 55300 41300 55700 41300 4
+N 55300 39300 55700 39300 4
+N 55700 39500 55700 39300 4
+N 56500 41000 56500 41300 4
+N 56100 39300 56500 39300 4
+N 56500 39300 56500 39500 4
+N 56100 41300 56500 41300 4
+N 57700 35500 57700 39500 4
+N 57700 39300 58100 39300 4
+N 58100 39300 58100 39500 4
+N 56900 39300 57300 39300 4
+N 57300 39300 57300 39500 4
+N 56900 41300 57300 41300 4
+N 57700 41300 58100 41300 4
+N 57700 39300 57700 41100 4
+N 58500 35100 58500 39500 4
+N 58700 34900 58700 43800 4
+N 58700 41300 58500 41300 4
+N 58900 41300 60100 41300 4
+N 58900 39300 59700 39300 4
+N 59700 39300 59700 39500 4
+N 59300 39300 59300 39500 4
+N 60100 34500 60100 39500 4
+N 60100 39300 60900 39300 4
+N 60500 39300 60500 41100 4
+N 60900 39300 60900 39500 4
+N 60500 41300 60900 41300 4
+N 50900 41400 49600 41400 4
+N 49600 41400 49600 42300 4
+N 52500 41600 49900 41600 4
+N 49900 41600 49900 42300 4
+N 50200 42300 50200 41700 4
+N 50200 41700 53300 41700 4
+N 54000 39500 54000 41900 4
+N 47100 41900 54000 41900 4
+N 50500 41900 50500 42300 4
+N 55300 42700 50800 42700 4
+N 50800 41800 50800 42700 4
+N 57700 43200 50800 43200 4
+N 50200 42900 56100 42900 4
+N 56900 43000 50500 43000 4
+N 58700 43800 49900 43800 4
+N 58900 43900 49600 43900 4
+N 60500 44100 49300 44100 4
+N 49300 43700 49300 44700 4
+N 49300 42300 47500 42300 4
+N 47500 42300 47500 46700 4
+N 47500 46700 49550 46700 4
+N 49600 42200 47400 42200 4
+N 47400 42200 47400 46800 4
+N 47400 46800 49900 46800 4
+N 49900 46800 49900 46700 4
+N 49900 42100 47300 42100 4
+N 47300 42100 47300 46900 4
+N 47300 46900 50300 46900 4
+N 50300 46900 50300 46700 4
+N 50200 42000 47200 42000 4
+N 47200 42000 47200 47000 4
+N 47200 47000 50700 47000 4
+N 50700 45900 50700 47000 4
+N 47100 41900 47100 47100 4
+N 47100 47100 51100 47100 4
+N 51100 47100 51100 46700 4
+N 50800 41800 47000 41800 4
+N 47000 41800 47000 47200 4
+N 47000 47200 51500 47200 4
+N 51500 47200 51500 46700 4
+N 51900 46700 51900 47300 4
+N 51900 47300 46900 47300 4
+N 46900 44200 46900 47300 4
+N 46800 44300 46800 47400 4
+N 46800 47400 52300 47400 4
+N 52300 47400 52300 46700 4
+N 46700 44400 46700 47500 4
+N 46700 47500 52700 47500 4
+N 52700 47500 52700 46700 4
+N 46600 44500 46600 47600 4
+N 46600 47600 53100 47600 4
+N 53100 47600 53100 46700 4
+N 50800 43200 50800 44200 4
+N 50500 43000 50500 44300 4
+N 50200 42900 50200 44400 4
+N 49900 43700 49900 44500 4
+N 49600 43700 49600 44600 4
+N 50800 44200 46900 44200 4
+N 50500 44300 46800 44300 4
+N 50200 44400 46700 44400 4
+N 49900 44500 46600 44500 4
+N 49600 44600 46500 44600 4
+N 46500 44600 46500 47700 4
+N 46500 47700 53500 47700 4
+N 53500 47700 53500 46700 4
+N 49300 44700 46400 44700 4
+N 46400 44700 46400 47800 4
+N 46400 47800 53900 47800 4
+N 53900 47800 53900 46700 4
+N 50700 45900 54300 45900 4
+N 54300 45900 54300 46700 4
+L 46000 45000 55000 45000 3 0 0 0 -1 -1
+L 46000 41500 63000 41500 3 0 0 0 -1 -1
+T 43000 37500 9 10 1 0 0 0 1
+Vsys/Vee
+T 43000 36900 9 10 1 0 0 0 2
+Vext-Probe-Servo-Fan/GND
+Use Vee for Servo/Fan .
+T 43000 36300 9 10 1 0 0 0 2
+Probe
+Servo
+T 43000 35400 9 10 1 0 0 0 4
+Bp
+Ap
+Am
+Bm
+T 43000 34900 9 10 1 0 0 0 1
+Thermistor-_GND
+T 43000 34700 9 10 1 0 0 0 1
+Heater-_Vsys
+T 43000 34500 9 10 1 0 0 0 1
+Cooling-_Vsys
+T 43000 35100 9 10 1 0 0 0 1
+Vext-Thermistor (Disregard)
+T 46500 38600 9 10 1 0 0 0 2
+Mezzanine connectors must be
+on opposite sides of PCB.
+T 43100 7500 9 10 1 0 0 0 1
+Vsys/Vee
+T 43100 6900 9 10 1 0 0 0 2
+Vext-Probe-Servo-Fan/GND
+Use Vee for Servo/Fan .
+T 43100 6300 9 10 1 0 0 0 2
+Probe
+Servo
+T 43100 5400 9 10 1 0 0 0 4
+Bp
+Ap
+Am
+Bm
+T 43100 4900 9 10 1 0 0 0 1
+Thermistor-_GND
+T 43100 4700 9 10 1 0 0 0 1
+Heater-_Vsys
+T 43100 4500 9 10 1 0 0 0 1
+Cooling-_Vsys
+T 43100 5100 9 10 1 0 0 0 1
+Vext-Thermistor (Disregard)
+N 43000 7500 46000 7500 4
+N 42900 7400 46000 7400 4
+N 42700 7100 46000 7100 4
+N 42600 7000 46000 7000 4
+N 42400 6500 46000 6500 4
+N 42200 6300 46000 6300 4
+N 42000 6000 46000 6000 4
+N 41900 5800 46000 5800 4
+N 41800 5700 46000 5700 4
+N 41700 5500 46000 5500 4
+N 41300 5100 46000 5100 4
+N 41000 4900 46000 4900 4
+N 40800 4700 46000 4700 4
+N 40600 4500 46000 4500 4
+C 51150 42250 1 90 0 idc_offset.sym
+{
+T 48650 42650 5 10 0 0 90 0 1
+device=idc_offset
+T 48350 42650 5 10 0 0 90 0 1
+footprint=idc_offset_15mil
+T 47850 42650 5 10 0 0 90 0 1
+value=15mil
+T 47650 42650 5 10 0 0 90 0 1
+description=$0.28 MOUSER 649-1012938191204BLF
+T 47450 42650 5 10 0 0 90 0 1
+cost=0.28
+T 47250 42650 5 10 0 0 90 0 1
+mfr=Amphenol FCI
+T 47050 42650 5 10 0 0 90 0 1
+mfrpn=10129381-912004BLF
+T 46850 42650 5 10 0 0 90 0 1
+dst=Mouser
+T 46650 42650 5 10 0 0 90 0 1
+dstpn=649-1012938191204BLF
+T 46450 42650 5 10 0 0 90 0 1
+link=www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
+T 46250 42650 5 10 0 0 90 0 1
+link_page=1
+T 46050 42650 5 10 0 0 90 0 1
+supplier=c
+T 45850 42650 5 10 0 0 90 0 1
+kitting=other
+T 45650 42650 5 10 0 0 90 0 1
+kitting_d=not known to be available in machine usable format
+T 51150 42250 5 10 0 0 90 0 1
+footprint_alt_1=HEADER12_2
+T 48350 45350 5 10 0 0 90 0 1
+footprint_alt=idc_offset_15mil_reverse
+T 45450 42650 5 10 0 0 90 0 1
+search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
+T 49050 42650 5 10 1 1 90 0 1
+refdes=OFFSET1
+}
+C 54750 46650 1 90 1 connector13-2.sym
+{
+T 49100 46350 5 10 0 0 270 2 1
+device=CONNECTOR_13
+T 48900 46350 5 10 0 0 270 2 1
+footprint=ring
+T 54750 46650 5 10 0 0 0 0 1
+value=2mm
+T 54750 46650 5 10 0 0 0 0 1
+description=unknown
+T 49050 45950 5 10 1 1 270 8 1
+refdes=RING1
+}
+N 49550 46700 49550 46650 4
+N 49950 46650 49950 46700 4
+N 49950 46700 49900 46700 4
+N 50350 46650 50350 46700 4
+N 50350 46700 50300 46700 4
+N 50750 46650 50750 46700 4
+N 50750 46700 50700 46700 4
+N 51150 46650 51150 46700 4
+N 51150 46700 51100 46700 4
+N 51550 46650 51550 46700 4
+N 51550 46700 51500 46700 4
+N 51950 46650 51950 46700 4
+N 51950 46700 51900 46700 4
+N 52350 46650 52350 46700 4
+N 52350 46700 52300 46700 4
+N 52750 46650 52750 46700 4
+N 52750 46700 52700 46700 4
+N 53150 46650 53150 46700 4
+N 53150 46700 53100 46700 4
+N 53550 46650 53550 46700 4
+N 53550 46700 53500 46700 4
+N 53950 46650 53950 46700 4
+N 53950 46700 53900 46700 4
+N 54350 46650 54350 46700 4
+N 54350 46700 54300 46700 4
+N 49350 43650 49350 43700 4
+N 49350 43700 49300 43700 4
+N 49650 43650 49650 43700 4
+N 49650 43700 49600 43700 4
+N 49950 43650 49950 43700 4
+N 49950 43700 49900 43700 4
+N 50250 43650 50250 43700 4
+N 50250 43700 50200 43700 4
+N 50550 43650 50550 43700 4
+N 50550 43700 50500 43700 4
+N 50850 43650 50850 43700 4
+N 50850 43700 50800 43700 4
+N 49350 42250 49300 42250 4
+N 49650 42250 49650 42200 4
+N 49650 42200 49600 42200 4
+N 49950 42250 49950 42200 4
+N 49950 42200 49900 42200 4
+N 50250 42250 50250 42200 4
+N 50250 42200 50200 42200 4
+N 50550 42250 50550 42200 4
+N 50550 42200 50500 42200 4
+N 50850 42250 50850 42200 4
+N 50850 42200 50800 42200 4

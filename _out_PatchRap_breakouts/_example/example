@@ -1,0 +1,3 @@
+elements-dir ./_out_PatchRap_breakouts/footprints
+schematics example.sch
+output-name example
