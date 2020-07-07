@@ -94,7 +94,7 @@ kitting=tape-no-leader
 T 35200 58100 5 10 1 1 0 0 1
 value=2.2k
 T 35400 58000 5 10 1 1 0 0 1
-refdes=R?
+refdes=R2
 }
 C 35400 60900 1 270 1 gnd-1.sym
 C 35400 59900 1 270 0 gnd-1.sym
@@ -127,7 +127,7 @@ C 5000 60500 1 0 0 GenericRap.sym
 T 8000 66600 5 10 0 0 0 0 1
 footprint=GenericRap
 T 5800 64400 5 10 1 1 0 0 1
-refdes=M?
+refdes=M1
 T 8000 67000 5 10 0 0 0 0 1
 device=GenericRap
 }
@@ -249,7 +249,7 @@ kitting=tape-no-leader
 T 35200 50800 5 10 1 1 0 0 1
 value=2.2k
 T 35400 50700 5 10 1 1 0 0 1
-refdes=R1
+refdes=R3
 }
 T 24300 16900 9 10 1 0 0 0 9
 STEP
@@ -335,7 +335,7 @@ kitting=tape-no-leader
 T 35200 40900 5 10 1 1 0 0 1
 value=2.2k
 T 35400 40800 5 10 1 1 0 0 1
-refdes=R1
+refdes=R4
 }
 C 34800 40100 1 0 0 resistor-1.sym
 {
@@ -366,7 +366,7 @@ kitting=tape-no-leader
 T 35200 40100 5 10 1 1 0 0 1
 value=2.2k
 T 35400 40000 5 10 1 1 0 0 1
-refdes=R?
+refdes=R5
 }
 C 35400 42900 1 270 1 gnd-1.sym
 C 35400 41900 1 270 0 gnd-1.sym
@@ -475,7 +475,7 @@ C 5000 51000 1 0 0 GenericRap_Cutdown.sym
 T 8000 57100 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 5800 54900 5 10 1 1 0 0 1
-refdes=M?
+refdes=M2
 T 8000 57500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 }
@@ -484,7 +484,7 @@ C 5000 41500 1 0 0 GenericRap_Cutdown.sym
 T 8000 47600 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 5800 45400 5 10 1 1 0 0 1
-refdes=M?
+refdes=M3
 T 8000 48000 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 }
@@ -863,7 +863,7 @@ nobom=true
 T 33100 41100 5 10 0 0 270 0 1
 noplace=true
 T 33100 40700 5 10 1 1 180 0 1
-refdes=J?
+refdes=J1
 }
 C 33100 39800 1 0 1 gnd-1.sym
 C 32800 41100 1 0 0 vee-1.sym
@@ -1041,7 +1041,7 @@ kitting_d=not known to be available in machine usable format
 T 77500 53600 5 10 0 0 0 0 1
 search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
 T 77800 49500 5 10 1 1 90 0 1
-refdes=BAR1
+refdes=BAR2
 }
 C 60300 43000 1 0 0 terminal_block_5mm_9p.sym
 {
@@ -1076,7 +1076,7 @@ kitting_d=not known to be available in machine usable format
 T 60600 49400 5 10 0 0 0 0 1
 search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7rqd7?P=1yvgcdjZ1yvgchuZ1z0wxoj&Ns=Pricing%7c0
 T 60900 45200 5 10 1 1 90 0 1
-refdes=TERM?
+refdes=TERM3
 }
 C 4100 40400 1 0 1 connector2-2.sym
 {
@@ -1220,7 +1220,7 @@ nobom=true
 T 38000 61000 5 10 0 0 0 0 1
 noplace=true
 T 38200 61200 5 10 1 1 0 0 1
-refdes=T1
+refdes=T3
 T 38400 61000 5 10 1 1 0 0 1
 value=2kV
 }
@@ -1241,7 +1241,7 @@ nobom=true
 T 38000 60200 5 10 0 0 0 0 1
 noplace=true
 T 38200 60400 5 10 1 1 0 0 1
-refdes=T1
+refdes=T4
 T 38400 60200 5 10 1 1 0 0 1
 value=2kV
 }
@@ -1262,7 +1262,7 @@ nobom=true
 T 37800 53500 5 10 0 0 270 0 1
 noplace=true
 T 38000 53300 5 10 1 1 270 0 1
-refdes=T1
+refdes=T5
 T 37800 53100 5 10 1 1 270 0 1
 value=2kV
 }
@@ -1285,7 +1285,7 @@ nobom=true
 T 38300 53500 5 10 0 0 270 0 1
 noplace=true
 T 38500 53300 5 10 1 1 270 0 1
-refdes=T1
+refdes=T6
 T 38300 53100 5 10 1 1 270 0 1
 value=2kV
 }
@@ -1306,7 +1306,7 @@ nobom=true
 T 27500 63400 5 10 0 0 0 0 1
 noplace=true
 T 27700 63600 5 10 1 1 0 0 1
-refdes=T1
+refdes=T2
 T 27900 63400 5 10 1 1 0 0 1
 value=2kV
 }
@@ -1336,7 +1336,7 @@ nobom=true
 T 38000 43000 5 10 0 0 0 0 1
 noplace=true
 T 38200 43200 5 10 1 1 0 0 1
-refdes=T1
+refdes=T7
 T 38400 43000 5 10 1 1 0 0 1
 value=2kV
 }
@@ -1357,7 +1357,7 @@ nobom=true
 T 38000 42200 5 10 0 0 0 0 1
 noplace=true
 T 38200 42400 5 10 1 1 0 0 1
-refdes=T1
+refdes=T8
 T 38400 42200 5 10 1 1 0 0 1
 value=2kV
 }
@@ -1378,7 +1378,7 @@ nobom=true
 T 38000 41800 5 10 0 0 0 0 1
 noplace=true
 T 38200 42000 5 10 1 1 0 0 1
-refdes=T1
+refdes=T9
 T 38400 41800 5 10 1 1 0 0 1
 value=2kV
 }
@@ -1410,7 +1410,7 @@ footprint=wireToBoard.fp
 T 90000 51500 5 10 0 0 0 6 1
 value=-
 T 90000 52900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB14
 }
 N 88300 52600 88300 51700 4
 C 90000 53500 1 0 1 connector4-1.sym
@@ -1422,7 +1422,7 @@ footprint=wireToBoard.fp
 T 90000 53500 5 10 0 0 0 6 1
 value=-
 T 90000 54900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB13
 }
 N 88300 54600 88300 53700 4
 C 90000 55500 1 0 1 connector4-1.sym
@@ -1434,7 +1434,7 @@ footprint=wireToBoard.fp
 T 90000 55500 5 10 0 0 0 6 1
 value=-
 T 90000 56900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB12
 }
 N 88300 56600 88300 55700 4
 C 90000 57500 1 0 1 connector4-1.sym
@@ -1446,7 +1446,7 @@ footprint=wireToBoard.fp
 T 90000 57500 5 10 0 0 0 6 1
 value=-
 T 90000 58900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB11
 }
 N 88300 58600 88300 57700 4
 C 90000 59500 1 0 1 connector4-1.sym
@@ -1458,7 +1458,7 @@ footprint=wireToBoard.fp
 T 90000 59500 5 10 0 0 0 6 1
 value=-
 T 90000 60900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB10
 }
 N 88300 60600 88300 59700 4
 C 90000 61500 1 0 1 connector4-1.sym
@@ -1470,7 +1470,7 @@ footprint=wireToBoard.fp
 T 90000 61500 5 10 0 0 0 6 1
 value=-
 T 90000 62900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB9
 }
 N 88300 62600 88300 61700 4
 C 90000 63500 1 0 1 connector4-1.sym
@@ -1482,7 +1482,7 @@ footprint=wireToBoard.fp
 T 90000 63500 5 10 0 0 0 6 1
 value=-
 T 90000 64900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB8
 }
 N 88300 64600 88300 63700 4
 C 90000 65500 1 0 1 connector4-1.sym
@@ -1494,7 +1494,7 @@ footprint=wireToBoard.fp
 T 90000 65500 5 10 0 0 0 6 1
 value=-
 T 90000 66900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB7
 }
 N 88300 66600 88300 65700 4
 C 90000 67500 1 0 1 connector4-1.sym
@@ -1506,7 +1506,7 @@ footprint=wireToBoard.fp
 T 90000 67500 5 10 0 0 0 6 1
 value=-
 T 90000 68900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB6
 }
 N 88300 68600 88300 67700 4
 C 77200 50100 1 0 0 barrier_terminal_block_325mil_9p.sym
@@ -1577,7 +1577,7 @@ kitting_d=not known to be available in machine usable format
 T 60600 52300 5 10 0 0 0 0 1
 search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7rqd7?P=1yvgcdjZ1yvgchuZ1z0wxoj&Ns=Pricing%7c0
 T 60900 48100 5 10 1 1 90 0 1
-refdes=TERM?
+refdes=TERM2
 }
 T 72250 53900 9 10 1 0 0 0 4
 Vext/GND, SigP - Probe, Servo, 5V Blower Hotend Fan
@@ -1686,7 +1686,7 @@ kitting=other
 T 81000 69000 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
 T 68400 69800 5 10 1 1 90 6 1
-refdes=MEZ2
+refdes=MEZ4
 }
 N 68800 67000 68800 69000 4
 N 68800 69000 68900 69000 4
@@ -1791,7 +1791,7 @@ footprint=mount_m2
 T 68000 69800 5 10 0 0 90 0 1
 value=2mm
 T 67400 70000 5 10 1 1 90 4 1
-refdes=H?
+refdes=H14
 }
 C 68000 69300 1 90 0 hole-1.sym
 {
@@ -1802,7 +1802,7 @@ footprint=mount_m2
 T 68000 69300 5 10 0 0 90 0 1
 value=2mm
 T 67400 69500 5 10 1 1 90 4 1
-refdes=H?
+refdes=H13
 }
 C 81700 69300 1 90 0 hole-1.sym
 {
@@ -1813,7 +1813,7 @@ footprint=mount_m2
 T 81700 69300 5 10 0 0 90 0 1
 value=2mm
 T 81100 69500 5 10 1 1 90 4 1
-refdes=H?
+refdes=H15
 }
 C 81700 69800 1 90 0 hole-1.sym
 {
@@ -1824,7 +1824,7 @@ footprint=mount_m2
 T 81700 69800 5 10 0 0 90 0 1
 value=2mm
 T 81100 70000 5 10 1 1 90 4 1
-refdes=H?
+refdes=H16
 }
 N 68900 70600 68800 70600 4
 N 68800 68800 68800 71800 4
@@ -2016,7 +2016,7 @@ footprint_alt=idc_offset_15mil_reverse
 T 64950 72150 5 10 0 0 90 0 1
 search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
 T 68550 72150 5 10 1 1 90 0 1
-refdes=OFFSET1
+refdes=OFFSET4
 }
 C 74250 76150 1 90 1 connector13-2.sym
 {
@@ -2029,7 +2029,7 @@ value=2mm
 T 74250 76150 5 10 0 0 0 0 1
 description=unknown
 T 68550 75450 5 10 1 1 270 8 1
-refdes=RING1
+refdes=RING4
 }
 N 69050 76200 69050 76150 4
 N 69450 76150 69450 76200 4
@@ -2115,7 +2115,7 @@ kitting=other
 T 43600 68900 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
 T 31000 69700 5 10 1 1 90 6 1
-refdes=MEZ1
+refdes=MEZ2
 }
 C 36900 76200 1 90 1 connector13-2.sym
 {
@@ -2128,7 +2128,7 @@ value=2mm
 T 36900 76200 5 10 0 0 0 0 1
 description=unknown
 T 31200 75500 5 10 1 1 270 8 1
-refdes=RING1
+refdes=RING2
 }
 C 33300 71800 1 90 0 idc_offset.sym
 {
@@ -2167,7 +2167,7 @@ footprint_alt=idc_offset_15mil_reverse
 T 27600 72200 5 10 0 0 90 0 1
 search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
 T 31200 72200 5 10 1 1 90 0 1
-refdes=OFFSET1
+refdes=OFFSET2
 }
 N 31500 67000 31500 69000 4
 N 31500 69000 31600 69000 4
@@ -2272,7 +2272,7 @@ footprint=mount_m2
 T 30700 69800 5 10 0 0 90 0 1
 value=2mm
 T 30100 70000 5 10 1 1 90 4 1
-refdes=H?
+refdes=H6
 }
 C 30700 69300 1 90 0 hole-1.sym
 {
@@ -2283,7 +2283,7 @@ footprint=mount_m2
 T 30700 69300 5 10 0 0 90 0 1
 value=2mm
 T 30100 69500 5 10 1 1 90 4 1
-refdes=H?
+refdes=H5
 }
 C 44400 69300 1 90 0 hole-1.sym
 {
@@ -2294,7 +2294,7 @@ footprint=mount_m2
 T 44400 69300 5 10 0 0 90 0 1
 value=2mm
 T 43800 69500 5 10 1 1 90 4 1
-refdes=H?
+refdes=H7
 }
 C 44400 69800 1 90 0 hole-1.sym
 {
@@ -2305,7 +2305,7 @@ footprint=mount_m2
 T 44400 69800 5 10 0 0 90 0 1
 value=2mm
 T 43800 70000 5 10 1 1 90 4 1
-refdes=H?
+refdes=H8
 }
 N 31600 70600 31500 70600 4
 N 31500 68800 31500 71800 4
@@ -2618,7 +2618,7 @@ footprint=mount_m2
 T 41300 31200 5 10 0 0 270 0 1
 value=2mm
 T 41900 31000 5 10 1 1 270 4 1
-refdes=H?
+refdes=H3
 }
 C 41300 31700 1 270 0 hole-1.sym
 {
@@ -2629,7 +2629,7 @@ footprint=mount_m2
 T 41300 31700 5 10 0 0 270 0 1
 value=2mm
 T 41900 31500 5 10 1 1 270 4 1
-refdes=H?
+refdes=H4
 }
 C 27600 31700 1 270 0 hole-1.sym
 {
@@ -2640,7 +2640,7 @@ footprint=mount_m2
 T 27600 31700 5 10 0 0 270 0 1
 value=2mm
 T 28200 31500 5 10 1 1 270 4 1
-refdes=H?
+refdes=H2
 }
 C 27600 31200 1 270 0 hole-1.sym
 {
@@ -2651,7 +2651,7 @@ footprint=mount_m2
 T 27600 31200 5 10 0 0 270 0 1
 value=2mm
 T 28200 31000 5 10 1 1 270 4 1
-refdes=H?
+refdes=H1
 }
 N 40400 30400 40500 30400 4
 N 40500 32200 40500 29200 4
@@ -2974,7 +2974,7 @@ kitting=other
 T 69000 32000 5 10 0 0 180 0 1
 kitting_d=not known to be available in machine usable format
 T 81600 31200 5 10 1 1 270 6 1
-refdes=MEZ2
+refdes=MEZ3
 }
 N 81200 32000 81200 37000 4
 N 81200 32000 81100 32000 4
@@ -3079,7 +3079,7 @@ footprint=mount_m2
 T 82000 31200 5 10 0 0 270 0 1
 value=2mm
 T 82600 31000 5 10 1 1 270 4 1
-refdes=H?
+refdes=H11
 }
 C 82000 31700 1 270 0 hole-1.sym
 {
@@ -3090,7 +3090,7 @@ footprint=mount_m2
 T 82000 31700 5 10 0 0 270 0 1
 value=2mm
 T 82600 31500 5 10 1 1 270 4 1
-refdes=H?
+refdes=H12
 }
 C 68300 31700 1 270 0 hole-1.sym
 {
@@ -3101,7 +3101,7 @@ footprint=mount_m2
 T 68300 31700 5 10 0 0 270 0 1
 value=2mm
 T 68900 31500 5 10 1 1 270 4 1
-refdes=H?
+refdes=H10
 }
 C 68300 31200 1 270 0 hole-1.sym
 {
@@ -3112,7 +3112,7 @@ footprint=mount_m2
 T 68300 31200 5 10 0 0 270 0 1
 value=2mm
 T 68900 31000 5 10 1 1 270 4 1
-refdes=H?
+refdes=H9
 }
 N 81100 30400 81200 30400 4
 N 81200 32200 81200 29200 4
@@ -3304,7 +3304,7 @@ footprint_alt=idc_offset_15mil_reverse
 T 85050 28850 5 10 0 0 270 0 1
 search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
 T 81450 28850 5 10 1 1 270 0 1
-refdes=OFFSET1
+refdes=OFFSET3
 }
 C 75750 24850 1 270 1 connector13-2.sym
 {
@@ -3317,7 +3317,7 @@ value=2mm
 T 75750 24850 5 10 0 0 180 0 1
 description=unknown
 T 81450 25550 5 10 1 1 90 8 1
-refdes=RING1
+refdes=RING3
 }
 N 80950 24800 80950 24850 4
 N 80550 24850 80550 24800 4
@@ -3459,7 +3459,7 @@ kitting_d=not known to be available in machine usable format
 T 60600 55200 5 10 0 0 0 0 1
 search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7rqd7?P=1yvgcdjZ1yvgchuZ1z0wxoj&Ns=Pricing%7c0
 T 60900 51000 5 10 1 1 90 0 1
-refdes=TERM?
+refdes=TERM1
 }
 C 81100 48500 1 0 0 barrier_terminal_block_325mil_9p.sym
 {
@@ -3494,7 +3494,7 @@ kitting_d=not known to be available in machine usable format
 T 81400 54900 5 10 0 0 0 0 1
 search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
 T 81700 50800 5 10 1 1 90 0 1
-refdes=BAR1
+refdes=BAR3
 }
 C 75800 50200 1 0 0 input-2.sym
 {
@@ -3835,7 +3835,7 @@ footprint=wireToBoard.fp
 T 90000 49500 5 10 0 0 0 6 1
 value=-
 T 90000 50900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB15
 }
 N 88300 50600 88300 49700 4
 C 90000 31500 1 0 1 connector4-1.sym
@@ -3847,7 +3847,7 @@ footprint=wireToBoard.fp
 T 90000 31500 5 10 0 0 0 6 1
 value=-
 T 90000 32900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB24
 }
 N 88300 32600 88300 31700 4
 C 90000 33500 1 0 1 connector4-1.sym
@@ -3859,7 +3859,7 @@ footprint=wireToBoard.fp
 T 90000 33500 5 10 0 0 0 6 1
 value=-
 T 90000 34900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB23
 }
 N 88300 34600 88300 33700 4
 C 90000 35500 1 0 1 connector4-1.sym
@@ -3871,7 +3871,7 @@ footprint=wireToBoard.fp
 T 90000 35500 5 10 0 0 0 6 1
 value=-
 T 90000 36900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB22
 }
 N 88300 36600 88300 35700 4
 C 90000 37500 1 0 1 connector4-1.sym
@@ -3883,7 +3883,7 @@ footprint=wireToBoard.fp
 T 90000 37500 5 10 0 0 0 6 1
 value=-
 T 90000 38900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB21
 }
 N 88300 38600 88300 37700 4
 C 90000 39500 1 0 1 connector4-1.sym
@@ -3895,7 +3895,7 @@ footprint=wireToBoard.fp
 T 90000 39500 5 10 0 0 0 6 1
 value=-
 T 90000 40900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB20
 }
 N 88300 40600 88300 39700 4
 C 90000 41500 1 0 1 connector4-1.sym
@@ -3907,7 +3907,7 @@ footprint=wireToBoard.fp
 T 90000 41500 5 10 0 0 0 6 1
 value=-
 T 90000 42900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB19
 }
 N 88300 42600 88300 41700 4
 C 90000 43500 1 0 1 connector4-1.sym
@@ -3919,7 +3919,7 @@ footprint=wireToBoard.fp
 T 90000 43500 5 10 0 0 0 6 1
 value=-
 T 90000 44900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB18
 }
 N 88300 44600 88300 43700 4
 C 90000 45500 1 0 1 connector4-1.sym
@@ -3931,7 +3931,7 @@ footprint=wireToBoard.fp
 T 90000 45500 5 10 0 0 0 6 1
 value=-
 T 90000 46900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB17
 }
 N 88300 46600 88300 45700 4
 C 90000 47500 1 0 1 connector4-1.sym
@@ -3943,7 +3943,7 @@ footprint=wireToBoard.fp
 T 90000 47500 5 10 0 0 0 6 1
 value=-
 T 90000 48900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB16
 }
 N 88300 48600 88300 47700 4
 C 90000 29500 1 0 1 connector4-1.sym
@@ -3955,7 +3955,7 @@ footprint=wireToBoard.fp
 T 90000 29500 5 10 0 0 0 6 1
 value=-
 T 90000 30900 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB25
 }
 N 88300 30600 88300 29700 4
 C 90000 69800 1 0 1 connector4-1.sym
@@ -3967,7 +3967,7 @@ footprint=wireToBoard.fp
 T 90000 69800 5 10 0 0 0 6 1
 value=-
 T 90000 71200 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB5
 }
 N 88300 70900 88300 70000 4
 C 90000 71800 1 0 1 connector4-1.sym
@@ -3979,7 +3979,7 @@ footprint=wireToBoard.fp
 T 90000 71800 5 10 0 0 0 6 1
 value=-
 T 90000 73200 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB4
 }
 N 88300 72900 88300 72000 4
 C 90000 73800 1 0 1 connector4-1.sym
@@ -3991,7 +3991,7 @@ footprint=wireToBoard.fp
 T 90000 73800 5 10 0 0 0 6 1
 value=-
 T 90000 75200 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB3
 }
 N 88300 74900 88300 74000 4
 C 90000 75800 1 0 1 connector4-1.sym
@@ -4003,7 +4003,7 @@ footprint=wireToBoard.fp
 T 90000 75800 5 10 0 0 0 6 1
 value=-
 T 90000 77200 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB2
 }
 N 88300 76900 88300 76000 4
 C 90000 77800 1 0 1 connector4-1.sym
@@ -4015,7 +4015,7 @@ footprint=wireToBoard.fp
 T 90000 77800 5 10 0 0 0 6 1
 value=-
 T 90000 79200 5 10 1 1 0 6 1
-refdes=WTB?
+refdes=WTB1
 }
 N 88300 78900 88300 78000 4
 C 57500 50400 1 0 0 input-2.sym
