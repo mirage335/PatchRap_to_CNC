@@ -11,6 +11,13 @@ __Design__
 USA companies provide all parts in these schematics.
 
 __Safety__
+Contrary to typical RAMBo motherboard expectations, Vsys directly from PSU is used for Hotend power, and may be unfused.
+
+LulzBot Mini, Taz5, and similar, connectors, must be tested to adhere to specified Hotend Heater polarity. Reverse connection may present unfused (all RAMBo motherboard fuses bypassed) short-circuit load exceeding 20A, severely overloading MOSFET, wiring, and connectors.
+
+
+__Reference__
+https://www.mouser.com/Semiconductors/Discrete-Semiconductors/Diodes-Rectifiers/_/N-ax1ma?P=1yzs6ioZ1yx8ncqZ1z0zlhtZ1z0zl2wZ1z0zlrjZ1z0zls5Z1z0z63x&Rl=ax1maZgjdhq5Z1yuoc70Z1yuoasoSGTax1maZgjdhqcZ1yop3uaZ1yokr6uSGT&Ns=Pricing|0
 
 
 __Copyright__

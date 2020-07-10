@@ -63,7 +63,7 @@ kitting=tape-no-leader
 T 35200 58900 5 10 1 1 0 0 1
 value=2.2k
 T 35400 58800 5 10 1 1 0 0 1
-refdes=R1
+refdes=R10
 }
 C 34800 58100 1 0 0 resistor-1.sym
 {
@@ -94,7 +94,7 @@ kitting=tape-no-leader
 T 35200 58100 5 10 1 1 0 0 1
 value=2.2k
 T 35400 58000 5 10 1 1 0 0 1
-refdes=R2
+refdes=R11
 }
 C 35400 60900 1 270 1 gnd-1.sym
 C 35400 59900 1 270 0 gnd-1.sym
@@ -249,7 +249,7 @@ kitting=tape-no-leader
 T 35200 50800 5 10 1 1 0 0 1
 value=2.2k
 T 35400 50700 5 10 1 1 0 0 1
-refdes=R3
+refdes=R12
 }
 T 24300 16900 9 10 1 0 0 0 9
 STEP
@@ -335,7 +335,7 @@ kitting=tape-no-leader
 T 35200 40900 5 10 1 1 0 0 1
 value=2.2k
 T 35400 40800 5 10 1 1 0 0 1
-refdes=R4
+refdes=R13
 }
 C 34800 40100 1 0 0 resistor-1.sym
 {
@@ -366,7 +366,7 @@ kitting=tape-no-leader
 T 35200 40100 5 10 1 1 0 0 1
 value=2.2k
 T 35400 40000 5 10 1 1 0 0 1
-refdes=R5
+refdes=R14
 }
 C 35400 42900 1 270 1 gnd-1.sym
 C 35400 41900 1 270 0 gnd-1.sym
@@ -848,25 +848,6 @@ N 36800 59400 35700 59400 4
 N 36800 59000 35700 59000 4
 N 36800 58600 35700 58600 4
 N 36800 58200 35700 58200 4
-C 33100 41100 1 180 0 jumper-1.sym
-{
-T 32800 40600 5 8 0 0 180 0 1
-device=JUMPER
-T 33100 41100 5 10 0 0 90 0 1
-footprint=0201
-T 33100 41100 5 10 0 0 90 0 1
-description=-
-T 33100 41100 5 10 0 0 90 0 1
-value=-
-T 33100 41100 5 10 0 0 270 0 1
-nobom=true
-T 33100 41100 5 10 0 0 270 0 1
-noplace=true
-T 33100 40700 5 10 1 1 180 0 1
-refdes=J1
-}
-C 33100 39800 1 0 1 gnd-1.sym
-C 32800 41100 1 0 0 vee-1.sym
 C 38200 79600 1 0 0 gnd-1.sym
 C 31300 79700 1 90 0 vee-1.sym
 C 38300 79500 1 0 0 connector4-2.sym
@@ -1008,41 +989,6 @@ kitting_d=not known to be available in machine usable format
 T 34100 86200 5 10 1 1 0 6 1
 refdes=BRD1
 }
-C 77200 47200 1 0 0 barrier_terminal_block_325mil_9p.sym
-{
-T 77500 50600 5 10 0 0 0 0 1
-device=barrier_terminal_block_325mil_9p
-T 77500 50800 5 10 0 0 0 0 1
-footprint=barrier_terminal_block_325mil_9p
-T 77500 51200 5 10 0 0 0 0 1
-value=325mil
-T 77500 51400 5 10 0 0 0 0 1
-description=$4.19 MOUSER 538-38700-6109
-T 77500 51600 5 10 0 0 0 0 1
-cost=4.19
-T 77500 51800 5 10 0 0 0 0 1
-mfr=molex
-T 77500 52000 5 10 0 0 0 0 1
-mfrpn=38700-6109
-T 77500 52200 5 10 0 0 0 0 1
-dst=Mouser
-T 77500 52400 5 10 0 0 0 0 1
-dstpn=538-38700-6109
-T 77500 52600 5 10 0 0 0 0 1
-link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
-T 77500 52800 5 10 0 0 0 0 1
-link_page=1
-T 77500 53000 5 10 0 0 0 0 1
-supplier=c
-T 77500 53200 5 10 0 0 0 0 1
-kitting=other
-T 77500 53400 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-T 77500 53600 5 10 0 0 0 0 1
-search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
-T 77800 49500 5 10 1 1 90 0 1
-refdes=BAR2
-}
 C 60300 43000 1 0 0 terminal_block_5mm_9p.sym
 {
 T 60600 46400 5 10 0 0 0 0 1
@@ -1078,97 +1024,53 @@ search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7
 T 60900 45200 5 10 1 1 90 0 1
 refdes=TERM3
 }
-C 4100 40400 1 0 1 connector2-2.sym
+C 11000 30700 1 0 1 connector2-2.sym
 {
-T 3800 41650 5 10 0 0 0 6 1
+T 10700 31950 5 10 0 0 0 6 1
 device=CONNECTOR_2
-T 3800 41850 5 10 0 0 0 6 1
+T 10700 32150 5 10 0 0 0 6 1
 footprint=XT60
-T 4100 40400 5 10 0 0 0 6 1
+T 11000 30700 5 10 0 0 0 6 1
 description=$0.80 HobbyKing XT60
-T 4100 40400 5 10 0 0 0 6 1
+T 11000 30700 5 10 0 0 0 6 1
 value=60A
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 cost=$0.80
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 mfr=HobbyKing
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 mfrpn=XT60
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 dst=HobbyKing
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 dstpn=XT60
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 link_page=N/A
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 supplier=c
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 kitting=other
-T 4100 40400 5 10 0 0 0 0 1
+T 11000 30700 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
-T 3400 41400 5 10 1 1 0 0 1
+T 10300 31700 5 10 1 1 0 0 1
 refdes=Vheat1
 }
-C 4500 41200 1 0 1 generic-power.sym
+C 11200 32500 1 0 1 generic-power.sym
 {
-T 4300 41450 5 10 1 1 0 3 1
+T 11000 32750 5 10 1 1 0 3 1
 net=Vsys:1
 }
-N 4300 41200 4100 41200 4
-C 5500 40900 1 180 0 input-2.sym
+C 12400 31200 1 180 0 input-2.sym
 {
-T 4900 40200 5 10 0 0 180 0 1
+T 11800 30500 5 10 0 0 180 0 1
 device=none
-T 5500 40700 5 10 1 0 180 0 1
+T 12400 31000 5 10 1 0 180 0 1
 net=Heater:1
-T 5000 40800 5 10 1 1 180 7 1
+T 11900 31100 5 10 1 1 180 7 1
 value=INPUT
 }
-C 4100 39100 1 0 1 connector2-2.sym
-{
-T 3800 40350 5 10 0 0 0 6 1
-device=CONNECTOR_2
-T 3800 40550 5 10 0 0 0 6 1
-footprint=XT60
-T 4100 39100 5 10 0 0 0 6 1
-description=$0.80 HobbyKing XT60
-T 4100 39100 5 10 0 0 0 6 1
-value=60A
-T 4100 39100 5 10 0 0 0 0 1
-cost=$0.80
-T 4100 39100 5 10 0 0 0 0 1
-mfr=HobbyKing
-T 4100 39100 5 10 0 0 0 0 1
-mfrpn=XT60
-T 4100 39100 5 10 0 0 0 0 1
-dst=HobbyKing
-T 4100 39100 5 10 0 0 0 0 1
-dstpn=XT60
-T 4100 39100 5 10 0 0 0 0 1
-link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
-T 4100 39100 5 10 0 0 0 0 1
-link_page=N/A
-T 4100 39100 5 10 0 0 0 0 1
-supplier=c
-T 4100 39100 5 10 0 0 0 0 1
-kitting=other
-T 4100 39100 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-T 3400 40100 5 10 1 1 0 0 1
-refdes=Vheat2
-}
-C 5500 40000 1 180 0 input-2.sym
-{
-T 4900 39300 5 10 0 0 180 0 1
-device=none
-T 5500 39800 5 10 1 0 180 0 1
-net=Heater:1
-T 5000 39900 5 10 1 1 180 7 1
-value=INPUT
-}
-C 4100 39700 1 270 0 vee-1.sym
 N 31300 80300 31300 79900 4
 C 39400 79900 1 0 0 illustration_breadboard.sym
 {
@@ -1509,41 +1411,6 @@ T 90000 68900 5 10 1 1 0 6 1
 refdes=WTB6
 }
 N 88300 68600 88300 67700 4
-C 77200 50100 1 0 0 barrier_terminal_block_325mil_9p.sym
-{
-T 77500 53500 5 10 0 0 0 0 1
-device=barrier_terminal_block_325mil_9p
-T 77500 53700 5 10 0 0 0 0 1
-footprint=barrier_terminal_block_325mil_9p
-T 77500 54100 5 10 0 0 0 0 1
-value=325mil
-T 77500 54300 5 10 0 0 0 0 1
-description=$4.19 MOUSER 538-38700-6109
-T 77500 54500 5 10 0 0 0 0 1
-cost=4.19
-T 77500 54700 5 10 0 0 0 0 1
-mfr=molex
-T 77500 54900 5 10 0 0 0 0 1
-mfrpn=38700-6109
-T 77500 55100 5 10 0 0 0 0 1
-dst=Mouser
-T 77500 55300 5 10 0 0 0 0 1
-dstpn=538-38700-6109
-T 77500 55500 5 10 0 0 0 0 1
-link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
-T 77500 55700 5 10 0 0 0 0 1
-link_page=1
-T 77500 55900 5 10 0 0 0 0 1
-supplier=c
-T 77500 56100 5 10 0 0 0 0 1
-kitting=other
-T 77500 56300 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-T 77500 56500 5 10 0 0 0 0 1
-search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
-T 77800 52400 5 10 1 1 90 0 1
-refdes=BAR1
-}
 C 60300 45900 1 0 0 terminal_block_5mm_9p.sym
 {
 T 60600 49300 5 10 0 0 0 0 1
@@ -1579,11 +1446,6 @@ search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7
 T 60900 48100 5 10 1 1 90 0 1
 refdes=TERM2
 }
-T 72250 53900 9 10 1 0 0 0 4
-Vext/GND, SigP - Probe, Servo, 5V Blower Hotend Fan
-Vsys/Vee, Ap/Am & Bp/Bm - Stepper Motor, Vsys Motor Fan, Vsys Hotend Fan
-Vsys/Vee, SigP & PWMa & PWMd - Hotend (Thermistor, Heater, Cooling)
-
 N 31500 67000 68800 67000 4
 N 31600 66900 68900 66900 4
 N 34700 66600 72000 66600 4
@@ -3461,245 +3323,6 @@ search_alt=www.mouser.com/Connectors/Terminal-Blocks/Fixed-Terminal-Blocks/_/N-7
 T 60900 51000 5 10 1 1 90 0 1
 refdes=TERM1
 }
-C 81100 48500 1 0 0 barrier_terminal_block_325mil_9p.sym
-{
-T 81400 51900 5 10 0 0 0 0 1
-device=barrier_terminal_block_325mil_9p
-T 81400 52100 5 10 0 0 0 0 1
-footprint=barrier_terminal_block_325mil_9p
-T 81400 52500 5 10 0 0 0 0 1
-value=325mil
-T 81400 52700 5 10 0 0 0 0 1
-description=$4.19 MOUSER 538-38700-6109
-T 81400 52900 5 10 0 0 0 0 1
-cost=4.19
-T 81400 53100 5 10 0 0 0 0 1
-mfr=molex
-T 81400 53300 5 10 0 0 0 0 1
-mfrpn=38700-6109
-T 81400 53500 5 10 0 0 0 0 1
-dst=Mouser
-T 81400 53700 5 10 0 0 0 0 1
-dstpn=538-38700-6109
-T 81400 53900 5 10 0 0 0 0 1
-link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
-T 81400 54100 5 10 0 0 0 0 1
-link_page=1
-T 81400 54300 5 10 0 0 0 0 1
-supplier=c
-T 81400 54500 5 10 0 0 0 0 1
-kitting=other
-T 81400 54700 5 10 0 0 0 0 1
-kitting_d=not known to be available in machine usable format
-T 81400 54900 5 10 0 0 0 0 1
-search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
-T 81700 50800 5 10 1 1 90 0 1
-refdes=BAR3
-}
-C 75800 50200 1 0 0 input-2.sym
-{
-T 76400 50900 5 10 0 0 0 0 1
-device=none
-T 75800 50400 5 10 1 0 0 0 1
-net=Heater:1
-T 76300 50300 5 10 1 1 0 7 1
-value=INPUT
-}
-C 75800 49700 1 0 0 input-2.sym
-{
-T 76400 50400 5 10 0 0 0 0 1
-device=none
-T 75700 50000 5 10 1 0 0 0 1
-net=Cooling:1
-T 76300 49800 5 10 1 1 0 7 1
-value=INPUT
-}
-C 75800 50500 1 0 0 input-2.sym
-{
-T 76400 51200 5 10 0 0 0 0 1
-device=none
-T 75800 50700 5 10 1 0 0 0 1
-net=Servo:1
-T 76300 50600 5 10 1 1 0 7 1
-value=INPUT
-}
-C 77200 49300 1 90 0 vee-1.sym
-C 80900 49200 1 90 1 generic-power.sym
-{
-T 80650 49000 5 10 1 1 90 3 1
-net=Vsys:1
-}
-C 81100 49100 1 90 0 vee-1.sym
-C 80900 49800 1 90 1 generic-power.sym
-{
-T 80650 49600 5 10 1 1 90 3 1
-net=Vsys:1
-}
-C 81100 49700 1 90 0 vee-1.sym
-C 75000 50800 1 0 0 input-2.sym
-{
-T 75600 51500 5 10 0 0 0 0 1
-device=none
-T 74900 51000 5 10 1 0 0 0 1
-net=Vext-Probe-Servo-Fan:1
-T 75500 50900 5 10 1 1 0 7 1
-value=INPUT
-}
-C 75400 52000 1 0 0 input-2.sym
-{
-T 76000 52700 5 10 0 0 0 0 1
-device=none
-T 75400 52200 5 10 1 0 0 0 1
-net=Vext-Thermistor:1
-T 75900 52100 5 10 1 1 0 7 1
-value=INPUT
-}
-C 75400 51700 1 0 0 input-2.sym
-{
-T 76000 52400 5 10 0 0 0 0 1
-device=none
-T 75400 51900 5 10 1 0 0 0 1
-net=Thermistor:1
-T 75900 51800 5 10 1 1 0 7 1
-value=INPUT
-}
-C 74900 52300 1 0 0 input-2.sym
-{
-T 75500 53000 5 10 0 0 0 0 1
-device=none
-T 74900 52500 5 10 1 0 0 0 1
-net=Probe:1
-T 75400 52400 5 10 1 1 0 7 1
-value=INPUT
-}
-C 74900 52600 1 0 0 input-2.sym
-{
-T 75500 53300 5 10 0 0 0 0 1
-device=none
-T 74900 52800 5 10 1 0 0 0 1
-net=Vext-Probe-Servo-Fan:1
-T 75400 52700 5 10 1 1 0 7 1
-value=INPUT
-}
-C 79100 50000 1 90 0 vee-1.sym
-C 79000 50400 1 0 0 input-2.sym
-{
-T 79600 51100 5 10 0 0 0 0 1
-device=none
-T 78900 50600 5 10 1 0 0 0 1
-net=Vext-Probe-Servo-Fan:1
-T 79500 50500 5 10 1 1 0 7 1
-value=INPUT
-}
-C 79100 51000 1 90 1 generic-power.sym
-{
-T 78850 50800 5 10 1 1 90 3 1
-net=Vsys:1
-}
-C 76500 51400 1 270 1 gnd-1.sym
-N 79100 50800 81100 50800 4
-N 80400 50500 81100 50500 4
-N 76300 52400 77200 52400 4
-N 76300 52700 77200 52700 4
-N 76800 52100 77200 52100 4
-N 76800 51800 77200 51800 4
-N 76800 51500 77200 51500 4
-N 79100 50200 81100 50200 4
-C 79200 51000 1 270 1 gnd-1.sym
-N 79500 51100 81100 51100 4
-L 81100 51000 81900 51000 3 0 0 0 -1 -1
-L 77200 52300 78000 52300 3 0 0 0 -1 -1
-L 81100 50100 81900 50100 3 0 0 0 -1 -1
-L 77200 51400 78000 51400 3 0 0 0 -1 -1
-C 75000 51400 1 90 1 generic-power.sym
-{
-T 74750 51200 5 10 1 1 90 3 1
-net=Vsys:1
-}
-N 75000 51200 77200 51200 4
-N 76400 50900 77200 50900 4
-L 77200 50500 78000 50500 3 0 0 0 -1 -1
-N 80900 49600 81100 49600 4
-L 81100 49500 81900 49500 3 0 0 0 -1 -1
-N 80900 49000 81100 49000 4
-L 81100 48900 81900 48900 3 0 0 0 -1 -1
-C 75800 48500 1 0 0 input-2.sym
-{
-T 76400 49200 5 10 0 0 0 0 1
-device=none
-T 75800 48700 5 10 1 0 0 0 1
-net=Bp:1
-T 76300 48600 5 10 1 1 0 7 1
-value=INPUT
-}
-C 75800 48200 1 0 0 input-2.sym
-{
-T 76400 48900 5 10 0 0 0 0 1
-device=none
-T 75800 48400 5 10 1 0 0 0 1
-net=Ap:1
-T 76300 48300 5 10 1 1 0 7 1
-value=INPUT
-}
-C 75800 47900 1 0 0 input-2.sym
-{
-T 76400 48600 5 10 0 0 0 0 1
-device=none
-T 75800 48100 5 10 1 0 0 0 1
-net=Am:1
-T 76300 48000 5 10 1 1 0 7 1
-value=INPUT
-}
-C 75800 47600 1 0 0 input-2.sym
-{
-T 76400 48300 5 10 0 0 0 0 1
-device=none
-T 75800 47800 5 10 1 0 0 0 1
-net=Bm:1
-T 76300 47700 5 10 1 1 0 7 1
-value=INPUT
-}
-C 77200 48700 1 90 0 vee-1.sym
-C 77000 49400 1 90 1 generic-power.sym
-{
-T 76750 49200 5 10 1 1 90 3 1
-net=Vsys:1
-}
-N 77000 49200 77200 49200 4
-C 76900 47300 1 270 1 gnd-1.sym
-C 80800 48600 1 270 1 gnd-1.sym
-T 72350 46950 9 10 1 0 0 0 31
-(Probe)
-   Vext
-   Probe
-x GND
-   Vext
-   Thermistor
-   GND
-
-(Chasis Fan, Servo,
-Heater, Cooling)
-x Vsys
-x Vext
-x Vee
-   Vsys
-   Vext
-   Servo
-x Vee
-x Vsys
-   Heater
-x Vee
-x Vsys
-   Cooling
-   Vee
-
-(Stepper)
-x Vsys
-x Vee
-Bp
-Ap
-Am
-Bm
 C 32000 84000 1 0 0 input-2.sym
 {
 T 32600 84700 5 10 0 0 0 0 1
@@ -4219,7 +3842,6 @@ N 58900 44400 60300 44400 4
 N 58900 44700 60300 44700 4
 C 60000 43400 1 270 1 gnd-1.sym
 C 60000 43100 1 270 1 gnd-1.sym
-L 77200 50100 78000 50100 3 0 0 0 -1 -1
 C 86900 72800 1 0 0 input-2.sym
 {
 T 87500 73500 5 10 0 0 0 0 1
@@ -4400,4 +4022,1038 @@ T 86800 58700 5 10 1 0 0 0 1
 net=Vext-Probe-Servo-Fan:1
 T 87400 58600 5 10 1 1 0 7 1
 value=INPUT
+}
+C 11100 32500 1 180 0 jumper-1.sym
+{
+T 10800 32000 5 8 0 0 180 0 1
+device=JUMPER
+T 11100 32500 5 10 0 0 90 0 1
+footprint=0201
+T 11100 32500 5 10 0 0 90 0 1
+description=-
+T 11100 32500 5 10 0 0 90 0 1
+value=-
+T 11100 32500 5 10 0 0 270 0 1
+nobom=true
+T 11100 32500 5 10 0 0 270 0 1
+noplace=true
+T 11100 32100 5 10 1 1 180 0 1
+refdes=J2
+}
+N 11000 32500 11000 31500 4
+C 11300 32500 1 0 0 vee-1.sym
+C 11600 32500 1 180 0 jumper-1.sym
+{
+T 11300 32000 5 8 0 0 180 0 1
+device=JUMPER
+T 11600 32500 5 10 0 0 90 0 1
+footprint=0201
+T 11600 32500 5 10 0 0 90 0 1
+description=-
+T 11600 32500 5 10 0 0 90 0 1
+value=-
+T 11600 32500 5 10 0 0 270 0 1
+nobom=true
+T 11600 32500 5 10 0 0 270 0 1
+noplace=true
+T 11600 32100 5 10 1 1 180 0 1
+refdes=J3
+}
+N 11500 31500 11000 31500 4
+T 25750 28850 9 10 1 0 0 6 31
+(Probe)
+   Vext
+   Probe
+x GND
+   Vext
+   Thermistor
+   GND
+
+(Chasis Fan, Servo,
+Heater, Cooling)
+x Vsys
+x Vext
+x Vee
+   Vsys
+   Vext
+   Servo
+x Vee
+x Vsys
+   Heater
+x Vee
+x Vsys
+   Cooling
+   Vee
+
+(Stepper)
+x Vsys
+x Vee
+Bp
+Ap
+Am
+Bm
+T 12100 32900 9 10 1 0 0 0 24
+_Mini_
+1. Red Motor (B-/A-)
+2. Blue Motor (B+/A+)
+3. Green (A+/B+)
+4. Black (A-/B-)
+5. Heater Cartridge (Vsys)
+6. Heater Cartridge (Heater)
+7. Red Extrusion Fan
+8. Black Extrusion Fan
+9. Red Blower Fan
+10. Black Blower Fan
+
+
+
+
+
+16. Red Extruder Nozzle Ground
+17. Red Thermistor
+18. Black Thermistor
+19. Purple Limit Switch
+20. Black Limit Switch
+
+
+
+T 8100 16500 9 10 1 0 0 0 5
+All fuses intended as permanent disable in case of catastrophic miswiring.
+Trace fuse of <6mil * >2in .
+* Continious 3A at 100degC rise, nominal 0.3A .
+* Immediate failure >20A, insubstantial evaporation of nearby materials.
+* Resistance >0.05Ohm to ensure most current takes other paths.
+C 11200 28900 1 90 0 jumper-1.sym
+{
+T 10700 29200 5 8 0 0 90 0 1
+device=JUMPER
+T 11200 28900 5 10 0 0 0 0 1
+footprint=0201
+T 11200 28900 5 10 0 0 0 0 1
+description=-
+T 11200 28900 5 10 0 0 0 0 1
+value=-
+T 11200 28900 5 10 0 0 180 0 1
+nobom=true
+T 11200 28900 5 10 0 0 180 0 1
+noplace=true
+T 10800 28900 5 10 1 1 90 0 1
+refdes=J1
+}
+C 9900 28900 1 270 1 gnd-1.sym
+C 13100 29200 1 270 0 vee-1.sym
+N 13100 29000 13100 30400 4
+N 10200 29000 10200 30000 4
+L 10300 30200 10400 30100 3 0 0 0 -1 -1
+L 10400 30100 11300 30100 3 0 0 0 -1 -1
+L 11300 30100 11400 30200 3 0 0 0 -1 -1
+L 10300 29800 10400 29900 3 0 0 0 -1 -1
+L 10400 29900 11300 29900 3 0 0 0 -1 -1
+L 11300 29900 11400 29800 3 0 0 0 -1 -1
+T 10400 30100 9 10 1 0 0 0 1
+Trace Fuse
+T 10400 29700 9 10 1 0 0 0 1
+<6mil * >2in
+N 13100 29000 11200 29000 4
+C 13100 30100 1 180 0 resistor-1.sym
+{
+T 12800 29700 5 10 0 0 180 0 1
+device=RESISTOR
+T 12900 30000 5 10 1 1 180 0 1
+refdes=R1
+T 12300 29900 5 10 1 1 0 0 1
+value=1
+}
+N 10200 30000 12200 30000 4
+C 11300 30000 1 0 0 fuse-1.sym
+{
+T 11500 30400 5 10 0 0 0 0 1
+device=FUSE
+T 11800 29900 5 10 1 1 0 0 1
+refdes=F1
+T 11500 30600 5 10 0 0 0 0 1
+symversion=0.1
+}
+C 13100 30500 1 180 0 resistor-1.sym
+{
+T 12800 30100 5 10 0 0 180 0 1
+device=RESISTOR
+T 12900 30400 5 10 1 1 180 0 1
+refdes=R2
+T 12300 30300 5 10 1 1 0 0 1
+value=1
+}
+N 12200 30000 12200 30400 4
+T 9700 34100 9 10 1 0 0 0 18
+_Taz5_
+1. Red Motor (B-/A-)
+2. Blue Motor (B+/A+)
+3. Green (A+/B+)
+4. Black (A-/B-)
+5. Heater Cartridge (Vsys)
+6. Heater Cartridge (Heater)
+7. Red Extrusion Fan
+8. Black Extrusion Fan
+9. Red Blower Fan
+10. Black Blower Fan
+
+
+
+
+15. Red Thermistor
+16. Black Thermistor
+
+T 7400 34000 9 10 1 0 0 0 18
+_Taz6_
+1. Red Motor (B-/A-)
+2. White Motor (B+/A+)
+3. Green (A+/B+)
+4. Black (A-/B-)
+5. Heater Cartridge (Vsys)
+6. Heater Cartridge (Heater)
+7. Red Extrusion Fan
+8. Black Extrusion Fan
+9. Red Blower Fan
+10. Black Blower Fan
+11. Purple Limit Switch
+12. Purple Limit Switch
+
+14. Red Ground Wire
+15. Red Thermistor
+16. Black Thermistor
+
+C 20000 28000 1 0 1 connector20-2.sym
+{
+T 19600 36550 5 10 0 0 0 6 1
+device=CONNECTOR_20
+T 19600 36750 5 10 0 0 0 6 1
+footprint=HEADER20_2
+T 20000 28000 5 10 0 0 0 6 1
+value=-
+T 20000 28000 5 10 0 0 0 6 1
+description=$0.48 MOUSER 649-68691-420HLF
+T 20000 28000 5 10 0 0 0 6 1
+cost=0.48
+T 20000 28000 5 10 0 0 0 6 1
+mfr=Amphenol FCI
+T 20000 28000 5 10 0 0 0 6 1
+mfrpn=68691-420HLF
+T 20000 28000 5 10 0 0 0 6 1
+dst=Mouser
+T 20000 28000 5 10 0 0 0 6 1
+dstpn=649-68691-420HLF
+T 20000 28000 5 10 0 0 0 6 1
+link=www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf
+T 20000 28000 5 10 0 0 0 6 1
+link_page=8
+T 20000 28000 5 10 0 0 0 6 1
+supplier=c
+T 20000 28000 5 10 0 0 0 6 1
+kitting=other
+T 20000 28000 5 10 0 0 0 6 1
+kitting_d=not known to be available in machine usable format
+T 20000 28000 5 10 0 0 0 6 1
+search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1z0xbxoZ1ytkn06Z1z0wxp6Z1ytkn39&Ns=Pricing|0
+T 19200 36600 5 10 1 1 0 0 1
+refdes=Many
+}
+C 23200 32800 1 0 1 input-2.sym
+{
+T 22600 33500 5 10 0 0 0 6 1
+device=none
+T 23200 33000 5 10 1 0 0 6 1
+net=Vext-Probe-Servo-Fan:1
+T 22700 32900 5 10 1 1 0 1 1
+value=INPUT
+}
+C 23600 35200 1 0 1 input-2.sym
+{
+T 23000 35900 5 10 0 0 0 6 1
+device=none
+T 23600 35400 5 10 1 0 0 6 1
+net=Ap:1
+T 23100 35300 5 10 1 1 0 1 1
+value=INPUT
+}
+C 23600 34800 1 0 1 input-2.sym
+{
+T 23000 35500 5 10 0 0 0 6 1
+device=none
+T 23600 35000 5 10 1 0 0 6 1
+net=Am:1
+T 23100 34900 5 10 1 1 0 1 1
+value=INPUT
+}
+C 21200 35400 1 270 0 jumper-1.sym
+{
+T 21700 35100 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 35400 5 10 0 0 180 0 1
+footprint=0201
+T 21200 35400 5 10 0 0 180 0 1
+description=-
+T 21200 35400 5 10 0 0 180 0 1
+value=-
+T 21200 35400 5 10 0 0 0 0 1
+nobom=true
+T 21200 35400 5 10 0 0 0 0 1
+noplace=true
+T 21600 35400 5 10 1 1 270 0 1
+refdes=J15
+}
+C 21200 35700 1 270 0 jumper-1.sym
+{
+T 21700 35400 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 35700 5 10 0 0 180 0 1
+footprint=0201
+T 21200 35700 5 10 0 0 180 0 1
+description=-
+T 21200 35700 5 10 0 0 180 0 1
+value=-
+T 21200 35700 5 10 0 0 0 0 1
+nobom=true
+T 21200 35700 5 10 0 0 0 0 1
+noplace=true
+T 21600 35700 5 10 1 1 270 0 1
+refdes=J14
+}
+C 23600 35500 1 0 1 input-2.sym
+{
+T 23000 36200 5 10 0 0 0 6 1
+device=none
+T 23600 35700 5 10 1 0 0 6 1
+net=Bp:1
+T 23100 35600 5 10 1 1 0 1 1
+value=INPUT
+}
+C 23600 34500 1 0 1 input-2.sym
+{
+T 23000 35200 5 10 0 0 0 6 1
+device=none
+T 23600 34700 5 10 1 0 0 6 1
+net=Bm:1
+T 23100 34600 5 10 1 1 0 1 1
+value=INPUT
+}
+C 21200 34700 1 270 0 jumper-1.sym
+{
+T 21700 34400 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 34700 5 10 0 0 180 0 1
+footprint=0201
+T 21200 34700 5 10 0 0 180 0 1
+description=-
+T 21200 34700 5 10 0 0 180 0 1
+value=-
+T 21200 34700 5 10 0 0 0 0 1
+nobom=true
+T 21200 34700 5 10 0 0 0 0 1
+noplace=true
+T 21600 34700 5 10 1 1 270 0 1
+refdes=J17
+}
+C 21200 35000 1 270 0 jumper-1.sym
+{
+T 21700 34700 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 35000 5 10 0 0 180 0 1
+footprint=0201
+T 21200 35000 5 10 0 0 180 0 1
+description=-
+T 21200 35000 5 10 0 0 180 0 1
+value=-
+T 21200 35000 5 10 0 0 0 0 1
+nobom=true
+T 21200 35000 5 10 0 0 0 0 1
+noplace=true
+T 21600 35000 5 10 1 1 270 0 1
+refdes=J16
+}
+N 21200 35300 21200 35600 4
+N 21200 34900 21200 34600 4
+C 23600 36300 1 0 1 input-2.sym
+{
+T 23000 37000 5 10 0 0 0 6 1
+device=none
+T 23600 36500 5 10 1 0 0 6 1
+net=Bp:1
+T 23100 36400 5 10 1 1 0 1 1
+value=INPUT
+}
+C 23600 36600 1 0 1 input-2.sym
+{
+T 23000 37300 5 10 0 0 0 6 1
+device=none
+T 23600 36800 5 10 1 0 0 6 1
+net=Bm:1
+T 23100 36700 5 10 1 1 0 1 1
+value=INPUT
+}
+C 23600 36000 1 0 1 input-2.sym
+{
+T 23000 36700 5 10 0 0 0 6 1
+device=none
+T 23600 36200 5 10 1 0 0 6 1
+net=Ap:1
+T 23100 36100 5 10 1 1 0 1 1
+value=INPUT
+}
+C 23600 36900 1 0 1 input-2.sym
+{
+T 23000 37600 5 10 0 0 0 6 1
+device=none
+T 23600 37100 5 10 1 0 0 6 1
+net=Am:1
+T 23100 37000 5 10 1 1 0 1 1
+value=INPUT
+}
+C 21200 36200 1 270 0 jumper-1.sym
+{
+T 21700 35900 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 36200 5 10 0 0 180 0 1
+footprint=0201
+T 21200 36200 5 10 0 0 180 0 1
+description=-
+T 21200 36200 5 10 0 0 180 0 1
+value=-
+T 21200 36200 5 10 0 0 0 0 1
+nobom=true
+T 21200 36200 5 10 0 0 0 0 1
+noplace=true
+T 21600 36200 5 10 1 1 270 0 1
+refdes=J13
+}
+C 21200 36500 1 270 0 jumper-1.sym
+{
+T 21700 36200 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 36500 5 10 0 0 180 0 1
+footprint=0201
+T 21200 36500 5 10 0 0 180 0 1
+description=-
+T 21200 36500 5 10 0 0 180 0 1
+value=-
+T 21200 36500 5 10 0 0 0 0 1
+nobom=true
+T 21200 36500 5 10 0 0 0 0 1
+noplace=true
+T 21600 36500 5 10 1 1 270 0 1
+refdes=J12
+}
+C 21200 36800 1 270 0 jumper-1.sym
+{
+T 21700 36500 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 36800 5 10 0 0 180 0 1
+footprint=0201
+T 21200 36800 5 10 0 0 180 0 1
+description=-
+T 21200 36800 5 10 0 0 180 0 1
+value=-
+T 21200 36800 5 10 0 0 0 0 1
+nobom=true
+T 21200 36800 5 10 0 0 0 0 1
+noplace=true
+T 21600 36800 5 10 1 1 270 0 1
+refdes=J11
+}
+C 21200 37100 1 270 0 jumper-1.sym
+{
+T 21700 36800 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 37100 5 10 0 0 180 0 1
+footprint=0201
+T 21200 37100 5 10 0 0 180 0 1
+description=-
+T 21200 37100 5 10 0 0 180 0 1
+value=-
+T 21200 37100 5 10 0 0 0 0 1
+nobom=true
+T 21200 37100 5 10 0 0 0 0 1
+noplace=true
+T 21600 37100 5 10 1 1 270 0 1
+refdes=J10
+}
+N 20500 35700 20500 36400 4
+N 20500 36400 22200 36400 4
+N 21200 36400 21200 36100 4
+N 20400 36100 20400 36700 4
+N 20400 36700 22200 36700 4
+N 21200 36700 21200 37000 4
+C 21800 33500 1 270 1 generic-power.sym
+{
+T 22050 33700 5 10 1 1 270 3 1
+net=Vsys:1
+}
+L 19700 33900 19800 33800 3 0 0 0 -1 -1
+L 19800 33800 20700 33800 3 0 0 0 -1 -1
+L 20700 33800 20800 33900 3 0 0 0 -1 -1
+L 19700 33500 19800 33600 3 0 0 0 -1 -1
+L 19800 33600 20700 33600 3 0 0 0 -1 -1
+L 20700 33600 20800 33500 3 0 0 0 -1 -1
+C 20900 32900 1 0 0 fuse-1.sym
+{
+T 21100 33300 5 10 0 0 0 0 1
+device=FUSE
+T 21100 33500 5 10 0 0 0 0 1
+symversion=0.1
+T 21400 32800 5 10 1 1 0 0 1
+refdes=F12
+}
+C 20900 33700 1 0 0 fuse-1.sym
+{
+T 21100 34100 5 10 0 0 0 0 1
+device=FUSE
+T 21100 34300 5 10 0 0 0 0 1
+symversion=0.1
+T 21400 33600 5 10 1 1 0 0 1
+refdes=F11
+}
+L 19700 33100 19800 33000 3 0 0 0 -1 -1
+L 19800 33000 20700 33000 3 0 0 0 -1 -1
+L 20700 33000 20800 33100 3 0 0 0 -1 -1
+L 19700 32700 19800 32800 3 0 0 0 -1 -1
+L 19800 32800 20700 32800 3 0 0 0 -1 -1
+L 20700 32800 20800 32700 3 0 0 0 -1 -1
+C 19900 34300 1 270 1 generic-power.sym
+{
+T 20150 34500 5 10 1 1 270 3 1
+net=Vsys:1
+}
+C 21300 34000 1 0 1 input-2.sym
+{
+T 20700 34700 5 10 0 0 0 6 1
+device=none
+T 21300 34200 5 10 1 0 0 6 1
+net=Heater:1
+T 20800 34100 5 10 1 1 0 1 1
+value=INPUT
+}
+L 20500 32600 20700 32700 3 0 0 0 -1 -1
+L 19700 28700 19800 28800 3 0 0 0 -1 -1
+L 19800 28800 20700 28800 3 0 0 0 -1 -1
+L 20700 28800 20800 28700 3 0 0 0 -1 -1
+L 20500 28600 20700 28700 3 0 0 0 -1 -1
+L 19700 29100 19800 29000 3 0 0 0 -1 -1
+L 19800 29000 20700 29000 3 0 0 0 -1 -1
+L 20700 29000 20800 29100 3 0 0 0 -1 -1
+C 20200 28600 1 90 1 gnd-1.sym
+C 23600 28800 1 0 1 input-2.sym
+{
+T 23000 29500 5 10 0 0 0 6 1
+device=none
+T 23600 29000 5 10 1 0 0 6 1
+net=Probe:1
+T 23100 28900 5 10 1 1 0 1 1
+value=INPUT
+}
+C 21200 29000 1 270 0 jumper-1.sym
+{
+T 21700 28700 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 29000 5 10 0 0 180 0 1
+footprint=0201
+T 21200 29000 5 10 0 0 180 0 1
+description=-
+T 21200 29000 5 10 0 0 180 0 1
+value=-
+T 21200 29000 5 10 0 0 0 0 1
+nobom=true
+T 21200 29000 5 10 0 0 0 0 1
+noplace=true
+T 21600 29000 5 10 1 1 270 0 1
+refdes=J21
+}
+N 19900 28900 22200 28900 4
+C 21200 30200 1 270 0 jumper-1.sym
+{
+T 21700 29900 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 30200 5 10 0 0 180 0 1
+footprint=0201
+T 21200 30200 5 10 0 0 180 0 1
+description=-
+T 21200 30200 5 10 0 0 180 0 1
+value=-
+T 21200 30200 5 10 0 0 0 0 1
+nobom=true
+T 21200 30200 5 10 0 0 0 0 1
+noplace=true
+T 21600 30200 5 10 1 1 270 0 1
+refdes=J20
+}
+N 19900 30100 22200 30100 4
+C 23600 30300 1 0 1 input-2.sym
+{
+T 23000 31000 5 10 0 0 0 6 1
+device=none
+T 23600 30500 5 10 1 0 0 6 1
+net=Probe:1
+T 23100 30400 5 10 1 1 0 1 1
+value=INPUT
+}
+C 21200 30500 1 270 0 jumper-1.sym
+{
+T 21700 30200 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 30500 5 10 0 0 180 0 1
+footprint=0201
+T 21200 30500 5 10 0 0 180 0 1
+description=-
+T 21200 30500 5 10 0 0 180 0 1
+value=-
+T 21200 30500 5 10 0 0 0 0 1
+nobom=true
+T 21200 30500 5 10 0 0 0 0 1
+noplace=true
+T 21600 30500 5 10 1 1 270 0 1
+refdes=J19
+}
+C 22500 30200 1 90 1 gnd-1.sym
+N 21200 30100 21200 30400 4
+C 21300 29600 1 0 1 input-2.sym
+{
+T 20700 30300 5 10 0 0 0 6 1
+device=none
+T 21300 29800 5 10 1 0 0 6 1
+net=Thermistor:1
+T 20800 29700 5 10 1 1 0 1 1
+value=INPUT
+}
+C 20200 29400 1 90 1 gnd-1.sym
+C 23300 33200 1 0 1 input-2.sym
+{
+T 22700 33900 5 10 0 0 0 6 1
+device=none
+T 23400 33400 5 10 1 0 0 6 1
+net=Cooling:1
+T 22800 33300 5 10 1 1 0 1 1
+value=INPUT
+}
+C 19900 32700 1 270 0 vee-1.sym
+C 21300 30400 1 0 1 input-2.sym
+{
+T 20700 31100 5 10 0 0 0 6 1
+device=none
+T 21300 30600 5 10 1 0 0 6 1
+net=Thermistor:1
+T 20800 30500 5 10 1 1 0 1 1
+value=INPUT
+}
+B 19300 30000 500 700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+C 20200 31000 1 90 1 gnd-1.sym
+B 19300 30800 500 300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+C 20200 31800 1 90 1 gnd-1.sym
+B 19300 31600 500 700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 19700 31900 19800 32000 3 0 0 0 -1 -1
+L 19800 32000 20700 32000 3 0 0 0 -1 -1
+L 20700 32000 20800 31900 3 0 0 0 -1 -1
+L 20500 31800 20700 31900 3 0 0 0 -1 -1
+L 19700 32300 19800 32200 3 0 0 0 -1 -1
+L 19800 32200 20700 32200 3 0 0 0 -1 -1
+L 20700 32200 20800 32300 3 0 0 0 -1 -1
+C 23600 32000 1 0 1 input-2.sym
+{
+T 23000 32700 5 10 0 0 0 6 1
+device=none
+T 23600 32200 5 10 1 0 0 6 1
+net=Probe:1
+T 23100 32100 5 10 1 1 0 1 1
+value=INPUT
+}
+C 21200 32200 1 270 0 jumper-1.sym
+{
+T 21700 31900 5 8 0 0 270 0 1
+device=JUMPER
+T 21200 32200 5 10 0 0 180 0 1
+footprint=0201
+T 21200 32200 5 10 0 0 180 0 1
+description=-
+T 21200 32200 5 10 0 0 180 0 1
+value=-
+T 21200 32200 5 10 0 0 0 0 1
+nobom=true
+T 21200 32200 5 10 0 0 0 0 1
+noplace=true
+T 21600 32200 5 10 1 1 270 0 1
+refdes=J18
+}
+N 19900 32100 22200 32100 4
+N 20400 36100 19900 36100 4
+N 20500 35700 19900 35700 4
+N 22200 35300 19900 35300 4
+N 22200 34900 19900 34900 4
+N 19900 33300 21900 33300 4
+N 21800 33700 19900 33700 4
+N 21800 32900 19900 32900 4
+L 19100 28500 17600 28500 3 0 0 0 -1 -1
+L 19100 30100 17600 30100 3 0 0 0 -1 -1
+L 19100 30900 17600 30900 3 0 0 0 -1 -1
+L 19100 31700 17600 31700 3 0 0 0 -1 -1
+L 19100 34500 17600 34500 3 0 0 0 -1 -1
+L 19100 33700 17600 33700 3 0 0 0 -1 -1
+L 17600 34400 17600 33800 3 0 0 0 -1 -1
+L 19100 32500 17600 32500 3 0 0 0 -1 -1
+L 17600 32600 17600 33600 3 0 0 0 -1 -1
+L 19100 29300 17600 29300 3 0 0 0 -1 -1
+L 19100 32100 17600 32100 3 0 0 0 -1 -1
+L 17600 32000 17600 31800 3 0 0 0 -1 -1
+L 19100 32900 17300 32900 3 0 0 0 -1 -1
+L 17600 32100 17300 32100 3 0 0 0 -1 -1
+L 17300 32800 17300 32200 3 0 0 0 -1 -1
+L 19100 30500 14900 30500 3 0 0 0 -1 -1
+L 17300 32900 14900 32900 3 0 0 0 -1 -1
+L 14900 32800 14900 30600 3 0 0 0 -1 -1
+L 17600 30800 17600 30200 3 0 0 0 -1 -1
+L 17600 30000 17600 29400 3 0 0 0 -1 -1
+L 17600 29200 17600 28600 3 0 0 0 -1 -1
+T 19800 33800 9 10 1 0 0 0 1
+Trace Fuse
+T 19800 33000 9 10 1 0 0 0 1
+Trace Fuse
+T 19800 32600 9 10 1 0 0 0 1
+<6mil * >2in
+T 19800 33400 9 10 1 0 0 0 1
+<6mil * >2in
+T 19800 28600 9 10 1 0 0 0 1
+<6mil * >2in
+T 19800 29000 9 10 1 0 0 0 1
+Trace Fuse
+T 19800 31800 9 10 1 0 0 0 1
+<6mil * >2in
+T 19800 32200 9 10 1 0 0 0 1
+Trace Fuse
+T 17700 31700 9 10 1 0 0 0 2
+_Taz6_
+Limit Switch
+T 17800 30100 9 10 1 0 0 0 2
+_Taz5_
+Thermistor
+T 17700 30900 9 10 1 0 0 0 2
+_Taz6_
+Nozzle Probe
+T 16700 34200 9 10 1 0 0 0 1
+Short (Off)
+T 15400 33400 9 10 1 0 0 0 2
+Short (Off)
++24V (Powered, Stopped)
+T 15000 32600 9 10 1 0 0 0 1
+> 1kOhm  < 100kOhm (Off)
+T 15600 31800 9 10 1 0 0 0 1
++5V or +3.3V (powered)
+T 12600 32600 9 10 1 0 0 0 1
+> 1kOhm  < 100kOhm (Off)
+T 16700 30600 9 10 1 0 0 0 1
+Short (Off)
+T 16700 29800 9 10 1 0 0 0 1
+Short (Off)
+T 16700 29000 9 10 1 0 0 0 1
+Short (Off)
+C 75100 50400 1 0 0 input-2.sym
+{
+T 75700 51100 5 10 0 0 0 0 1
+device=none
+T 75100 50600 5 10 1 0 0 0 1
+net=Vext-Thermistor:1
+T 75600 50500 5 10 1 1 0 7 1
+value=INPUT
+}
+C 75100 50100 1 0 0 input-2.sym
+{
+T 75700 50800 5 10 0 0 0 0 1
+device=none
+T 75100 50300 5 10 1 0 0 0 1
+net=Thermistor:1
+T 75600 50200 5 10 1 1 0 7 1
+value=INPUT
+}
+C 77600 49800 1 270 1 gnd-1.sym
+C 75100 44600 1 0 0 input-2.sym
+{
+T 75700 45300 5 10 0 0 0 0 1
+device=none
+T 75100 44800 5 10 1 0 0 0 1
+net=Bp:1
+T 75600 44700 5 10 1 1 0 7 1
+value=INPUT
+}
+C 75100 44300 1 0 0 input-2.sym
+{
+T 75700 45000 5 10 0 0 0 0 1
+device=none
+T 75100 44500 5 10 1 0 0 0 1
+net=Ap:1
+T 75600 44400 5 10 1 1 0 7 1
+value=INPUT
+}
+C 75100 44000 1 0 0 input-2.sym
+{
+T 75700 44700 5 10 0 0 0 0 1
+device=none
+T 75100 44200 5 10 1 0 0 0 1
+net=Am:1
+T 75600 44100 5 10 1 1 0 7 1
+value=INPUT
+}
+C 75100 43700 1 0 0 input-2.sym
+{
+T 75700 44400 5 10 0 0 0 0 1
+device=none
+T 75100 43900 5 10 1 0 0 0 1
+net=Bm:1
+T 75600 43800 5 10 1 1 0 7 1
+value=INPUT
+}
+C 75100 51300 1 0 0 input-2.sym
+{
+T 75700 52000 5 10 0 0 0 0 1
+device=none
+T 75100 51500 5 10 1 0 0 0 1
+net=Vext-Probe-Servo-Fan:1
+T 75600 51400 5 10 1 1 0 7 1
+value=INPUT
+}
+N 76500 51400 77900 51400 4
+C 75100 51000 1 0 0 input-2.sym
+{
+T 75700 51700 5 10 0 0 0 0 1
+device=none
+T 75100 51200 5 10 1 0 0 0 1
+net=Probe:1
+T 75600 51100 5 10 1 1 0 7 1
+value=INPUT
+}
+C 77600 50700 1 270 1 gnd-1.sym
+N 76500 50500 77900 50500 4
+N 76500 50200 77900 50200 4
+C 77700 49800 1 90 1 generic-power.sym
+{
+T 77450 49600 5 10 1 1 90 3 1
+net=Vsys:1
+}
+N 77700 49600 77900 49600 4
+C 75100 49200 1 0 0 input-2.sym
+{
+T 75700 49900 5 10 0 0 0 0 1
+device=none
+T 75000 49400 5 10 1 0 0 0 1
+net=Vext-Probe-Servo-Fan:1
+T 75600 49300 5 10 1 1 0 7 1
+value=INPUT
+}
+N 76500 49300 77900 49300 4
+N 76500 51100 77900 51100 4
+C 75100 47800 1 0 0 input-2.sym
+{
+T 75700 48500 5 10 0 0 0 0 1
+device=none
+T 75100 48000 5 10 1 0 0 0 1
+net=Servo:1
+T 75600 47900 5 10 1 1 0 7 1
+value=INPUT
+}
+C 77900 48800 1 90 0 vee-1.sym
+C 77700 48700 1 90 1 generic-power.sym
+{
+T 77450 48500 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 75100 48100 1 0 0 input-2.sym
+{
+T 75700 48800 5 10 0 0 0 0 1
+device=none
+T 75000 48300 5 10 1 0 0 0 1
+net=Vext-Probe-Servo-Fan:1
+T 75600 48200 5 10 1 1 0 7 1
+value=INPUT
+}
+N 76500 48200 77900 48200 4
+N 77900 47900 76500 47900 4
+C 77900 47400 1 90 0 vee-1.sym
+C 77700 47500 1 90 1 generic-power.sym
+{
+T 77450 47300 5 10 1 1 90 3 1
+net=Vsys:1
+}
+N 77700 48500 77900 48500 4
+N 77700 47300 77900 47300 4
+C 75100 46900 1 0 0 input-2.sym
+{
+T 75700 47600 5 10 0 0 0 0 1
+device=none
+T 75100 47100 5 10 1 0 0 0 1
+net=Heater:1
+T 75600 47000 5 10 1 1 0 7 1
+value=INPUT
+}
+N 76500 47000 77900 47000 4
+C 77900 46500 1 90 0 vee-1.sym
+C 77700 46600 1 90 1 generic-power.sym
+{
+T 77450 46400 5 10 1 1 90 3 1
+net=Vsys:1
+}
+N 77700 46400 77900 46400 4
+C 75100 46000 1 0 0 input-2.sym
+{
+T 75700 46700 5 10 0 0 0 0 1
+device=none
+T 75000 46300 5 10 1 0 0 0 1
+net=Cooling:1
+T 75600 46100 5 10 1 1 0 7 1
+value=INPUT
+}
+N 76500 46100 77900 46100 4
+C 77900 45400 1 90 0 vee-1.sym
+C 77700 45500 1 90 1 generic-power.sym
+{
+T 77450 45300 5 10 1 1 90 3 1
+net=Vsys:1
+}
+C 77900 44800 1 90 0 vee-1.sym
+N 77700 45300 77900 45300 4
+N 76500 43800 77900 43800 4
+N 76500 44100 77900 44100 4
+N 76500 44400 77900 44400 4
+N 76500 44700 77900 44700 4
+C 77600 43400 1 270 1 gnd-1.sym
+C 77600 43100 1 270 1 gnd-1.sym
+T 79250 45150 9 10 1 0 0 0 31
+(Probe)
+   Vext
+   Probe
+x GND
+   Vext
+   Thermistor
+   GND
+
+(Chasis Fan, Servo,
+Heater, Cooling)
+x Vsys
+x Vext
+x Vee
+   Vsys
+   Vext
+   Servo
+x Vee
+x Vsys
+   Heater
+x Vee
+x Vsys
+   Cooling
+   Vee
+
+(Stepper)
+x Vsys
+x Vee
+Bp
+Ap
+Am
+Bm
+C 77900 48800 1 0 0 barrier_terminal_block_325mil_9p.sym
+{
+T 78200 52200 5 10 0 0 0 0 1
+device=barrier_terminal_block_325mil_9p
+T 78200 52400 5 10 0 0 0 0 1
+footprint=barrier_terminal_block_325mil_9p
+T 78200 52800 5 10 0 0 0 0 1
+value=325mil
+T 78200 53000 5 10 0 0 0 0 1
+description=$4.19 MOUSER 538-38700-6109
+T 78200 53200 5 10 0 0 0 0 1
+cost=4.19
+T 78200 53400 5 10 0 0 0 0 1
+mfr=molex
+T 78200 53600 5 10 0 0 0 0 1
+mfrpn=38700-6109
+T 78200 53800 5 10 0 0 0 0 1
+dst=Mouser
+T 78200 54000 5 10 0 0 0 0 1
+dstpn=538-38700-6109
+T 78200 54200 5 10 0 0 0 0 1
+link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
+T 78200 54400 5 10 0 0 0 0 1
+link_page=1
+T 78200 54600 5 10 0 0 0 0 1
+supplier=c
+T 78200 54800 5 10 0 0 0 0 1
+kitting=other
+T 78200 55000 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 78200 55200 5 10 0 0 0 0 1
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
+T 78500 51100 5 10 1 1 90 0 1
+refdes=BAR1
+}
+C 77900 43000 1 0 0 barrier_terminal_block_325mil_9p.sym
+{
+T 78200 46400 5 10 0 0 0 0 1
+device=barrier_terminal_block_325mil_9p
+T 78200 46600 5 10 0 0 0 0 1
+footprint=barrier_terminal_block_325mil_9p
+T 78200 47000 5 10 0 0 0 0 1
+value=325mil
+T 78200 47200 5 10 0 0 0 0 1
+description=$4.19 MOUSER 538-38700-6109
+T 78200 47400 5 10 0 0 0 0 1
+cost=4.19
+T 78200 47600 5 10 0 0 0 0 1
+mfr=molex
+T 78200 47800 5 10 0 0 0 0 1
+mfrpn=38700-6109
+T 78200 48000 5 10 0 0 0 0 1
+dst=Mouser
+T 78200 48200 5 10 0 0 0 0 1
+dstpn=538-38700-6109
+T 78200 48400 5 10 0 0 0 0 1
+link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
+T 78200 48600 5 10 0 0 0 0 1
+link_page=1
+T 78200 48800 5 10 0 0 0 0 1
+supplier=c
+T 78200 49000 5 10 0 0 0 0 1
+kitting=other
+T 78200 49200 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 78200 49400 5 10 0 0 0 0 1
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
+T 78500 45300 5 10 1 1 90 0 1
+refdes=BAR3
+}
+C 77900 45900 1 0 0 barrier_terminal_block_325mil_9p.sym
+{
+T 78200 49300 5 10 0 0 0 0 1
+device=barrier_terminal_block_325mil_9p
+T 78200 49500 5 10 0 0 0 0 1
+footprint=barrier_terminal_block_325mil_9p
+T 78200 49900 5 10 0 0 0 0 1
+value=325mil
+T 78200 50100 5 10 0 0 0 0 1
+description=$4.19 MOUSER 538-38700-6109
+T 78200 50300 5 10 0 0 0 0 1
+cost=4.19
+T 78200 50500 5 10 0 0 0 0 1
+mfr=molex
+T 78200 50700 5 10 0 0 0 0 1
+mfrpn=38700-6109
+T 78200 50900 5 10 0 0 0 0 1
+dst=Mouser
+T 78200 51100 5 10 0 0 0 0 1
+dstpn=538-38700-6109
+T 78200 51300 5 10 0 0 0 0 1
+link=www.molex.com/pdm_docs/sd/387006109_sd.pdf
+T 78200 51500 5 10 0 0 0 0 1
+link_page=1
+T 78200 51700 5 10 0 0 0 0 1
+supplier=c
+T 78200 51900 5 10 0 0 0 0 1
+kitting=other
+T 78200 52100 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 78200 52300 5 10 0 0 0 0 1
+search_alt=www.mouser.com/Connectors/Terminal-Blocks/Barrier-Terminal-Blocks/_/N-7rqbf?P=1yvgcdjZ1ytmhdqZ1z0wx62&Ns=Pricing%7c0
+T 78500 48200 5 10 1 1 90 0 1
+refdes=BAR2
 }
