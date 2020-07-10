@@ -1,5 +1,140 @@
 # Pin name action command file
 
+# Start of element BAR2
+ChangePinName(BAR2, 9, 9)
+ChangePinName(BAR2, 8, 8)
+ChangePinName(BAR2, 7, 7)
+ChangePinName(BAR2, 6, 6)
+ChangePinName(BAR2, 5, 5)
+ChangePinName(BAR2, 4, 4)
+ChangePinName(BAR2, 3, 3)
+ChangePinName(BAR2, 2, 2)
+ChangePinName(BAR2, 1, 1)
+
+# Start of element BAR3
+ChangePinName(BAR3, 9, 9)
+ChangePinName(BAR3, 8, 8)
+ChangePinName(BAR3, 7, 7)
+ChangePinName(BAR3, 6, 6)
+ChangePinName(BAR3, 5, 5)
+ChangePinName(BAR3, 4, 4)
+ChangePinName(BAR3, 3, 3)
+ChangePinName(BAR3, 2, 2)
+ChangePinName(BAR3, 1, 1)
+
+# Start of element BAR1
+ChangePinName(BAR1, 9, 9)
+ChangePinName(BAR1, 8, 8)
+ChangePinName(BAR1, 7, 7)
+ChangePinName(BAR1, 6, 6)
+ChangePinName(BAR1, 5, 5)
+ChangePinName(BAR1, 4, 4)
+ChangePinName(BAR1, 3, 3)
+ChangePinName(BAR1, 2, 2)
+ChangePinName(BAR1, 1, 1)
+
+# Start of element J18
+ChangePinName(J18, 1, 1)
+ChangePinName(J18, 2, 2)
+
+# Start of element J19
+ChangePinName(J19, 1, 1)
+ChangePinName(J19, 2, 2)
+
+# Start of element J20
+ChangePinName(J20, 1, 1)
+ChangePinName(J20, 2, 2)
+
+# Start of element J21
+ChangePinName(J21, 1, 1)
+ChangePinName(J21, 2, 2)
+
+# Start of element F11
+ChangePinName(F11, 2, 2)
+ChangePinName(F11, 1, 1)
+
+# Start of element F12
+ChangePinName(F12, 2, 2)
+ChangePinName(F12, 1, 1)
+
+# Start of element J10
+ChangePinName(J10, 1, 1)
+ChangePinName(J10, 2, 2)
+
+# Start of element J11
+ChangePinName(J11, 1, 1)
+ChangePinName(J11, 2, 2)
+
+# Start of element J12
+ChangePinName(J12, 1, 1)
+ChangePinName(J12, 2, 2)
+
+# Start of element J13
+ChangePinName(J13, 1, 1)
+ChangePinName(J13, 2, 2)
+
+# Start of element J16
+ChangePinName(J16, 1, 1)
+ChangePinName(J16, 2, 2)
+
+# Start of element J17
+ChangePinName(J17, 1, 1)
+ChangePinName(J17, 2, 2)
+
+# Start of element J14
+ChangePinName(J14, 1, 1)
+ChangePinName(J14, 2, 2)
+
+# Start of element J15
+ChangePinName(J15, 1, 1)
+ChangePinName(J15, 2, 2)
+
+# Start of element Many
+ChangePinName(Many, 20, 20)
+ChangePinName(Many, 19, 19)
+ChangePinName(Many, 18, 18)
+ChangePinName(Many, 17, 17)
+ChangePinName(Many, 16, 16)
+ChangePinName(Many, 15, 15)
+ChangePinName(Many, 14, 14)
+ChangePinName(Many, 13, 13)
+ChangePinName(Many, 12, 12)
+ChangePinName(Many, 11, 11)
+ChangePinName(Many, 10, 10)
+ChangePinName(Many, 9, 9)
+ChangePinName(Many, 8, 8)
+ChangePinName(Many, 7, 7)
+ChangePinName(Many, 6, 6)
+ChangePinName(Many, 5, 5)
+ChangePinName(Many, 4, 4)
+ChangePinName(Many, 3, 3)
+ChangePinName(Many, 2, 2)
+ChangePinName(Many, 1, 1)
+
+# Start of element R2
+ChangePinName(R2, 1, 1)
+ChangePinName(R2, 2, 2)
+
+# Start of element F1
+ChangePinName(F1, 2, 2)
+ChangePinName(F1, 1, 1)
+
+# Start of element R1
+ChangePinName(R1, 1, 1)
+ChangePinName(R1, 2, 2)
+
+# Start of element J1
+ChangePinName(J1, 1, 1)
+ChangePinName(J1, 2, 2)
+
+# Start of element J3
+ChangePinName(J3, 1, 1)
+ChangePinName(J3, 2, 2)
+
+# Start of element J2
+ChangePinName(J2, 1, 1)
+ChangePinName(J2, 2, 2)
+
 # Start of element WTB1
 ChangePinName(WTB1, 1, 1)
 ChangePinName(WTB1, 4, 4)
@@ -95,17 +230,6 @@ ChangePinName(WTB15, 1, 1)
 ChangePinName(WTB15, 4, 4)
 ChangePinName(WTB15, 2, 2)
 ChangePinName(WTB15, 3, 3)
-
-# Start of element BAR3
-ChangePinName(BAR3, 9, 9)
-ChangePinName(BAR3, 8, 8)
-ChangePinName(BAR3, 7, 7)
-ChangePinName(BAR3, 6, 6)
-ChangePinName(BAR3, 5, 5)
-ChangePinName(BAR3, 4, 4)
-ChangePinName(BAR3, 3, 3)
-ChangePinName(BAR3, 2, 2)
-ChangePinName(BAR3, 1, 1)
 
 # Start of element TERM1
 ChangePinName(TERM1, 9, 9)
@@ -541,17 +665,6 @@ ChangePinName(TERM2, 3, 3)
 ChangePinName(TERM2, 2, 2)
 ChangePinName(TERM2, 1, 1)
 
-# Start of element BAR1
-ChangePinName(BAR1, 9, 9)
-ChangePinName(BAR1, 8, 8)
-ChangePinName(BAR1, 7, 7)
-ChangePinName(BAR1, 6, 6)
-ChangePinName(BAR1, 5, 5)
-ChangePinName(BAR1, 4, 4)
-ChangePinName(BAR1, 3, 3)
-ChangePinName(BAR1, 2, 2)
-ChangePinName(BAR1, 1, 1)
-
 # Start of element WTB6
 ChangePinName(WTB6, 1, 1)
 ChangePinName(WTB6, 4, 4)
@@ -640,10 +753,6 @@ ChangePinName(T3, 1, 1)
 
 # Start of element I2
 
-# Start of element Vheat2
-ChangePinName(Vheat2, 2, 2)
-ChangePinName(Vheat2, 1, 1)
-
 # Start of element Vheat1
 ChangePinName(Vheat1, 2, 2)
 ChangePinName(Vheat1, 1, 1)
@@ -658,17 +767,6 @@ ChangePinName(TERM3, 4, 4)
 ChangePinName(TERM3, 3, 3)
 ChangePinName(TERM3, 2, 2)
 ChangePinName(TERM3, 1, 1)
-
-# Start of element BAR2
-ChangePinName(BAR2, 9, 9)
-ChangePinName(BAR2, 8, 8)
-ChangePinName(BAR2, 7, 7)
-ChangePinName(BAR2, 6, 6)
-ChangePinName(BAR2, 5, 5)
-ChangePinName(BAR2, 4, 4)
-ChangePinName(BAR2, 3, 3)
-ChangePinName(BAR2, 2, 2)
-ChangePinName(BAR2, 1, 1)
 
 # Start of element BRD1
 ChangePinName(BRD1, 8, 8)
@@ -701,10 +799,6 @@ ChangePinName(PWR2, 4, 4)
 ChangePinName(PWR2, 3, 3)
 ChangePinName(PWR2, 2, 2)
 ChangePinName(PWR2, 1, 1)
-
-# Start of element J1
-ChangePinName(J1, 1, 1)
-ChangePinName(J1, 2, 2)
 
 # Start of element DUP3
 ChangePinName(DUP3, 13, 13)
@@ -833,13 +927,13 @@ ChangePinName(M2, 1, Vsys)
 ChangePinName(T1, 2, 2)
 ChangePinName(T1, 1, 1)
 
-# Start of element R5
-ChangePinName(R5, 1, 1)
-ChangePinName(R5, 2, 2)
+# Start of element R14
+ChangePinName(R14, 1, 1)
+ChangePinName(R14, 2, 2)
 
-# Start of element R4
-ChangePinName(R4, 1, 1)
-ChangePinName(R4, 2, 2)
+# Start of element R13
+ChangePinName(R13, 1, 1)
+ChangePinName(R13, 2, 2)
 
 # Start of element GEN1
 ChangePinName(GEN1, 13, 13)
@@ -856,9 +950,9 @@ ChangePinName(GEN1, 3, 3)
 ChangePinName(GEN1, 2, 2)
 ChangePinName(GEN1, 1, 1)
 
-# Start of element R3
-ChangePinName(R3, 1, 1)
-ChangePinName(R3, 2, 2)
+# Start of element R12
+ChangePinName(R12, 1, 1)
+ChangePinName(R12, 2, 2)
 
 # Start of element STEP
 ChangePinName(STEP, 13, 13)
@@ -921,13 +1015,13 @@ ChangePinName(M1, 3, +3.3V)
 ChangePinName(M1, 2, Vee)
 ChangePinName(M1, 1, Vsys)
 
-# Start of element R2
-ChangePinName(R2, 1, 1)
-ChangePinName(R2, 2, 2)
+# Start of element R11
+ChangePinName(R11, 1, 1)
+ChangePinName(R11, 2, 2)
 
-# Start of element R1
-ChangePinName(R1, 1, 1)
-ChangePinName(R1, 2, 2)
+# Start of element R10
+ChangePinName(R10, 1, 1)
+ChangePinName(R10, 2, 2)
 
 # Start of element GEN2
 ChangePinName(GEN2, 13, 13)
