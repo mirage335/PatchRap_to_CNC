@@ -1,5 +1,49 @@
 # Pin name action command file
 
+# Start of element C2
+ChangePinName(C2, 2, 2)
+ChangePinName(C2, 1, 1)
+
+# Start of element C1
+ChangePinName(C1, 2, 2)
+ChangePinName(C1, 1, 1)
+
+# Start of element D2
+ChangePinName(D2, 1, 1)
+ChangePinName(D2, 2, 2)
+ChangePinName(D2, 1, 1)
+ChangePinName(D2, 2, 2)
+
+# Start of element F11
+ChangePinName(F11, 2, 2)
+ChangePinName(F11, 1, 1)
+
+# Start of element F10
+ChangePinName(F10, 2, 2)
+ChangePinName(F10, 1, 1)
+
+# Start of element Legacy2
+ChangePinName(Legacy2, 20, 20)
+ChangePinName(Legacy2, 19, 19)
+ChangePinName(Legacy2, 18, 18)
+ChangePinName(Legacy2, 17, 17)
+ChangePinName(Legacy2, 16, 16)
+ChangePinName(Legacy2, 15, 15)
+ChangePinName(Legacy2, 14, 14)
+ChangePinName(Legacy2, 13, 13)
+ChangePinName(Legacy2, 12, 12)
+ChangePinName(Legacy2, 11, 11)
+ChangePinName(Legacy2, 10, 10)
+ChangePinName(Legacy2, 9, 9)
+ChangePinName(Legacy2, 8, 8)
+ChangePinName(Legacy2, 7, 7)
+ChangePinName(Legacy2, 6, 6)
+ChangePinName(Legacy2, 5, 5)
+ChangePinName(Legacy2, 4, 4)
+ChangePinName(Legacy2, 3, 3)
+ChangePinName(Legacy2, 2, 2)
+ChangePinName(Legacy2, 1, 1)
+
 # Start of element BAR2
 ChangePinName(BAR2, 9, 9)
 ChangePinName(BAR2, 8, 8)
@@ -49,14 +93,6 @@ ChangePinName(J20, 2, 2)
 ChangePinName(J21, 1, 1)
 ChangePinName(J21, 2, 2)
 
-# Start of element F11
-ChangePinName(F11, 2, 2)
-ChangePinName(F11, 1, 1)
-
-# Start of element F12
-ChangePinName(F12, 2, 2)
-ChangePinName(F12, 1, 1)
-
 # Start of element J10
 ChangePinName(J10, 1, 1)
 ChangePinName(J10, 2, 2)
@@ -89,31 +125,27 @@ ChangePinName(J14, 2, 2)
 ChangePinName(J15, 1, 1)
 ChangePinName(J15, 2, 2)
 
-# Start of element Many
-ChangePinName(Many, 20, 20)
-ChangePinName(Many, 19, 19)
-ChangePinName(Many, 18, 18)
-ChangePinName(Many, 17, 17)
-ChangePinName(Many, 16, 16)
-ChangePinName(Many, 15, 15)
-ChangePinName(Many, 14, 14)
-ChangePinName(Many, 13, 13)
-ChangePinName(Many, 12, 12)
-ChangePinName(Many, 11, 11)
-ChangePinName(Many, 10, 10)
-ChangePinName(Many, 9, 9)
-ChangePinName(Many, 8, 8)
-ChangePinName(Many, 7, 7)
-ChangePinName(Many, 6, 6)
-ChangePinName(Many, 5, 5)
-ChangePinName(Many, 4, 4)
-ChangePinName(Many, 3, 3)
-ChangePinName(Many, 2, 2)
-ChangePinName(Many, 1, 1)
-
-# Start of element R2
-ChangePinName(R2, 1, 1)
-ChangePinName(R2, 2, 2)
+# Start of element Legacy1
+ChangePinName(Legacy1, 20, 20)
+ChangePinName(Legacy1, 19, 19)
+ChangePinName(Legacy1, 18, 18)
+ChangePinName(Legacy1, 17, 17)
+ChangePinName(Legacy1, 16, 16)
+ChangePinName(Legacy1, 15, 15)
+ChangePinName(Legacy1, 14, 14)
+ChangePinName(Legacy1, 13, 13)
+ChangePinName(Legacy1, 12, 12)
+ChangePinName(Legacy1, 11, 11)
+ChangePinName(Legacy1, 10, 10)
+ChangePinName(Legacy1, 9, 9)
+ChangePinName(Legacy1, 8, 8)
+ChangePinName(Legacy1, 7, 7)
+ChangePinName(Legacy1, 6, 6)
+ChangePinName(Legacy1, 5, 5)
+ChangePinName(Legacy1, 4, 4)
+ChangePinName(Legacy1, 3, 3)
+ChangePinName(Legacy1, 2, 2)
+ChangePinName(Legacy1, 1, 1)
 
 # Start of element F1
 ChangePinName(F1, 2, 2)
