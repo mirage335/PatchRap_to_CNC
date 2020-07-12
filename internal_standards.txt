@@ -1,0 +1,22 @@
+_Bus Wiring_
+
+Vsys (Thick)
+Vee (Thick)
+
+Vext-Probe-Servo-Fan (Thin)
+GND (Thick)
+
+Probe (Thin)
+Servo (Thin)
+
+Bp (Thick)
+Bm (Thick)
+Ap (Thick)
+Am (Thick)
+
+Vext-Thermistor (Thin)
+Thermistor (Thin)
+Heater (Thick)
+Cooling (Thick)
+
+~415mil total

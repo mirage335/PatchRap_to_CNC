@@ -2449,3 +2449,261 @@ Bp
 Ap
 Am
 Bm
+C 69550 51750 1 270 1 connector13-2.sym
+{
+T 75200 52050 5 10 0 0 90 2 1
+device=CONNECTOR_13
+T 75400 52050 5 10 0 0 90 2 1
+footprint=ring
+T 69550 51750 5 10 0 0 180 0 1
+value=2mm
+T 69550 51750 5 10 0 0 180 0 1
+description=unknown
+T 75250 52450 5 10 1 1 90 8 1
+refdes=RING3
+}
+C 73150 56150 1 270 0 idc_offset.sym
+{
+T 75650 55750 5 10 0 0 270 0 1
+device=idc_offset
+T 75950 55750 5 10 0 0 270 0 1
+footprint=idc_offset_15mil
+T 76450 55750 5 10 0 0 270 0 1
+value=15mil
+T 76650 55750 5 10 0 0 270 0 1
+description=$0.28 MOUSER 649-1012938191204BLF
+T 76850 55750 5 10 0 0 270 0 1
+cost=0.28
+T 77050 55750 5 10 0 0 270 0 1
+mfr=Amphenol FCI
+T 77250 55750 5 10 0 0 270 0 1
+mfrpn=10129381-912004BLF
+T 77450 55750 5 10 0 0 270 0 1
+dst=Mouser
+T 77650 55750 5 10 0 0 270 0 1
+dstpn=649-1012938191204BLF
+T 77850 55750 5 10 0 0 270 0 1
+link=www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
+T 78050 55750 5 10 0 0 270 0 1
+link_page=1
+T 78250 55750 5 10 0 0 270 0 1
+supplier=c
+T 78450 55750 5 10 0 0 270 0 1
+kitting=other
+T 78650 55750 5 10 0 0 270 0 1
+kitting_d=not known to be available in machine usable format
+T 73150 56150 5 10 0 0 270 0 1
+footprint_alt_1=HEADER12_2
+T 75950 53050 5 10 0 0 270 0 1
+footprint_alt=idc_offset_15mil_reverse
+T 78850 55750 5 10 0 0 270 0 1
+search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
+T 75250 55750 5 10 1 1 270 0 1
+refdes=OFFSET3
+}
+C 62800 58900 1 270 0 connector60-2.sym
+{
+T 75350 58500 5 10 0 0 270 0 1
+device=CONNECTOR_60
+T 75550 58500 5 10 0 0 270 0 1
+footprint=MEZ_538-505413-6010
+T 62800 58900 5 10 0 0 270 0 1
+description=$1.74 MOUSER 538-505413-6010
+T 62800 58900 5 10 0 0 270 0 1
+value=Mezzanine_60pin_0.35mm_2row_female
+T 62800 58900 5 10 0 0 180 0 1
+cost=1.74
+T 62800 58900 5 10 0 0 180 0 1
+mfr=Molex
+T 62800 58900 5 10 0 0 180 0 1
+mfrpn=505413-6010
+T 62800 58900 5 10 0 0 180 0 1
+dst=Mouser
+T 62800 58900 5 10 0 0 180 0 1
+dstpn=538-505413-6010
+T 62800 58900 5 10 0 0 180 0 1
+link=www.mouser.com/ds/2/276/5054136010_PCB_RECEPTACLES-958639.pdf
+T 62800 58900 5 10 0 0 180 0 1
+link_page=www.molex.com/pdm_docs/sd/5054136010_sd.pdf
+T 62800 58900 5 10 0 0 180 0 1
+supplier=c
+T 62800 58900 5 10 0 0 180 0 1
+kitting=other
+T 62800 58900 5 10 0 0 180 0 1
+kitting_d=not known to be available in machine usable format
+T 75400 58100 5 10 1 1 270 6 1
+refdes=MEZ3
+}
+C 75800 58100 1 270 0 hole-1.sym
+{
+T 75800 58100 5 10 0 1 270 0 1
+device=HOLE
+T 75800 58100 5 10 0 0 270 0 1
+footprint=mount_m2
+T 75800 58100 5 10 0 0 270 0 1
+value=2mm
+T 76400 57900 5 10 1 1 270 4 1
+refdes=H11
+}
+C 75800 58600 1 270 0 hole-1.sym
+{
+T 75800 58600 5 10 0 1 270 0 1
+device=HOLE
+T 75800 58600 5 10 0 0 270 0 1
+footprint=mount_m2
+T 75800 58600 5 10 0 0 270 0 1
+value=2mm
+T 76400 58400 5 10 1 1 270 4 1
+refdes=H12
+}
+C 62100 58100 1 270 0 hole-1.sym
+{
+T 62100 58100 5 10 0 1 270 0 1
+device=HOLE
+T 62100 58100 5 10 0 0 270 0 1
+footprint=mount_m2
+T 62100 58100 5 10 0 0 270 0 1
+value=2mm
+T 62700 57900 5 10 1 1 270 4 1
+refdes=H9
+}
+C 62100 58600 1 270 0 hole-1.sym
+{
+T 62100 58600 5 10 0 1 270 0 1
+device=HOLE
+T 62100 58600 5 10 0 0 270 0 1
+footprint=mount_m2
+T 62100 58600 5 10 0 0 270 0 1
+value=2mm
+T 62700 58400 5 10 1 1 270 4 1
+refdes=H10
+}
+C 76000 67500 1 270 0 hole-1.sym
+{
+T 76000 67500 5 10 0 1 270 0 1
+device=HOLE
+T 76000 67500 5 10 0 0 270 0 1
+footprint=mount_m2
+T 76000 67500 5 10 0 0 270 0 1
+value=2mm
+T 76600 67300 5 10 1 1 270 4 1
+refdes=H3
+}
+C 76000 68000 1 270 0 hole-1.sym
+{
+T 76000 68000 5 10 0 1 270 0 1
+device=HOLE
+T 76000 68000 5 10 0 0 270 0 1
+footprint=mount_m2
+T 76000 68000 5 10 0 0 270 0 1
+value=2mm
+T 76600 67800 5 10 1 1 270 4 1
+refdes=H4
+}
+C 63100 68400 1 270 0 connector60-2.sym
+{
+T 75650 68000 5 10 0 0 270 0 1
+device=CONNECTOR_60
+T 75850 68000 5 10 0 0 270 0 1
+footprint=MEZ_538-505417-6010
+T 63100 68400 5 10 0 0 270 0 1
+description=$1.70 MOUSER 538-505417-6010
+T 63100 68400 5 10 0 0 270 0 1
+value=Mezzanine_60pin_0.35mm_2row_male
+T 63100 68400 5 10 0 0 180 0 1
+cost=1.70
+T 63100 68400 5 10 0 0 180 0 1
+mfr=Molex
+T 63100 68400 5 10 0 0 180 0 1
+mfrpn=505417-6010
+T 63100 68400 5 10 0 0 180 0 1
+dst=Mouser
+T 63100 68400 5 10 0 0 180 0 1
+dstpn=538-505417-6010
+T 63100 68400 5 10 0 0 180 0 1
+link=www.mouser.com/ds/2/276/5054176010_PCB_HEADERS-958641.pdf
+T 63100 68400 5 10 0 0 180 0 1
+link_page=www.molex.com/pdm_docs/sd/5054176010_sd.pdf
+T 63100 68400 5 10 0 0 180 0 1
+supplier=c
+T 63100 68400 5 10 0 0 180 0 1
+kitting=other
+T 63100 68400 5 10 0 0 180 0 1
+kitting_d=not known to be available in machine usable format
+T 75700 67600 5 10 1 1 270 6 1
+refdes=MEZ1
+}
+C 73350 65550 1 270 0 idc_offset.sym
+{
+T 75850 65150 5 10 0 0 270 0 1
+device=idc_offset
+T 76150 65150 5 10 0 0 270 0 1
+footprint=idc_offset_15mil
+T 76650 65150 5 10 0 0 270 0 1
+value=15mil
+T 76850 65150 5 10 0 0 270 0 1
+description=$0.28 MOUSER 649-1012938191204BLF
+T 77050 65150 5 10 0 0 270 0 1
+cost=0.28
+T 77250 65150 5 10 0 0 270 0 1
+mfr=Amphenol FCI
+T 77450 65150 5 10 0 0 270 0 1
+mfrpn=10129381-912004BLF
+T 77650 65150 5 10 0 0 270 0 1
+dst=Mouser
+T 77850 65150 5 10 0 0 270 0 1
+dstpn=649-1012938191204BLF
+T 78050 65150 5 10 0 0 270 0 1
+link=www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf
+T 78250 65150 5 10 0 0 270 0 1
+link_page=1
+T 78450 65150 5 10 0 0 270 0 1
+supplier=c
+T 78650 65150 5 10 0 0 270 0 1
+kitting=other
+T 78850 65150 5 10 0 0 270 0 1
+kitting_d=not known to be available in machine usable format
+T 73350 65550 5 10 0 0 270 0 1
+footprint_alt_1=HEADER12_2
+T 76150 62450 5 10 0 0 270 0 1
+footprint_alt=idc_offset_15mil_reverse
+T 79050 65150 5 10 0 0 270 0 1
+search_alt=www.mouser.com/Connectors/Headers-Wire-Housings/_/N-ay0lo?P=1ytkls1Z1ytkn06Z1z0wxp6Z1z0xbxo&Ns=Pricing|0
+T 75450 65150 5 10 1 1 270 0 1
+refdes=OFFSET1
+}
+C 69750 61150 1 270 1 connector13-2.sym
+{
+T 75400 61450 5 10 0 0 90 2 1
+device=CONNECTOR_13
+T 75600 61450 5 10 0 0 90 2 1
+footprint=ring
+T 69750 61150 5 10 0 0 180 0 1
+value=2mm
+T 69750 61150 5 10 0 0 180 0 1
+description=unknown
+T 75450 61850 5 10 1 1 90 8 1
+refdes=RING1
+}
+C 62300 68000 1 270 0 hole-1.sym
+{
+T 62300 68000 5 10 0 1 270 0 1
+device=HOLE
+T 62300 68000 5 10 0 0 270 0 1
+footprint=mount_m2
+T 62300 68000 5 10 0 0 270 0 1
+value=2mm
+T 62900 67800 5 10 1 1 270 4 1
+refdes=H2
+}
+C 62300 67500 1 270 0 hole-1.sym
+{
+T 62300 67500 5 10 0 1 270 0 1
+device=HOLE
+T 62300 67500 5 10 0 0 270 0 1
+footprint=mount_m2
+T 62300 67500 5 10 0 0 270 0 1
+value=2mm
+T 62900 67300 5 10 1 1 270 4 1
+refdes=H1
+}
