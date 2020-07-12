@@ -4119,7 +4119,7 @@ _Mini_
 
 T 8100 16500 9 10 1 0 0 0 5
 All fuses intended as permanent disable in case of catastrophic miswiring.
-Trace fuse of <6mil * >2in .
+Trace fuse of <6mil * >1in .
 * Continious 3A at 100degC rise, nominal 0.3A .
 * Immediate failure >20A, insubstantial evaporation of nearby materials.
 * Resistance >0.05Ohm to ensure most current takes other paths.
@@ -4153,7 +4153,7 @@ L 8200 29400 8300 29300 3 0 0 0 -1 -1
 T 7300 29600 9 10 1 0 0 0 1
 Trace Fuse
 T 7300 29200 9 10 1 0 0 0 1
-<6mil * >2in
+<6mil * >1in
 N 10000 28500 8100 28500 4
 C 10000 29600 1 180 0 resistor-1.sym
 {
@@ -4738,15 +4738,15 @@ Trace Fuse
 T 19800 33000 9 10 1 0 0 0 1
 Trace Fuse
 T 19800 32600 9 10 1 0 0 0 1
-<6mil * >2in
+<6mil * >1in
 T 19800 33400 9 10 1 0 0 0 1
-<6mil * >2in
+<6mil * >1in
 T 19800 28600 9 10 1 0 0 0 1
-<6mil * >2in
+<6mil * >1in
 T 19800 29000 9 10 1 0 0 0 1
 Trace Fuse
 T 19800 31800 9 10 1 0 0 0 1
-<6mil * >2in
+<6mil * >1in
 T 19800 32200 9 10 1 0 0 0 1
 Trace Fuse
 T 16600 31700 9 10 1 0 0 0 2
@@ -5480,9 +5480,10 @@ L 7100 27900 7200 27800 3 0 0 0 -1 -1
 L 7200 27800 8100 27800 3 0 0 0 -1 -1
 L 8100 27800 8200 27900 3 0 0 0 -1 -1
 T 7200 27400 9 10 1 0 0 0 1
-<6mil * >2in
+<6mil * >1in
 T 7200 27800 9 10 1 0 0 0 1
 Trace Fuse
 N 10000 27000 10000 27700 4
 N 7000 27700 9100 27700 4
 N 7000 27700 7000 27000 4
+L 8000 29200 8200 29300 3 0 0 0 -1 -1
