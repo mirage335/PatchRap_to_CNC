@@ -1,0 +1,21 @@
+# PcbXY Version 1.0
+# Date: Tue 14 Jul 2020 03:25:05 AM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+RING1,"ring","2mm",155.00,55.95,270,top
+OFFSET1,"idc_offset_15mil","15mil",155.00,64.01,270,top
+H3,"mount_m2","2mm",164.00,67.95,0,top
+H4,"mount_m2","2mm",164.00,71.95,0,top
+MEZ1,"MEZ_538-505417-6010","Mezzanine_60pin_0.35mm_2row_male",155.00,69.95,270,top
+H2,"mount_m2","2mm",146.00,71.95,0,top
+H1,"mount_m2","2mm",146.00,67.95,0,top
+OFFSET3,"idc_offset_15mil","15mil",132.99,64.02,270,top
+MEZ3,"MEZ_538-505413-6010","Mezzanine_60pin_0.35mm_2row_female",133.00,69.97,0,bottom
+RING3,"ring","2mm",133.00,55.95,270,top
+H11,"mount_m2","2mm",142.00,67.95,0,top
+H12,"mount_m2","2mm",142.00,71.95,0,top
+H10,"mount_m2","2mm",124.00,71.95,0,top
+H9,"mount_m2","2mm",124.00,67.95,0,top

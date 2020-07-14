@@ -1,0 +1,75 @@
+#refdes,footprint,value,description,cost,device,mfr,mfrpn,dst,dstpn,link,link_page,supplier,sbapn,kitting,kitting_d,Xpos,Ypos,rot,side
+DUP3,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,5.06,3.52,270,top
+DUP1,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,5.06,4.82,270,top
+DUP2,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,5.06,4.17,270,top
+GEN2,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,4.54,3.52,90,top
+GEN1,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,4.54,4.82,90,top
+STEP,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,4.54,4.17,90,top
+WTB1,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,6.02,270,top
+WTB2,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,5.87,270,top
+WTB3,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,5.71,270,top
+WTB4,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,5.55,270,top
+WTB25,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,2.25,270,top
+WTB16,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,3.66,270,top
+WTB17,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,3.50,270,top
+WTB18,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,3.35,270,top
+WTB9,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,4.76,270,top
+WTB10,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,4.61,270,top
+WTB11,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,4.45,270,top
+WTB12,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,4.29,270,top
+WTB13,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,4.13,270,top
+WTB14,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,3.98,270,top
+WTB19,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,3.19,270,top
+WTB20,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,3.03,270,top
+WTB21,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,2.88,270,top
+WTB22,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,2.72,270,top
+WTB23,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,2.56,270,top
+WTB24,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,2.40,270,top
+WTB15,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,3.82,270,top
+WTB8,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,4.92,270,top
+WTB7,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,5.08,270,top
+WTB6,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,5.24,270,top
+WTB5,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,7.90,5.39,270,top
+Vheat1,"XT60","60A",$0.80 HobbyKing XT60,$0.80,CONNECTOR_2,HobbyKing,XT60,HobbyKing,XT60,www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html,N/A,c,,other,not known to be available in machine usable format,4.48,5.32,0,top
+RING4,"ring","2mm",,,CONNECTOR_13,,,,,,,,,,,5.24,5.85,90,top
+H16,"mount_m2","2mm",,,,,,,,,,,,,,4.88,5.22,0,top
+H15,"mount_m2","2mm",,,,,,,,,,,,,,4.88,5.38,0,top
+H13,"mount_m2","2mm",,,,,,,,,,,,,,5.59,5.38,0,top
+H14,"mount_m2","2mm",,,,,,,,,,,,,,5.59,5.22,0,top
+OFFSET4,"idc_offset_15mil","15mil",$0.28 MOUSER 649-1012938191204BLF,0.28,idc_offset,Amphenol FCI,10129381-912004BLF,Mouser,649-1012938191204BLF,www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf,1,c,,other,not known to be available in machine usable format,5.24,5.54,90,top
+MEZ2,"MEZ_538-505417-6010","Mezzanine_60pin_0.35mm_2row_male",$1.70 MOUSER 538-505417-6010,1.70,CONNECTOR_60,Molex,505417-6010,Mouser,538-505417-6010,www.mouser.com/ds/2/276/5054176010_PCB_HEADERS-958641.pdf,www.molex.com/pdm_docs/sd/5054176010_sd.pdf,c,,other,not known to be available in machine usable format,6.10,5.30,90,top
+H8,"mount_m2","2mm",,,,,,,,,,,,,,5.75,5.22,0,top
+H7,"mount_m2","2mm",,,,,,,,,,,,,,5.75,5.38,0,top
+H5,"mount_m2","2mm",,,,,,,,,,,,,,6.46,5.38,0,top
+H6,"mount_m2","2mm",,,,,,,,,,,,,,6.46,5.22,0,top
+RING2,"ring","2mm",,,CONNECTOR_13,,,,,,,,,,,6.10,5.85,90,top
+OFFSET2,"idc_offset_15mil","15mil",$0.28 MOUSER 649-1012938191204BLF,0.28,idc_offset,Amphenol FCI,10129381-912004BLF,Mouser,649-1012938191204BLF,www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf,1,c,,other,not known to be available in machine usable format,6.10,5.54,90,top
+TERM1,"terminal_block_5mm_9p","5mm",$1.28 MOUSER 490-TB001-500-09BE,1.28,terminal_block_5mm_9p,CUI Devices,TB001-500-09BE ,Mouser,490-TB001-500-09BE,www.mouser.com/datasheet/2/670/tb001-500-1550615.pdf,2,c,,other,not known to be available in machine usable format,6.71,4.25,0,top
+TERM2,"terminal_block_5mm_9p","5mm",$1.28 MOUSER 490-TB001-500-09BE,1.28,terminal_block_5mm_9p,CUI Devices,TB001-500-09BE ,Mouser,490-TB001-500-09BE,www.mouser.com/datasheet/2/670/tb001-500-1550615.pdf,2,c,,other,not known to be available in machine usable format,6.34,4.25,0,top
+BAR2,"barrier_terminal_block_325mil_9p","325mil",$4.19 MOUSER 538-38700-6109,4.19,barrier_terminal_block_325mil_9p,molex,38700-6109,Mouser,538-38700-6109,www.molex.com/pdm_docs/sd/387006109_sd.pdf,1,c,,other,not known to be available in machine usable format,7.34,4.28,0,top
+BAR3,"barrier_terminal_block_325mil_9p","325mil",$4.19 MOUSER 538-38700-6109,4.19,barrier_terminal_block_325mil_9p,molex,38700-6109,Mouser,538-38700-6109,www.molex.com/pdm_docs/sd/387006109_sd.pdf,1,c,,other,not known to be available in machine usable format,6.82,4.28,0,top
+BAR1,"barrier_terminal_block_325mil_9p","325mil",$4.19 MOUSER 538-38700-6109,4.19,barrier_terminal_block_325mil_9p,molex,38700-6109,Mouser,538-38700-6109,www.molex.com/pdm_docs/sd/387006109_sd.pdf,1,c,,other,not known to be available in machine usable format,7.19,4.28,0,top
+Legacy2,"HEADER20_2","-",$0.48 MOUSER 649-68691-420HLF,0.48,CONNECTOR_20,Amphenol FCI,68691-420HLF,Mouser,649-68691-420HLF,www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf,8,c,,other,not known to be available in machine usable format,6.20,3.01,90,top
+M3,"GenericRap_Cutdown","unknown",DISTRIBUTOR NOT YET KNOWN,,GenericRap_Cutdown,,,,,,,,,,,2.52,4.69,90,top
+M2,"GenericRap_Cutdown","unknown",DISTRIBUTOR NOT YET KNOWN,,GenericRap_Cutdown,,,,,,,,,,,2.52,3.49,90,top
+M1,"GenericRap","unknown",DISTRIBUTOR NOT YET KNOWN,,GenericRap,,,,,,,,,,,2.35,5.99,90,top
+PWR1,"HEADER4_1","-",$0.27 MOUSER 517-9612046804AR,0.27,CONNECTOR_4,3M Electronic Solutions Division,961204-6804-AR,Mouser,517-9612046804AR ,www.mouser.com/ds/2/1/ts2181-30266.pdf,2,c,,other,not known to be available in machine usable format,5.88,6.45,0,top
+PWR2,"HEADER4_1","-",$0.27 MOUSER 517-9612046804AR,0.27,CONNECTOR_4,3M Electronic Solutions Division,961204-6804-AR,Mouser,517-9612046804AR ,www.mouser.com/ds/2/1/ts2181-30266.pdf,2,c,,other,not known to be available in machine usable format,7.65,6.45,0,top
+BRD2,"JUMPER8","-",$0.42 MOUSER 538-22-28-5084,0.42,CONNECTOR_8,Molex,22-28-5084,Mouser,538-22-28-5084,www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf,www.molex.com/pdm_docs/sd/022285084_sd.pdf,c,,other,not known to be available in machine usable format,6.91,6.55,0,top
+BRD1,"JUMPER8","-",$0.42 MOUSER 538-22-28-5084,0.42,CONNECTOR_8,Molex,22-28-5084,Mouser,538-22-28-5084,www.mouser.com/ds/2/276/0022285084_PCB_HEADERS-228315.pdf,www.molex.com/pdm_docs/sd/022285084_sd.pdf,c,,other,not known to be available in machine usable format,6.62,6.55,0,top
+R12,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,4.63,3.91,180,bottom
+R14,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,4.63,5.10,180,bottom
+R13,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,4.69,4.73,180,bottom
+R10,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,4.63,3.31,180,bottom
+R11,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,4.63,3.75,180,bottom
+F11,"1206","1A",$0.62 MOUSER 652-SF-1206S100-2,0.62,FUSE,Bourns,SF-1206S100-2,Mouser,652-SF-1206S100-2,www.mouser.com/datasheet/2/54/sf1206s-778030.pdf,2,c,,other,not known to be available in machine usable format,6.21,3.45,90,top
+F10,"1206","1A",$0.62 MOUSER 652-SF-1206S100-2,0.62,FUSE,Bourns,SF-1206S100-2,Mouser,652-SF-1206S100-2,www.mouser.com/datasheet/2/54/sf1206s-778030.pdf,2,c,,other,not known to be available in machine usable format,6.12,3.45,90,top
+R1,"0402","1",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,5.71,5.11,270,top
+F1,"1206","1A",$0.62 MOUSER 652-SF-1206S100-2,0.62,FUSE,Bourns,SF-1206S100-2,Mouser,652-SF-1206S100-2,www.mouser.com/datasheet/2/54/sf1206s-778030.pdf,2,c,,other,not known to be available in machine usable format,5.73,4.98,90,top
+TERM3,"terminal_block_5mm_9p","5mm",$1.28 MOUSER 490-TB001-500-09BE,1.28,terminal_block_5mm_9p,CUI Devices,TB001-500-09BE ,Mouser,490-TB001-500-09BE,www.mouser.com/datasheet/2/670/tb001-500-1550615.pdf,2,c,,other,not known to be available in machine usable format,5.94,4.25,0,top
+C2,"0402","1n",$0.72 MOUSER 80-C0402C102F5GECTU,0.72,CAPACITOR,Kemet,C0402C102F5GECTU,Mouser,80-C0402C102F5GECTU,www.mouser.com/datasheet/2/212/1/KEM_C1091_C0G_ESD-1140493.pdf,5,c,,tape-no-leader,,6.42,4.02,270,top
+C1,"0402","1n",$0.72 MOUSER 80-C0402C102F5GECTU,0.72,CAPACITOR,Kemet,C0402C102F5GECTU,Mouser,80-C0402C102F5GECTU,www.mouser.com/datasheet/2/212/1/KEM_C1091_C0G_ESD-1140493.pdf,5,c,,tape-no-leader,,6.42,4.09,270,top
+D2,"SMD_DIODE 60 30","0.4V",$0.26 MOUSER 750-CDBU0530,0.26,DIODE,Comchip Technology,CDBU0530,Mouser,750-CDBU0530,www.mouser.com/ds/2/80/CDBU0530-RevA791919-16389.pdf,1,c,,tape-no-leader,,6.49,3.98,270,top
+D1,"SMD_DIODE 60 30","0.4V",$0.26 MOUSER 750-CDBU0530,0.26,DIODE,Comchip Technology,CDBU0530,Mouser,750-CDBU0530,www.mouser.com/ds/2/80/CDBU0530-RevA791919-16389.pdf,1,c,,tape-no-leader,,6.49,4.12,270,top
+Legacy1,"HEADER20_2","-",$0.48 MOUSER 649-68691-420HLF,0.48,CONNECTOR_20,Amphenol FCI,68691-420HLF,Mouser,649-68691-420HLF,www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf,8,c,,other,not known to be available in machine usable format,6.20,3.25,90,top
+MEZ4,"MEZ_538-505413-6010","Mezzanine_60pin_0.35mm_2row_female",$1.74 MOUSER 538-505413-6010,1.74,CONNECTOR_60,Molex,505413-6010,Mouser,538-505413-6010,www.mouser.com/ds/2/276/5054136010_PCB_RECEPTACLES-958639.pdf,www.molex.com/pdm_docs/sd/5054136010_sd.pdf,c,,other,not known to be available in machine usable format,5.24,5.30,180,bottom

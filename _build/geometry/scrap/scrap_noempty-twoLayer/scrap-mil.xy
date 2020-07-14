@@ -1,0 +1,15 @@
+#refdes,footprint,value,description,cost,device,mfr,mfrpn,dst,dstpn,link,link_page,supplier,sbapn,kitting,kitting_d,Xpos,Ypos,rot,side
+RING1,"ring","2mm",,,CONNECTOR_13,,,,,,,,,,,6102.36,2202.76,270,top
+OFFSET1,"idc_offset_15mil","15mil",$0.28 MOUSER 649-1012938191204BLF,0.28,idc_offset,Amphenol FCI,10129381-912004BLF,Mouser,649-1012938191204BLF,www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf,1,c,,other,not known to be available in machine usable format,6102.36,2520.22,270,top
+H3,"mount_m2","2mm",,,,,,,,,,,,,,6456.69,2675.20,0,top
+H4,"mount_m2","2mm",,,,,,,,,,,,,,6456.69,2832.68,0,top
+MEZ1,"MEZ_538-505417-6010","Mezzanine_60pin_0.35mm_2row_male",$1.70 MOUSER 538-505417-6010,1.70,CONNECTOR_60,Molex,505417-6010,Mouser,538-505417-6010,www.mouser.com/ds/2/276/5054176010_PCB_HEADERS-958641.pdf,www.molex.com/pdm_docs/sd/5054176010_sd.pdf,c,,other,not known to be available in machine usable format,6102.17,2753.94,270,top
+H2,"mount_m2","2mm",,,,,,,,,,,,,,5748.03,2832.68,0,top
+H1,"mount_m2","2mm",,,,,,,,,,,,,,5748.03,2675.20,0,top
+OFFSET3,"idc_offset_15mil","15mil",$0.28 MOUSER 649-1012938191204BLF,0.28,idc_offset,Amphenol FCI,10129381-912004BLF,Mouser,649-1012938191204BLF,www.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf,1,c,,other,not known to be available in machine usable format,5235.99,2520.38,270,top
+MEZ3,"MEZ_538-505413-6010","Mezzanine_60pin_0.35mm_2row_female",$1.74 MOUSER 538-505413-6010,1.74,CONNECTOR_60,Molex,505413-6010,Mouser,538-505413-6010,www.mouser.com/ds/2/276/5054136010_PCB_RECEPTACLES-958639.pdf,www.molex.com/pdm_docs/sd/5054136010_sd.pdf,c,,other,not known to be available in machine usable format,5236.42,2754.86,0,bottom
+RING3,"ring","2mm",,,CONNECTOR_13,,,,,,,,,,,5236.22,2202.76,270,top
+H11,"mount_m2","2mm",,,,,,,,,,,,,,5590.55,2675.20,0,top
+H12,"mount_m2","2mm",,,,,,,,,,,,,,5590.55,2832.68,0,top
+H10,"mount_m2","2mm",,,,,,,,,,,,,,4881.89,2832.68,0,top
+H9,"mount_m2","2mm",,,,,,,,,,,,,,4881.89,2675.20,0,top

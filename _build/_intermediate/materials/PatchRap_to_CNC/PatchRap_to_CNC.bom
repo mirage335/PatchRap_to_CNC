@@ -1,0 +1,29 @@
+# PcbBOM Version 1.0
+# Date: Tue 14 Jul 2020 02:58:47 AM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes, footprint, value, description, cost, device, mfr, mfrpn, dst, dstpn, link, link_page, supplier, sbapn, kitting, kitting_d, nobom, noplace
+# --------------------------------------------
+6,"eth_571-1734795-1","-",DUP3 DUP1 DUP2 GEN2 GEN1 STEP ,"","","","","CONNECTOR_13","","","","","","","","","","","",""
+25,"wireToBoard.fp","-",WTB1 WTB2 WTB3 WTB4 WTB25 WTB16 WTB17 WTB18 WTB9 WTB10 WTB11 WTB12 WTB13 WTB14 WTB19 WTB20 WTB21 WTB22 WTB23 WTB24 WTB15 WTB8 WTB7 WTB6 WTB5 ,"","","","","CONNECTOR_4","","","","","","","","","","","",""
+1,"XT60","60A",Vheat1 ,"","","","","CONNECTOR_2","","","","","","","","","","","",""
+2,"ring","2mm",RING4 RING2 ,"","","","","CONNECTOR_13","","","","","","","","","","","",""
+8,"mount_m2","2mm",H16 H15 H13 H14 H8 H7 H5 H6 ,"","","","","HOLE","","","","","","","","","","","",""
+2,"idc_offset_15mil","15mil",OFFSET4 OFFSET2 ,"","","","","idc_offset","","","","","","","","","","","",""
+1,"MEZ_538-505417-6010","Mezzanine_60pin_0.35mm_2row_male",MEZ2 ,"","","","","CONNECTOR_60","","","","","","","","","","","",""
+3,"terminal_block_5mm_9p","5mm",TERM1 TERM2 TERM3 ,"","","","","terminal_block_5mm_9p","","","","","","","","","","","",""
+3,"barrier_terminal_block_325mil_9p","325mil",BAR2 BAR3 BAR1 ,"","","","","barrier_terminal_block_325mil_9p","","","","","","","","","","","",""
+2,"HEADER20_2","-",Legacy2 Legacy1 ,"","","","","CONNECTOR_20","","","","","","","","","","","",""
+2,"breadboard","unknown",I2 I1 ,"","","","","unknown","","","","","","","","","","","",""
+2,"GenericRap_Cutdown","unknown",M3 M2 ,"","","","","GenericRap_Cutdown","","","","","","","","","","","",""
+1,"GenericRap","unknown",M1 ,"","","","","GenericRap","","","","","","","","","","","",""
+2,"HEADER4_1","-",PWR1 PWR2 ,"","","","","CONNECTOR_4","","","","","","","","","","","",""
+2,"JUMPER8","-",BRD2 BRD1 ,"","","","","CONNECTOR_8","","","","","","","","","","","",""
+5,"0805","2.2k",R12 R14 R13 R10 R11 ,"","","","","RESISTOR","","","","","","","","","","","",""
+9,"SparkGapPCB","2kV",T6 T5 T2 T1 T4 T3 T9 T8 T7 ,"","","","","SparkGap","","","","","","","","","","","",""
+16,"0201","-",J3 J4 J21 J18 J1 J2 J13 J12 J11 J10 J15 J14 J17 J16 J19 J20 ,"","","","","JUMPER","","","","","","","","","","","",""
+4,"1206","1A",F11 F10 F1 F2 ,"","","","","FUSE","","","","","","","","","","","",""
+2,"0402","1",R1 R2 ,"","","","","RESISTOR","","","","","","","","","","","",""
+2,"0402","1n",C2 C1 ,"","","","","CAPACITOR","","","","","","","","","","","",""
+2,"SMD_DIODE 60 30","0.4V",D2 D1 ,"","","","","DIODE","","","","","","","","","","","",""
+1,"MEZ_538-505413-6010","Mezzanine_60pin_0.35mm_2row_female",MEZ4 ,"","","","","CONNECTOR_60","","","","","","","","","","","",""
