@@ -544,11 +544,6 @@ N 21200 57100 20900 57100 4
 L 22300 54000 24000 54000 3 0 0 0 -1 -1
 L 3500 61500 5200 61500 3 0 0 0 -1 -1
 C 19700 60100 1 180 0 vee-1.sym
-C 21500 47600 1 0 0 Vext.sym
-{
-T 21500 47900 5 10 0 1 0 0 1
-device=Vext
-}
 C 21200 41400 1 180 0 vee-1.sym
 C 21200 41400 1 180 1 generic-power.sym
 {
@@ -560,11 +555,6 @@ C 21500 60100 1 180 1 generic-power.sym
 {
 T 21700 59850 5 10 1 1 180 3 1
 net=Vsys:1
-}
-C 20300 66600 1 0 0 Vext.sym
-{
-T 20300 66900 5 10 0 1 0 0 1
-device=Vext
 }
 C 21100 60100 1 180 0 vee-1.sym
 C 22500 59000 1 90 0 input-2.sym
@@ -5219,5 +5209,23 @@ device=none
 T 33400 40300 5 10 1 0 0 0 1
 net=Vext-Thermistor:1
 T 33900 40200 5 10 1 1 0 7 1
+value=INPUT
+}
+C 21600 49000 1 270 0 input-2.sym
+{
+T 22300 48400 5 10 0 0 270 0 1
+device=none
+T 21800 49000 5 10 1 0 270 0 1
+net=Vext-Probe-Servo-Fan:1
+T 21700 48500 5 10 1 1 270 7 1
+value=INPUT
+}
+C 20400 68000 1 270 0 input-2.sym
+{
+T 21100 67400 5 10 0 0 270 0 1
+device=none
+T 20600 68000 5 10 1 0 270 0 1
+net=Vext-Thermistor:1
+T 20500 67500 5 10 1 1 270 7 1
 value=INPUT
 }
