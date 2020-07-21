@@ -1,5 +1,5 @@
 # PcbXY Version 1.0
-# Date: Tue 14 Jul 2020 02:58:47 AM GMT UTC
+# Date: Mon 20 Jul 2020 09:59:31 PM GMT UTC
 # Author: commonadmin
 # Title: (unknown) - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
@@ -50,18 +50,14 @@ H5,"mount_m2","2mm",164.00,136.70,0,top
 H6,"mount_m2","2mm",164.00,132.70,0,top
 RING2,"ring","2mm",155.00,148.70,90,top
 OFFSET2,"idc_offset_15mil","15mil",155.00,140.64,90,top
-TERM1,"terminal_block_5mm_9p","5mm",170.50,107.95,0,top
 TERM2,"terminal_block_5mm_9p","5mm",161.00,107.95,0,top
 BAR2,"barrier_terminal_block_325mil_9p","325mil",186.50,108.70,0,top
 BAR3,"barrier_terminal_block_325mil_9p","325mil",173.25,108.72,0,top
 BAR1,"barrier_terminal_block_325mil_9p","325mil",182.75,108.70,0,top
 Legacy2,"HEADER20_2","-",157.48,76.45,90,top
-M3,"GenericRap_Cutdown","unknown",63.91,119.24,90,top
-M2,"GenericRap_Cutdown","unknown",63.91,88.76,90,top
-M1,"GenericRap","unknown",59.57,152.22,90,top
 PWR1,"HEADER4_1","-",149.35,163.83,0,top
 PWR2,"HEADER4_1","-",194.31,163.83,0,top
-BRD2,"JUMPER8","-",175.51,166.50,0,top
+BRD2,"JUMPER8","-",175.51,166.37,0,top
 BRD1,"JUMPER8","-",168.02,166.37,0,top
 R12,"0805","2.2k",117.59,99.19,180,bottom
 R14,"0805","2.2k",117.49,129.54,180,bottom
@@ -83,12 +79,10 @@ J21,"0201","-",164.97,88.98,90,top
 J18,"0201","-",159.13,90.76,270,top
 F11,"1206","1A",157.61,87.73,90,top
 F10,"1206","1A",155.32,87.73,90,top
-J1,"0201","-",146.09,129.58,90,top
+J1,"0201","-",146.09,129.58,270,top
 R1,"0402","1",145.08,129.68,270,top
 F1,"1206","1A",145.54,126.47,90,top
-J2,"0201","-",146.09,122.83,90,top
-F2,"1206","1A",145.54,119.61,90,top
-R2,"0402","1",145.08,122.93,270,top
+F2,"1206","1A",145.54,120.27,90,top
 TERM3,"terminal_block_5mm_9p","5mm",151.00,107.95,0,top
 J13,"0201","-",146.91,85.90,90,top
 J12,"0201","-",146.33,85.90,90,top
@@ -98,11 +92,17 @@ J15,"0201","-",148.51,85.90,90,top
 J14,"0201","-",147.96,85.90,90,top
 J17,"0201","-",149.63,85.90,90,top
 J16,"0201","-",149.07,85.90,90,top
-C2,"0402","1n",163.19,102.09,270,top
-C1,"0402","1n",163.19,103.78,270,top
-D2,"SMD_DIODE 60 30","0.4V",164.72,101.22,270,top
-D1,"SMD_DIODE 60 30","0.4V",164.72,104.52,270,top
 J19,"0201","-",163.32,85.59,90,top
 J20,"0201","-",163.96,85.59,90,top
 Legacy1,"HEADER20_2","-",157.48,82.42,90,top
 MEZ4,"MEZ_538-505413-6010","Mezzanine_60pin_0.35mm_2row_female",133.00,134.68,180,bottom
+C2,"0402","1n",156.34,116.73,90,top
+C1,"0402","1n",154.94,116.73,270,top
+D1,"SMD_DIODE 60 30","0.4V",154.69,114.17,270,top
+D2,"SMD_DIODE 60 30","0.4V",156.59,114.17,90,top
+TERM1,"terminal_block_5mm_9p","5mm",170.50,107.95,0,top
+R2,"0402","1",145.16,123.19,270,top
+J2,"0201","-",146.05,123.19,270,top
+M1,"GenericRap","unknown",48.90,152.22,90,top
+M2,"GenericRap_Cutdown","unknown",53.24,88.76,90,top
+M3,"GenericRap_Cutdown","unknown",53.24,119.24,90,top
