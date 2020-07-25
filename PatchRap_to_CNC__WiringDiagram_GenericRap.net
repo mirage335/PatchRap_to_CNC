@@ -1,0 +1,18 @@
+Servo	I2-16 M3-44 
+Probe	I2-13 M3-43 
+Vext-Probe-Servo-Fan	I2-5 I2-15 I2-17 M3-41 
+Bm	I2-10 M2-40 
+Am	I2-9 M2-39 
+Ap	I2-8 M2-38 
+Bp	I2-7 M2-37 
+Cooling	I2-12 M1-51 
+Vext-Thermistor	M1-41 
+Vee	I2-6 I2-18 C2-2 D2-2 M3-49 M2-49 M1-52 M1-49 
+Heater	I2-2 C2-1 C1-2 D2-1 D1-2 M1-48 
+Vsys	I2-11 I2-1 C1-1 D1-1 M3-47 M2-47 M1-50 M1-47 
+GND	I2-4 I2-14 M3-42 M1-42 M1-46 
+Thermistor	I2-3 M1-45 
+unnamed_net4	M3-14 M3-13 M2-14 M2-13 M1-13 M1-14 
+unnamed_net3	M3-12 M3-11 M2-12 M2-11 M1-12 M1-11 
+unnamed_net2	M1-9 M2-10 M2-9 M3-10 M3-9 M1-10 
+unnamed_net1	M1-8 M2-8 M2-7 M3-8 M3-7 M1-7 

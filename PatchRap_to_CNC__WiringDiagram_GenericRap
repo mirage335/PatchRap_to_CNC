@@ -1,7 +1,7 @@
+elements-dir ./_out_PatchRap_symbols_reduced/footprints
+
 elements-dir ./_out_PatchRap_symbols/footprints
 elements-dir ./_out_PatchRap_breakouts/footprints
-
-elements-dir ./_out_PatchRap_symbols_reduced/footprints
 
 
 
@@ -10,5 +10,5 @@ elements-dir ./_out_PatchRap_symbols_reduced/footprints
 
 elements-dir ./gedasymbols/footprints
 elements-dir ./customParts/footprints
-schematics PatchRap_to_CNC.sch
-output-name PatchRap_to_CNC
+schematics PatchRap_to_CNC__WiringDiagram_GenericRap.sch
+output-name PatchRap_to_CNC__WiringDiagram_GenericRap

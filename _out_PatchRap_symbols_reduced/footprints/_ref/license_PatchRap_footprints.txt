@@ -1,0 +1,29 @@
+
+If not fair use, files under this directory retain the licenses from the projects they are intended to document for interconnect purposes.
+
+EXACT COPY OF THIS LICENSE FILE TO BE KEPT ALONGSIDE RELEVANT FOOTPRINT FILES.
+
+
+_
+
+	_M1__GenericRap.fp
+	_M2__GenericRap_Cutdown.fp
+	_M3__GenericRap_Cutdown.fp
+
+Derived from PatchRap and retaining the GPLv3 license of that project (see below).
+_
+
+	GenericRap__depth.txt
+	GenericRap.fp
+	GenericRap_Cutdown.fp
+https://github.com/mirage335/PatchRap
+If not fair use (and are in fact intended not to be by author mirage335), PatchRap files retain GPLv3 license (as in fact intended by author mirage335). In particular, it should be noted these files may be more than a mere list of facts, being directly translatable back to functional circuit board designs which may demonstrate signficant originality.
+https://github.com/mirage335/PatchRap
+...
+PatchRap is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+PatchRap is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with PatchRap. If not, see http://www.gnu.org/licenses/.
+
+
+
+

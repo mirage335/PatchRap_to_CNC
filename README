@@ -8,8 +8,16 @@ __Usage__
 
 Beware that in practice, the generic PatchRap patches are at least as versatile, being breadboard friendly. Specialized adapters may be only rarely justified.
 
+___ PatchRap_to_CNC__WiringDiagram_GenericRap ___
+
+Typically intended to serve as a wiring diagram. Standard solid-core copper Cat5E or similar 'Ethernet' wire can typically plug into a breadboard directly.
+
+Alternatively, may be used as a flexible PCB layout, with breakaway header sockets installed where appropriate.
+
+
 __Design__
 
+WARNING: PCB 'sub' layers may be used to document connections within components. These possible distractions should be omitted from fabricated PCBs, wiring diagrams, and mechanical CAD documentation.
 
 USA companies provide all parts in these schematics.
 
@@ -21,6 +29,8 @@ LulzBot Mini, Taz5, and similar, connectors, must be tested to adhere to specifi
 
 __Reference__
 https://www.mouser.com/Semiconductors/Discrete-Semiconductors/Diodes-Rectifiers/_/N-ax1ma?P=1yzs6ioZ1yx8ncqZ1z0zlhtZ1z0zl2wZ1z0zlrjZ1z0zls5Z1z0z63x&Rl=ax1maZgjdhq5Z1yuoc70Z1yuoasoSGTax1maZgjdhqcZ1yop3uaZ1yokr6uSGT&Ns=Pricing|0
+
+https://en.wikipedia.org/wiki/Point-to-point_construction
 
 
 __Copyright__
