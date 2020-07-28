@@ -22,7 +22,7 @@ refdes=M1
 T 7500 48000 5 10 0 0 0 0 1
 device=GenericRap
 T 7500 47600 5 10 0 0 0 0 1
-footprint=_M1__GenericRap
+footprint=_M1__GenericRap_WireShield
 }
 T 24300 16900 9 10 1 0 0 0 9
 STEP
@@ -65,7 +65,7 @@ refdes=M3
 T 7500 29000 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 7500 28600 5 10 0 0 0 0 1
-footprint=_M3__GenericRap_Cutdown
+footprint=_M3__GenericRap_Cutdown_WireShield
 }
 C 19900 30000 1 270 0 input-2.sym
 {
