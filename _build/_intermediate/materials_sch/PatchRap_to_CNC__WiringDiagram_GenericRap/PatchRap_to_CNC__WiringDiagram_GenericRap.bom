@@ -1,0 +1,13 @@
+refdes	footprint	value	description	cost	device	mfr	mfrpn	dst	dstpn	link	link_page	supplier	sbapn	kitting	kitting_d	nobom	noplace	
+BRK3	JUMPER6	-	$0.21 MOUSER 571-6404556	0.21	CONNECTOR_6	TE Connectivity	640455-6	Mouser	571-6404556	www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf	23	c	unknown	other	not known to be available in machine usable format	unknown	unknown	
+BRK2	JUMPER6	-	$0.21 MOUSER 571-6404556	0.21	CONNECTOR_6	TE Connectivity	640455-6	Mouser	571-6404556	www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf	23	c	unknown	other	not known to be available in machine usable format	unknown	unknown	
+BRK1	JUMPER6	-	$0.21 MOUSER 571-6404556	0.21	CONNECTOR_6	TE Connectivity	640455-6	Mouser	571-6404556	www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf	23	c	unknown	other	not known to be available in machine usable format	unknown	unknown	
+I2	illustration_extruder_typical	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+C2	ACY400P	1n	$0.72 MOUSER 80-C0402C102F5GECTU	0.72	CAPACITOR	Kemet	C0402C102F5GECTU	Mouser	80-C0402C102F5GECTU	www.mouser.com/datasheet/2/212/1/KEM_C1091_C0G_ESD-1140493.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
+C1	ACY400P	1n	$0.72 MOUSER 80-C0402C102F5GECTU	0.72	CAPACITOR	Kemet	C0402C102F5GECTU	Mouser	80-C0402C102F5GECTU	www.mouser.com/datasheet/2/212/1/KEM_C1091_C0G_ESD-1140493.pdf	5	c	unknown	tape-no-leader	unknown	unknown	unknown	
+D2	DIODE_LAY 600	0.4V	$0.26 MOUSER 750-CDBU0530	0.26	DIODE	Comchip Technology	CDBU0530	Mouser	750-CDBU0530	www.mouser.com/ds/2/80/CDBU0530-RevA791919-16389.pdf	1	c	unknown	tape-no-leader	unknown	unknown	unknown	
+D1	DIODE_LAY 600	0.4V	$0.26 MOUSER 750-CDBU0530	0.26	DIODE	Comchip Technology	CDBU0530	Mouser	750-CDBU0530	www.mouser.com/ds/2/80/CDBU0530-RevA791919-16389.pdf	1	c	unknown	tape-no-leader	unknown	unknown	unknown	
+I1	breadboard	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+M3	_M3__GenericRap_Cutdown_WireShield	unknown	DISTRIBUTOR NOT YET KNOWN	unknown	GenericRap_Cutdown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+M2	_M2__GenericRap_Cutdown	unknown	DISTRIBUTOR NOT YET KNOWN	unknown	GenericRap_Cutdown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
+M1	_M1__GenericRap_WireShield	unknown	DISTRIBUTOR NOT YET KNOWN	unknown	GenericRap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	

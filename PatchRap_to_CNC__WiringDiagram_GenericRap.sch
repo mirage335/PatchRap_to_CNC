@@ -718,7 +718,7 @@ dst=Mouser
 T 14300 42200 5 10 0 0 0 0 1
 dstpn=571-6404556
 T 14300 42200 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
+link=www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
 T 14300 42200 5 10 0 0 0 0 1
 link_page=23
 T 14300 42200 5 10 0 0 0 0 1
@@ -751,7 +751,7 @@ dst=Mouser
 T 14300 32700 5 10 0 0 0 0 1
 dstpn=571-6404556
 T 14300 32700 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
+link=www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
 T 14300 32700 5 10 0 0 0 0 1
 link_page=23
 T 14300 32700 5 10 0 0 0 0 1
@@ -784,7 +784,7 @@ dst=Mouser
 T 14300 23200 5 10 0 0 0 0 1
 dstpn=571-6404556
 T 14300 23200 5 10 0 0 0 0 1
-link=http://www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
+link=www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf
 T 14300 23200 5 10 0 0 0 0 1
 link_page=23
 T 14300 23200 5 10 0 0 0 0 1

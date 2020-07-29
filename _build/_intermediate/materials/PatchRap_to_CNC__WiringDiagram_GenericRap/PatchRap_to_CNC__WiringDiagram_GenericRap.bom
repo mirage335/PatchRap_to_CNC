@@ -1,0 +1,14 @@
+# PcbBOM Version 1.0
+# Date: Wed 29 Jul 2020 07:43:28 PM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes, footprint, value, description, cost, device, mfr, mfrpn, dst, dstpn, link, link_page, supplier, sbapn, kitting, kitting_d, nobom, noplace
+# --------------------------------------------
+1,"_M2__GenericRap_Cutdown","unknown",M2 ,"","","","","GenericRap_Cutdown","","","","","","","","","","","",""
+1,"breadboard","unknown",I1 ,"","","","","unknown","","","","","","","","","","","",""
+2,"ACY400P","1n",C1 C2 ,"","","","","CAPACITOR","","","","","","","","","","","",""
+3,"JUMPER6","-",BRK3 BRK2 BRK1 ,"","","","","CONNECTOR_6","","","","","","","","","","","",""
+1,"illustration_extruder_typical","unknown",I2 ,"","","","","unknown","","","","","","","","","","","",""
+1,"_M3__GenericRap_Cutdown_WireShield","unknown",M3 ,"","","","","GenericRap_Cutdown","","","","","","","","","","","",""
+1,"_M1__GenericRap_WireShield","unknown",M1 ,"","","","","GenericRap","","","","","","","","","","","",""
+2,"DIODE_LAY 600","0.4V",D2 D1 ,"","","","","DIODE","","","","","","","","","","","",""

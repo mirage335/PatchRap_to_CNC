@@ -1,0 +1,12 @@
+# PcbXY Version 1.0
+# Date: Wed 29 Jul 2020 07:48:36 PM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+M2,"_M2__GenericRap_Cutdown","unknown",71.86,51.65,0,top
+BRK2,"JUMPER6","-",42.93,44.45,0,top
+BRK1,"JUMPER6","-",42.93,74.93,0,top
+I2,"illustration_extruder_typical","unknown",111.42,53.74,270,top
+M1,"_M1__GenericRap_WireShield","unknown",70.02,81.77,0,top

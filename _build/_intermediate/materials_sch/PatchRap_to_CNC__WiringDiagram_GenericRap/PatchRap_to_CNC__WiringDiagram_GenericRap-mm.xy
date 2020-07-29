@@ -1,0 +1,12 @@
+#refdes,footprint,value,description,cost,device,mfr,mfrpn,dst,dstpn,link,link_page,supplier,sbapn,kitting,kitting_d,Xpos,Ypos,rot,side
+M2,"_M2__GenericRap_Cutdown","unknown",DISTRIBUTOR NOT YET KNOWN,,GenericRap_Cutdown,,,,,,,,,,,71.86,51.65,0,top
+C1,"ACY400P","1n",$0.72 MOUSER 80-C0402C102F5GECTU,0.72,CAPACITOR,Kemet,C0402C102F5GECTU,Mouser,80-C0402C102F5GECTU,www.mouser.com/datasheet/2/212/1/KEM_C1091_C0G_ESD-1140493.pdf,5,c,,tape-no-leader,,27.94,76.20,0,top
+BRK3,"JUMPER6","-",$0.21 MOUSER 571-6404556,0.21,CONNECTOR_6,TE Connectivity,640455-6,Mouser,571-6404556,www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf,23,c,,other,not known to be available in machine usable format,42.93,13.97,0,top
+BRK2,"JUMPER6","-",$0.21 MOUSER 571-6404556,0.21,CONNECTOR_6,TE Connectivity,640455-6,Mouser,571-6404556,www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf,23,c,,other,not known to be available in machine usable format,42.93,44.45,0,top
+BRK1,"JUMPER6","-",$0.21 MOUSER 571-6404556,0.21,CONNECTOR_6,TE Connectivity,640455-6,Mouser,571-6404556,www.mouser.com/ds/2/418/NG_DS_82056_MTA_0708-815240.pdf,23,c,,other,not known to be available in machine usable format,42.93,74.93,0,top
+I2,"illustration_extruder_typical","unknown",,,,,,,,,,,,,,111.42,53.74,270,top
+M3,"_M3__GenericRap_Cutdown_WireShield","unknown",DISTRIBUTOR NOT YET KNOWN,,GenericRap_Cutdown,,,,,,,,,,,70.02,20.81,0,top
+M1,"_M1__GenericRap_WireShield","unknown",DISTRIBUTOR NOT YET KNOWN,,GenericRap,,,,,,,,,,,70.02,81.77,0,top
+D2,"DIODE_LAY 600","0.4V",$0.26 MOUSER 750-CDBU0530,0.26,DIODE,Comchip Technology,CDBU0530,Mouser,750-CDBU0530,www.mouser.com/ds/2/80/CDBU0530-RevA791919-16389.pdf,1,c,,tape-no-leader,,33.02,73.66,180,top
+D1,"DIODE_LAY 600","0.4V",$0.26 MOUSER 750-CDBU0530,0.26,DIODE,Comchip Technology,CDBU0530,Mouser,750-CDBU0530,www.mouser.com/ds/2/80/CDBU0530-RevA791919-16389.pdf,1,c,,tape-no-leader,,30.48,73.66,0,top
+C2,"ACY400P","1n",$0.72 MOUSER 80-C0402C102F5GECTU,0.72,CAPACITOR,Kemet,C0402C102F5GECTU,Mouser,80-C0402C102F5GECTU,www.mouser.com/datasheet/2/212/1/KEM_C1091_C0G_ESD-1140493.pdf,5,c,,tape-no-leader,,30.48,76.20,180,top
