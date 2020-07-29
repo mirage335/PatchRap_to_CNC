@@ -809,6 +809,8 @@ Via[1500.00mil 3850.00mil 20.00mil 20.00mil 0.0000 10.00mil "" ""]
 Via[1815.00mil 3925.00mil 20.00mil 20.00mil 0.0000 10.00mil "" ""]
 Via[900.00mil 3200.00mil 60.00mil 20.00mil 0.0000 38.00mil "" ""]
 Via[900.00mil 3300.00mil 60.00mil 20.00mil 0.0000 38.00mil "" ""]
+Via[1590.00mil 4000.00mil 60.00mil 20.00mil 0.0000 38.00mil "" ""]
+Via[900.00mil 3400.00mil 60.00mil 20.00mil 0.0000 38.00mil "" ""]
 
 Element["" "_M2__GenericRap_Cutdown" "M2" "unknown" 3.9378mm 117.3488mm 60.00mil 160.00mil 0 100 ""]
 (
@@ -5166,6 +5168,7 @@ Layer(7 "P4_W7" "copper")
 	Line[4615.00mil 4915.00mil 4625.00mil 4915.00mil 14.00mil 12.00mil "clearline"]
 	Line[4625.00mil 4915.00mil 4630.00mil 4910.00mil 14.00mil 12.00mil "clearline"]
 	Line[4630.00mil 3380.00mil 4630.00mil 4910.00mil 25.00mil 20.00mil "clearline"]
+	Line[1590.00mil 3900.00mil 1590.00mil 4000.00mil 25.00mil 20.00mil "clearline"]
 )
 Layer(8 "P5_W8" "copper")
 (
@@ -5182,6 +5185,7 @@ Layer(8 "P5_W8" "copper")
 	Line[1665.00mil 3390.00mil 1030.00mil 3390.00mil 25.00mil 20.00mil "clearline"]
 	Line[1030.00mil 3390.00mil 940.00mil 3300.00mil 25.00mil 20.00mil "clearline"]
 	Line[940.00mil 3300.00mil 900.00mil 3300.00mil 25.00mil 20.00mil "clearline"]
+	Line[900.00mil 3300.00mil 900.00mil 3400.00mil 25.00mil 20.00mil "clearline"]
 )
 Layer(9 "X1_W09" "copper")
 (
