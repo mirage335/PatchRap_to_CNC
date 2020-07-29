@@ -3,15 +3,15 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 6000.00mil 5000.00mil]
+PCB["" 285.00mil 360.00mil]
 
-Grid[5.00mil 0.0000 0.0000 1]
+Grid[10.00mil 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
-DRC[6.00mil 6.00mil 6.00mil 4.00mil 10.00mil 5.00mil]
-Flags("showdrc,nameonpcb,uniquename,clearnew,snappin")
-Groups("1,c:2:3:4:5:6,s:7:8")
-Styles["Signal,10.00mil,2.6500mm,2.2500mm,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
+DRC[6.00mil 0.0000 6.00mil 0.10mil 15.00mil 5.00mil]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2,s")
+Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 Symbol[' ' 18.00mil]
 (
 )
@@ -785,65 +785,46 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "5.00mil")
-Via[3140.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "8" ""]
-Via[2815.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "7" ""]
-Via[2490.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "6" ""]
-Via[2165.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "5" ""]
-Via[1840.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "4" ""]
-Via[1515.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "3" ""]
-Via[1190.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "2" ""]
-Via[865.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "1" ""]
-Via[540.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "10" ""]
-Via[3465.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "9" ""]
-Via[3790.00mil 480.00mil 2.6500mm 20.00mil 0.0000 2.2500mm "11" ""]
-Layer(1 "top" "copper")
+
+Element["" "" "" "" 0.0000 0.0000 0.0000 0.0000 0 100 ""]
+(
+	Pin[55.00mil 330.00mil 20.00mil 20.00mil 26.00mil 10.00mil "" "2" ""]
+	Pin[105.00mil 330.00mil 20.00mil 20.00mil 26.00mil 10.00mil "" "1" ""]
+	Pin[205.00mil 330.00mil 20.00mil 20.00mil 26.00mil 10.00mil "" "6" ""]
+	Pin[255.00mil 330.00mil 20.00mil 20.00mil 26.00mil 10.00mil "" "3" ""]
+	Pin[55.00mil 30.00mil 20.00mil 20.00mil 26.00mil 10.00mil "" "5" ""]
+	Pin[105.00mil 30.00mil 20.00mil 20.00mil 26.00mil 10.00mil "" "4" ""]
+	Pin[205.00mil 30.00mil 20.00mil 20.00mil 26.00mil 10.00mil "" "7" ""]
+	Pin[255.00mil 30.00mil 20.00mil 20.00mil 26.00mil 10.00mil "" "8" ""]
+	ElementLine [30.00mil 5.00mil 30.00mil 355.00mil 10.00mil]
+	ElementLine [30.00mil 355.00mil 280.00mil 355.00mil 10.00mil]
+	ElementLine [280.00mil 355.00mil 280.00mil 5.00mil 10.00mil]
+	ElementLine [280.00mil 5.00mil 30.00mil 5.00mil 10.00mil]
+	ElementLine [130.00mil 355.00mil 130.00mil 330.00mil 10.00mil]
+	ElementLine [205.00mil 330.00mil 230.00mil 305.00mil 10.00mil]
+	ElementLine [255.00mil 330.00mil 280.00mil 305.00mil 10.00mil]
+	ElementLine [230.00mil 305.00mil 280.00mil 305.00mil 10.00mil]
+	ElementLine [55.00mil 330.00mil 80.00mil 305.00mil 10.00mil]
+	ElementLine [80.00mil 305.00mil 130.00mil 305.00mil 10.00mil]
+	ElementLine [130.00mil 305.00mil 105.00mil 330.00mil 10.00mil]
+	ElementLine [55.00mil 30.00mil 80.00mil 55.00mil 10.00mil]
+	ElementLine [80.00mil 55.00mil 130.00mil 55.00mil 10.00mil]
+	ElementLine [130.00mil 55.00mil 105.00mil 30.00mil 10.00mil]
+	ElementLine [205.00mil 30.00mil 230.00mil 55.00mil 10.00mil]
+	ElementLine [230.00mil 55.00mil 280.00mil 55.00mil 10.00mil]
+	ElementLine [280.00mil 55.00mil 255.00mil 30.00mil 10.00mil]
+	ElementLine [55.00mil 180.00mil 5.00mil 180.00mil 10.00mil]
+
+	)
+Layer(1 "bottom silk" "silk")
 (
 )
-Layer(2 "ground" "copper")
+Layer(2 "top silk" "silk")
 (
 )
-Layer(3 "signal2" "copper")
+Layer(3 "bottom silk" "silk")
 (
 )
-Layer(4 "signal3" "copper")
+Layer(4 "top silk" "silk")
 (
-)
-Layer(5 "power" "copper")
-(
-)
-Layer(6 "bottom" "copper")
-(
-)
-Layer(7 "outline" "copper")
-(
-)
-Layer(8 "spare" "copper")
-(
-)
-Layer(9 "bottom silk" "silk")
-(
-)
-Layer(10 "top silk" "silk")
-(
-	Line[385.00mil 580.00mil 485.00mil 580.00mil 10.00mil 20.00mil "clearline"]
-	Line[3945.00mil 580.00mil 3845.00mil 580.00mil 10.00mil 20.00mil "clearline"]
-	Line[3945.00mil 80.00mil 3845.00mil 80.00mil 10.00mil 20.00mil "clearline"]
-	Line[3945.00mil 80.00mil 3945.00mil 180.00mil 10.00mil 20.00mil "clearline"]
-	Line[385.00mil 80.00mil 485.00mil 80.00mil 10.00mil 20.00mil "clearline"]
-	Line[385.00mil 80.00mil 385.00mil 180.00mil 10.00mil 20.00mil "clearline"]
-	Line[2155.00mil 80.00mil 2175.00mil 80.00mil 10.00mil 20.00mil "clearline"]
-	Line[2175.00mil 580.00mil 2155.00mil 580.00mil 10.00mil 20.00mil "clearline"]
-	Line[2155.00mil 330.00mil 2175.00mil 330.00mil 10.00mil 20.00mil "clearline"]
-	Line[2165.00mil 480.00mil 2165.00mil 330.00mil 10.00mil 20.00mil "clearline"]
-	Line[3945.00mil 435.00mil 3945.00mil 525.00mil 10.00mil 20.00mil "clearline"]
-	Line[385.00mil 435.00mil 385.00mil 525.00mil 10.00mil 20.00mil "clearline"]
-	Line[590.00mil 430.00mil 585.00mil 435.00mil 10.00mil 20.00mil "clearline"]
-	Line[490.00mil 430.00mil 495.00mil 435.00mil 10.00mil 20.00mil "clearline"]
-	Line[590.00mil 530.00mil 585.00mil 525.00mil 10.00mil 20.00mil "clearline"]
-	Line[490.00mil 530.00mil 495.00mil 525.00mil 10.00mil 20.00mil "clearline"]
-	Line[3740.00mil 430.00mil 3745.00mil 435.00mil 10.00mil 20.00mil "clearline"]
-	Line[3840.00mil 530.00mil 3835.00mil 525.00mil 10.00mil 20.00mil "clearline"]
-	Line[3740.00mil 530.00mil 3745.00mil 525.00mil 10.00mil 20.00mil "clearline"]
-	Line[3840.00mil 430.00mil 3835.00mil 435.00mil 10.00mil 20.00mil "clearline"]
 )
