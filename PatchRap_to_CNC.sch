@@ -121,7 +121,7 @@ Vext/GND, SigP - Probe, Servo, 5V Blower Hotend Fan
 Vsys/Vee, Ap/Am & Bp/Bm - Stepper Motor, Vsys Motor Fan, Vsys Hotend Fan
 Vsys/Vee, SigP & PWMa & PWMd - Hotend (Thermistor, Heater, Cooling)
 
-L 1900 19000 26400 19000 3 0 0 0 -1 -1
+L 1900 19000 28500 19000 3 0 0 0 -1 -1
 C 5000 60500 1 0 0 GenericRap.sym
 {
 T 8000 66600 5 10 0 0 0 0 1
@@ -5229,3 +5229,31 @@ net=Vext-Thermistor:1
 T 20500 67500 5 10 1 1 270 7 1
 value=INPUT
 }
+T 26800 16900 9 10 1 0 0 0 9
+Legacy-LulzBot
+3 \/ 1 - Cooling+
+3 \\ 2 - Cooling-
+2 - 3 - Heatsink+
+1 \/ 4 - Thermistor-
+1 \\ 5 - Thermistor+
+2 - 6 - Heatsink-
+4 \/ 7 - Heater-
+4 \\ 8 - Heater+
+T 26000 16900 9 10 1 0 0 0 8
+1/WG
+2/G
+3/WO
+4/Bl
+5/WBl
+6/O
+7/WBr
+8/Br
+T 23500 16900 9 10 1 0 0 0 8
+1/WG
+2/G
+3/WO
+4/Bl
+5/WBl
+6/O
+7/WBr
+8/Br
