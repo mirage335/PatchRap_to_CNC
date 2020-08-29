@@ -847,8 +847,8 @@ Legacy-LulzBot
 1 \/ 4 - Thermistor-
 1 \\ 5 - Thermistor+
 2 - 6 - Heatsink-
-4 \/ 7 - Heater-
-4 \\ 8 - Heater+
+4 \/ 7 - Heater+
+4 \\ 8 - Heater-
 T 25700 16900 9 10 1 0 0 0 8
 1/WG
 2/G
