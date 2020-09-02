@@ -17,7 +17,7 @@ Vsys/Vee, SigP & PWMa & PWMd - Hotend (Thermistor, Heater, Cooling)
 L 1900 19000 26400 19000 3 0 0 0 -1 -1
 C 4500 41500 1 0 0 GenericRap.sym
 {
-T 5300 45400 5 10 1 1 0 0 1
+T 9000 46500 5 10 1 1 0 0 1
 refdes=M1
 T 7500 48000 5 10 0 0 0 0 1
 device=GenericRap
@@ -41,7 +41,7 @@ Many indicator and configuration features may be
 omitted to reduce cost.
 C 4500 32000 1 0 0 GenericRap_Cutdown.sym
 {
-T 5300 35900 5 10 1 1 0 0 1
+T 9000 37000 5 10 1 1 0 0 1
 refdes=M2
 T 7500 38500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
@@ -50,7 +50,7 @@ footprint=_M2__GenericRap_Cutdown
 }
 C 4500 22500 1 0 0 GenericRap_Cutdown.sym
 {
-T 5300 26400 5 10 1 1 0 0 1
+T 9000 27500 5 10 1 1 0 0 1
 refdes=M3
 T 7500 29000 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
